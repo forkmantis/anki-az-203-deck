@@ -1,0 +1,161 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "66f660fa-bb9b-11e9-bf56-38f9d363b5f2",
+    "deck_config_uuid": "43872fbe-bb9b-11e9-8d99-38f9d363b5f2",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "43872fbe-bb9b-11e9-8d99-38f9d363b5f2",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    2
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 0,
+                "perDay": 5,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "_sans-forgetica.otf"
+    ],
+    "name": "AZ-203",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "css": ".card {\n font-family: myfont;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n@font-face { font-family: myfont; src: url('_sans-forgetica.otf'); }",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "az-300"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Azure, what is the ratio of Accounts to Subscriptions?",
+                "1:N.&nbsp;&nbsp;<div><br></div><div>An account can have multiple subscriptions.</div>"
+            ],
+            "flags": 0,
+            "guid": "b=R&#p_0!k",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "An azure free account is... ?",
+                "Time and cost bounded.<div><br></div><div>12 months of popular services</div><div>$200 credit</div><div>25 services always free</div>"
+            ],
+            "flags": 0,
+            "guid": "GtPZ%q_(kT",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "az-300"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which Azure products are always free?",
+                "App Service - 10 web, mobile or API apps<div>Functions - 1,000,000 requests per month</div><div>Event Grid - 100,000 operations per month</div><div>Azure Kubernetes Service</div><div>Face API - 30,000 transactions per month</div><div>DevTest Labs&nbsp;</div>"
+            ],
+            "flags": 0,
+            "guid": "m#O(4?5.:E",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "az-300"
+            ]
+        }
+    ]
+}
