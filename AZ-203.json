@@ -54,8 +54,397 @@
     "dyn": 0,
     "extendNew": 10,
     "extendRev": 50,
-    "media_files": [],
+    "media_files": [
+        "_sans-forgetica.otf"
+    ],
     "name": "AZ-203",
-    "note_models": [],
-    "notes": []
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "css": ".card {\n font-family: myfont;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n@font-face { font-family: myfont; src: url('_sans-forgetica.otf'); }",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "From a networking standpoint, what do you need to create for or with your Azure Virtual Machine",
+                "A <font color=\"#e11cbe\">Vnet</font> and a <font color=\"#e11cbe\">subnet</font>."
+            ],
+            "flags": 0,
+            "guid": "i*fS:=+0C>",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the first step in creating a VM in the Azure portal?",
+                "Finding a virtual machine image to use"
+            ],
+            "flags": 0,
+            "guid": "NpA(g|KRD]",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 8 things you have to choose when creating an Azure Virtual Machine",
+                "* Virtual Machine Image<div>* A Name</div><div>* the Disk Type</div><div>* Username and Password (optionally an SSH key for a linux VM)</div><div>* The subscription</div><div>* A resource group</div><div>* The location</div><div>* The VM Size</div>"
+            ],
+            "flags": 0,
+            "guid": "y,A{*iWOJL",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Why use the Azure CLI or Powershell over the portal to create VMs or other Azure resources?",
+                "It will add speed and consistency to your resource creation."
+            ],
+            "flags": 0,
+            "guid": "Fv&hzZ$aV0",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 3 primary tools for interacting with your Azure resources programatically?",
+                "* Azure CLI<div>* PowerShell</div><div>* CloudShell</div>"
+            ],
+            "flags": 0,
+            "guid": "2{c)*vZGN",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What platforms is Azure CLI available on?",
+                "Windows<div>Mac</div><div>Linux</div><div>In WSL</div><div>In a Docker Container</div>"
+            ],
+            "flags": 0,
+            "guid": "req<4j/tbG",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "On what platforms can you use PowerShell to interact with Azure resources?",
+                "* On Windows through the built in PowerShell<div>* On Windows, Mac, Linux and Docker Containers using the cross platform PowerShell Core.</div>"
+            ],
+            "flags": 0,
+            "guid": "J^.ytVf`je",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How do you install the Azure commandlets into Powershell?",
+                "Install-Module AzureRM<div><br></div><div>The Azure module (as opposed to AzureRM) uses the classic deployment model, not the preferred Resource Manager deployment model.</div>"
+            ],
+            "flags": 0,
+            "guid": "M2)M%L_R<1",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In PowerShell Core, how do you install the cmdlets to manage Azure Resources?",
+                "Install-Module AzureRM.NetCore<div><br></div><div>* Note, doesn't have complete cmdlet coverage yet.</div>"
+            ],
+            "flags": 0,
+            "guid": "qeJgs~*1)?",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Are cmdlet names for AzureRM the same between PowerShell and PowerShell Core?",
+                "Yes, they are."
+            ],
+            "flags": 0,
+            "guid": "H6!)9I|rJC",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is CloudShell?",
+                "A shell, accessible from your browser, that you can use to manage your Azure resources.<div><br></div><div>It provides bash, PowerShell and Azure CLI.</div>"
+            ],
+            "flags": 0,
+            "guid": "Mv1d4zyIRk",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is Azure Drive?",
+                "The landing place for Azure CloudShell.<div><br></div><div>It represents your Azure resources as a file system.</div>"
+            ],
+            "flags": 0,
+            "guid": "b?tjQI-~Lb",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Is CloudShell session state persisted?",
+                "It is not persisted.&nbsp; Additionally, there is a timeout after 20 minutes of inactivity."
+            ],
+            "flags": 0,
+            "guid": "RbCk)G#s!4",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How do you store scripts and data in CloudShell?",
+                "Azure uses File Storage to persist data.<div><br></div><div>It's mounted as `clouddrive` in your $HOME directory, and is available in both bash and powershell.</div>"
+            ],
+            "flags": 0,
+            "guid": "fzYdJ<+ZH&",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the Azure CLI command to create a resource group?",
+                "az group create \\<br>&nbsp; --name \"the name\" \\<div>&nbsp; --location \"centralus\"</div>"
+            ],
+            "flags": 0,
+            "guid": "C`$fl]A97|",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the Azure CLI command to create a VNet (with some common params)",
+                "az network vnet create \\<br>&nbsp;--resource-group \"demo-rg\" \\<br>&nbsp;--name \"demo-vnet-1\" \\<br>&nbsp;--address-prefix \"10.1.0.0/16\" \\<br>&nbsp;--subnet-name \"demo-subnet-1\" \\<br>&nbsp;--subnet-prefix \"10.1.1.0/24\"<div><br></div><div>* NOTE: Because of the last 2 parameters, this command will simultaneously create the subnet \"demo-subnet-1\" along with the vnet</div>"
+            ],
+            "flags": 0,
+            "guid": "o}Z%M0Z#!E",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How do you create a public IP address in Azure CLI?",
+                "az network public-ip create \\<br>&nbsp;--resource-group \"demo-rg\" \\<br>&nbsp;--name \"demo-linux-1-public-ip-1\""
+            ],
+            "flags": 0,
+            "guid": "x|31NjU^.^",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How do you create a Network Security Group in Azure CLI?",
+                "az network nsg create \\<br>&nbsp;--resource-group \"demo-rg\" \\<br>&nbsp;--name \"demo-linux-nsg-1\""
+            ],
+            "flags": 0,
+            "guid": "o53*zKBze0",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How do you create a Network Interface with Azure CLI?",
+                "az network nic create \\<br>&nbsp;--resource-group \"demo-rg\" \\<br>&nbsp;--name \"demo-linux-1-nic-1\" \\<br>&nbsp;--vnet-name \"demo-vnet-1\" \\<br>&nbsp;--subnet \"demo-subnet-1\" \\<br>&nbsp;--network-security-group \"demo-linux-nsg-1\" \\<br>&nbsp;--public-ip-address \"demo-linux-1-public-ip-1\""
+            ],
+            "flags": 0,
+            "guid": "BK,>7nCMb5",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the Azure CLI command to create a virtual machine (with some common parameters)?",
+                "az vm create \\<br>&nbsp;--resource-group \"demo-rg\" \\<br>&nbsp;--location \"centralus\" \\<br>&nbsp;--name \"demo-linux-1\" \\<br>&nbsp;--nics \"demo-linux-1-nic-1\" \\<br>&nbsp;--image \"rhel\" \\<br>&nbsp;--admin-username \"admin\" \\<br>&nbsp;--authentication-type \"ssh\" \\<br>&nbsp;--ssh-key-value ~/.ssh/my_key_rsa.pub"
+            ],
+            "flags": 0,
+            "guid": "OO8y((v(6+",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How do you open port 22 on a virtual machine using Azure CLI?",
+                "az vm open-port \\<br>&nbsp;--resource-group \"demo-rg\" \\<br>&nbsp;--name \"demo-linux-1\" \\<br>&nbsp;--port \"22\""
+            ],
+            "flags": 0,
+            "guid": "KaOXMh<2[b",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How do you list the ip address(es) of a VM using Azure CLI?",
+                "az vm list-ip-addresses --name \"the machine name\" -o table"
+            ],
+            "flags": 0,
+            "guid": "Ov{DKL+}vp",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        }
+    ]
 }
