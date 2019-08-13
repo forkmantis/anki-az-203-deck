@@ -445,6 +445,170 @@
                 "AZ-203",
                 "azure-virtual-machine"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In PowerShell Core, what module do you need to install to get the Azure cmdlets?",
+                "Currently:<div><br></div><div>Install-Module -Name <font color=\"#e11cbe\">Az</font> -AllowClobber -Scope CurrentUser<br></div><div><br></div><div>Deprecated:</div><div><br></div><div>Install-Module <font color=\"#e11cbe\">AzureRM.Netcore</font></div>"
+            ],
+            "flags": 0,
+            "guid": "uP[+x,CuN7",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 6 states for a VM?",
+                "Starting<div>Running</div><div>Stopping</div><div>Stopped</div><div>Deallocating</div><div>Deallocated</div>"
+            ],
+            "flags": 0,
+            "guid": "H#0;a#TR:x",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When a VM is stopped, are you still being&nbsp; charged for it?",
+                "<font color=\"#e11cbe\">Yes</font>, because it still occupies hardware in the cloud.<div><br></div><div>To avoid being charged, you have to go a step further and <font color=\"#e11cbe\">deallocate</font> the VM.</div>"
+            ],
+            "flags": 0,
+            "guid": "t4!Dhxd~#L",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "&nbsp;What are the 2 primary ways of creating custom VM images?",
+                "* Start with a marketplace image and customize it<div>* Upload a VHD image from a local VM.</div>"
+            ],
+            "flags": 0,
+            "guid": "A_ND<sSF/g",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the steps involved in creating a custom VM image from a marketplace image?",
+                "* New up a VM using an image from the marketplace<div>* Make your customizations</div><div>* {Generalize,Deprovision} the image</div><div>* Stop and deallocate the VM</div><div>* Mark the image as Generalized</div><div>* Create a custom image</div>"
+            ],
+            "flags": 0,
+            "guid": "i_o:~(;Wba",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What command do you use to Generalize a Windows VM?",
+                "sysprep.exe /generalize /shutdown /oobe<div><br></div><div>This removes all computer specific information.&nbsp;</div><div><br></div><div>/oobe stands for Out Of Box Experience.</div><div><br></div><div>/shutdown only shuts down the OS.&nbsp; You still have to shutdown and deallocate the VM itself.</div>"
+            ],
+            "flags": 0,
+            "guid": "sMJvFAujOK",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the waagent command?",
+                "* It comes from the Azure VM Agent<div>* It is pre-installed on marketplace images</div><div>* It is available from your distro's package repositories if you are using your own images</div>"
+            ],
+            "flags": 0,
+            "guid": "wFb{M:oKC~",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What command do you use to Deallocate (aka Generalize) a Linux VM image?",
+                "sudo waagent -deprovision+user -force<div><br></div><div>After the command is finished, Shutdown and Deallocate the VM.</div>"
+            ],
+            "flags": 0,
+            "guid": "caKviZ.8r+",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the AZ CLI command to deallocate a VM?",
+                "az vm <font color=\"#e11cbe\">deallocate</font> --resource-group \"the-group\" --name \"the-name\""
+            ],
+            "flags": 0,
+            "guid": "M7AS_#pViH",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the AZ CLI command to generalize a VM?",
+                "az vm generalize --resource-group \"the-group\" --name \"the-name\""
+            ],
+            "flags": 0,
+            "guid": "K-z/d9q.~h",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the Azure CLI command for creating a custom vm image?",
+                "az image create \\<div>&nbsp;--resource-group \"the-group\" \\</div><div>&nbsp;--name \"the-name\" \\</div><div>&nbsp;--source \"the-generalized-vm-name\"</div>"
+            ],
+            "flags": 0,
+            "guid": "H!BN17;3-I",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
         }
     ]
 }
