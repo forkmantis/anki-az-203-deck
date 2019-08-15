@@ -240,36 +240,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "In PowerShell Core, how do you install the cmdlets to manage Azure Resources?",
-                "Install-Module AzureRM.NetCore<div><br></div><div>* Note, doesn't have complete cmdlet coverage yet.</div>"
-            ],
-            "flags": 0,
-            "guid": "qeJgs~*1)?",
-            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
-            "tags": [
-                "AZ-203",
-                "azure-virtual-machine"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Are cmdlet names for AzureRM the same between PowerShell and PowerShell Core?",
-                "Yes, they are."
-            ],
-            "flags": 0,
-            "guid": "H6!)9I|rJC",
-            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
-            "tags": [
-                "AZ-203",
-                "azure-virtual-machine"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "What is CloudShell?",
                 "A shell, accessible from your browser, that you can use to manage your Azure resources.<div><br></div><div>It provides bash, PowerShell and Azure CLI.</div>"
             ],
@@ -540,7 +510,7 @@
             "data": "",
             "fields": [
                 "What is the waagent command?",
-                "* It comes from the Azure VM Agent<div>* It is pre-installed on marketplace images</div><div>* It is available from your distro's package repositories if you are using your own images</div>"
+                "* It comes from the Azure VM Agent<div>* It is pre-installed on Azure marketplace images</div><div>* It is available from your distro's package repositories if you are using your own images</div>"
             ],
             "flags": 0,
             "guid": "wFb{M:oKC~",
@@ -604,6 +574,36 @@
             ],
             "flags": 0,
             "guid": "H!BN17;3-I",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the powershell command to change your active subscription in Azure?",
+                "Select-AzSubscription -SubscriptionName \"the name\""
+            ],
+            "flags": 0,
+            "guid": "H7U~+E:Hl",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the powershell command to get an Azure VM's status?",
+                "Get-AzVM `<div>-ResourceGroupName \"the group\" `</div><div>-Name \"the name\" `</div><div>-Status</div>"
+            ],
+            "flags": 0,
+            "guid": "AC|3ykEub,",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
