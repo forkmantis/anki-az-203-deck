@@ -954,6 +954,171 @@
                 "AZ-203",
                 "azure-virtual-machine"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is Azure <font color=\"#e11cbe\">DevTest Labs</font>?",
+                "Lets you provision and create VMs, install software, manage configurations, and make them accessible to users.<div><br></div><div>Located in Azure as a subset of Azure Lab Services.</div>"
+            ],
+            "flags": 0,
+            "guid": "qQ%VLLN{VC",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are use cases for Azure <font color=\"#e11cbe\">DevTest Labs</font>?",
+                "* <font color=\"#e11cbe\">Development</font> - Stand up pre-configured dev machines for developers<div>* <font color=\"#e11cbe\">Test</font> - Give testers an environment to test an app and configure it how they want.</div><div>* <font color=\"#e11cbe\">Training/Classroom</font> - Stand up a collection of machines for students in a class</div>"
+            ],
+            "flags": 0,
+            "guid": "t):_uHT||y",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How does Azure DevTest Labs leverage <font color=\"#e11cbe\">Artifacts</font>?",
+                "You can configure the deployment of artifacts to VMs in the lab, allowing you to <font color=\"#e11cbe\">separate management</font> of the VM from the application you want to run on it."
+            ],
+            "flags": 0,
+            "guid": "ftHzeo8!F4",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are <font color=\"#e11cbe\">Formulas</font> in terms of Azure DevTest labs?",
+                "VM definitions that can be deployed to many VMs quickly.&nbsp; i.e. setting up VMs for a classroom full of students."
+            ],
+            "flags": 0,
+            "guid": "F*RHmv}RaW",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How does Azure <font color=\"#e11cbe\">DevTest Labs</font> balance giving developers and testers flexibility, while giving IT control?",
+                "Developers and testers can spin up environments as they need (including integration with Azure DevOps CI/CD), but IT can use <font color=\"#e11cbe\">Policies</font> to constrain things like networking, Active Directory configuration, hours of operation, etc."
+            ],
+            "flags": 0,
+            "guid": "I-X7hTRDS%",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some (2) examples of using <font color=\"#e11cbe\">Policies</font> to control costs in Azure DevTest Labs?",
+                "* Defining Startup and Shutdown times<div>* Limiting number of VMs per {class, user}</div>"
+            ],
+            "flags": 0,
+            "guid": "GFII*u]^a4",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 3 possible access methods for VMs in an Azure DevTest Lab?",
+                "Private<div>Shared</div><div>Public</div>"
+            ],
+            "flags": 0,
+            "guid": "u/)_Av%UO}",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which remote access method uses the combination of a single IP and a collection of ports to expose VMs in an Azure DevTest Lab?",
+                "Shared"
+            ],
+            "flags": 0,
+            "guid": "o@)oBt[Fy.",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What Azure resource do you configure to open a network port to allow remote access to a VM?",
+                "Network Security Group"
+            ],
+            "flags": 0,
+            "guid": "hYd7XRG%u6",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "To update an existing custom VM image, what steps must you perform?",
+                "* Provision a new VM from the custom image<br><div>* Make the desired changes</div><div>* Generalize the VM</div><div>* Create a new image</div>"
+            ],
+            "flags": 0,
+            "guid": "E~f85r2k,Y",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What kind of Azure VM disk types require you to account for scalability targets when adding new disks to your Azure environment?",
+                "Unmanaged Disks<div><br></div><div>Managed disks handle this for you transparently</div>"
+            ],
+            "flags": 0,
+            "guid": "E%$Epkn)y7",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
         }
     ]
 }
