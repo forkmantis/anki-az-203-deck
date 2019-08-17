@@ -609,6 +609,351 @@
                 "AZ-203",
                 "azure-virtual-machine"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Can you use a custom image to create an Azure VM in a different region than the image is stored in?",
+                "No, unless you copy the image to the current region using one of the two following methods:<div><br></div><div>* Acure CLI - Image Copy Extension</div><div>* Powershell - Manual process</div>"
+            ],
+            "flags": 0,
+            "guid": "rYAcYS_glI",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What extension do you need to install into AZ CLI to be able to copy a VM image from one region to another? What command installs the extension?",
+                "az extension add --name image-copy-extension"
+            ],
+            "flags": 0,
+            "guid": "K[L&@FA}qt",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the two types of storage in Azure?",
+                "<font color=\"#e11cbe\">Standard</font> - magnetic media<div><font color=\"#e11cbe\">Premium</font> - SSD</div>"
+            ],
+            "flags": 0,
+            "guid": "w>EV|bU7RZ",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the fixed constraints of Standard Storage in Azure?",
+                "Throughput - 60Mbps/sec<div>IOPS - 500 per disk</div>"
+            ],
+            "flags": 0,
+            "guid": "qlwdz`/7*C",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How does the tier of VM relate to the performance of Azure storage?",
+                "Basic tier machines cap out at 300 IOPS&nbsp;<div>Standard tier machines cap out at 500 IOPS</div><div><br></div><div>when looking at 8k IOs.</div>"
+            ],
+            "flags": 0,
+            "guid": "Q}U.]:]iTt",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the benefits of SSD discs in the Standard tier, since they have the same limitations as HDD in terms of Throughput and IOPS?",
+                "They are low latency, and can be a good fit for webservers or other workloads where latency matters, but the throughput and IOPS demands are low."
+            ],
+            "flags": 0,
+            "guid": "K#EYOcPM3K",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When used in a VM, what is the difference in how performance is determined between Standard and Premium storage disks?",
+                "Standard disks are limited by the VM, where Premium discs performance is entirely determined by the SKU of the disk itself.&nbsp; It will not be limited or constrained by the VM you put it in."
+            ],
+            "flags": 0,
+            "guid": "BZr1Qqwz:a",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How can you get better performance from premium storage disks than their specs?",
+                "You can aggregate multiple disks together using <font color=\"#e11cbe\">Storage Space </font>on Windows or <font color=\"#e11cbe\">Linux Volume Manager </font>on Linux to combine the Throughput and IOPS."
+            ],
+            "flags": 0,
+            "guid": "Fa3&rnp3OY",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the types of Azure Disks?",
+                "Managed and Unmanaged"
+            ],
+            "flags": 0,
+            "guid": "BNl+dsC}CP",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is Microsoft's recommendation for <font color=\"#e11cbe\">Standard</font>/<font color=\"#e11cbe\">Premium</font> storage, and <font color=\"#e11cbe\">Managed</font>/<font color=\"#e11cbe\">Unmanaged</font> disks?",
+                "For critical production workloads, they recommend Premium and managed disks.<div><br></div><div>For non-critical production workloads and backup scenarios, they recommend standard disks.</div>"
+            ],
+            "flags": 0,
+            "guid": "zbMFm<^_Lv",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the standard drive letters for Windows VMs in Azure for&nbsp;<div><br></div><div>* Operating System</div><div>* Temporary Files</div><div>* Data</div>",
+                "<div>* <font color=\"#e11cbe\">C</font>: Operating System</div><div>* <font color=\"#e11cbe\">D</font>: Temporary Files</div><div>* <font color=\"#e11cbe\">X</font>: Data</div>"
+            ],
+            "flags": 0,
+            "guid": "u81.mE;M!L",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the standard mount points for Linux VMs in Azure for&nbsp;<div><br></div><div>* Operating System</div><div>* Temporary Files</div><div>* Data</div>",
+                "<div>* <font color=\"#e11cbe\">/dev/sda</font> - Operating System</div><div>* <font color=\"#e11cbe\">/dev/sdb</font> -&nbsp;Temporary Files</div><div>* <font color=\"#e11cbe\">/dev/sdX</font> -&nbsp;Data</div>"
+            ],
+            "flags": 0,
+            "guid": "A4oRBOaGXY",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 6 common administrative tasks you can perform on Virtual Disks in Azure?",
+                "* Create/Provision<div>* Attach to a VM</div><div>* Prepare the disk for an OS</div><div>* Create a Snapshot</div><div>* Resize</div><div>* Remove</div>"
+            ],
+            "flags": 0,
+            "guid": "OZjU]V%Ac`",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How are Azure Snapshots the same and different between OS disk and Data disk snapshots?",
+                "They are identical in how they are created, but different in how they are used.<div><br></div><div>A data disk snapshot can be mounted to any VM, including the one that created it.</div><div><br></div><div>An OS disk snapshot had to be mounted to a new VM that doesn't already have an OS disk.</div>"
+            ],
+            "flags": 0,
+            "guid": "I[uJiqW6#/",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the AZ CLI command to create and attach a virtual disc to a machine",
+                "az vm disk attach \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --vm-name \"the-machine\" \\<br>&nbsp;&nbsp;&nbsp; --name \"psdemo-linux-1c-st0\" \\ #Used to be -disk, but that's being deprecated<br>&nbsp;&nbsp;&nbsp; --new \\<br>&nbsp;&nbsp;&nbsp; --size-gb 25 \\<br>&nbsp;&nbsp;&nbsp; --sku \"Premium_LRS\" # {StandardSSD_LRS, Standard_LRS}"
+            ],
+            "flags": 0,
+            "guid": "fu&yk*`oC4",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What do you have to do before resizing the virtual disk that's mounted to a VM that is currently running?",
+                "You have to stop and deallocate the VM."
+            ],
+            "flags": 0,
+            "guid": "EZ[j2#A#(3",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the Azure CLI command to resize a virtual disk?",
+                "az disk update \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-vm-name\" \\<br>&nbsp;&nbsp;&nbsp; --size-gb 100"
+            ],
+            "flags": 0,
+            "guid": "xdU@P}pVN6",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the AZ CLI command for detaching a virtual disk from a VM?",
+                "az vm disk detach \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --vm-name \"the-vm-name\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-disk-name\""
+            ],
+            "flags": 0,
+            "guid": "G1y=n)`)h)",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the AZ CLI command for deleting a virtual disk?",
+                "az disk delete \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-disk-name\""
+            ],
+            "flags": 0,
+            "guid": "zu?0U3k`-R",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What Azure CLI command lets you see a list of virtual disks?",
+                "az disk list"
+            ],
+            "flags": 0,
+            "guid": "P:C9pQPr/T",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the Azure CLI command for creating a virtual disk snapshot?",
+                "az snapshot create \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --source \"the-virtual-disk-name-from-az-disk-list\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-name-of-the-snapshot\""
+            ],
+            "flags": 0,
+            "guid": "s?;TL)JcR;",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the AZ CLI command for listing virtual disk snapshots?",
+                "az snapshot list"
+            ],
+            "flags": 0,
+            "guid": "pfROD[l/+T",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In AZ CLI, how can an OS virtual disk's snapshot be leveraged when creating a VM?",
+                "az vm create \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-vm-name\" \\<br>&nbsp;&nbsp;&nbsp; --<font color=\"#e11cbe\">attach-os-disk</font> \"the-os-snapshot-name\" \\<br>&nbsp;&nbsp;&nbsp; --os-type \"Linux\""
+            ],
+            "flags": 0,
+            "guid": "HrT)-:<n7-",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
         }
     ]
 }
