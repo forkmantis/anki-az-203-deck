@@ -316,7 +316,7 @@
             "data": "",
             "fields": [
                 "What is the Azure CLI command to create a VNet (with some common params)",
-                "az network vnet create \\<br>&nbsp;--resource-group \"demo-rg\" \\<br>&nbsp;--name \"demo-vnet-1\" \\<br>&nbsp;--address-prefix \"10.1.0.0/16\" \\<br>&nbsp;--subnet-name \"demo-subnet-1\" \\<br>&nbsp;--subnet-prefix \"10.1.1.0/24\"<div><br></div><div>* NOTE: Because of the last 2 parameters, this command will simultaneously create the subnet \"demo-subnet-1\" along with the vnet</div>"
+                "az network vnet create \\<br>&nbsp;--resource-group \"the-group\" \\<br>&nbsp;--name \"the-vnet\" \\<br>&nbsp;--address-prefix \"10.1.0.0/16\" \\<br>&nbsp;--subnet-name \"the-subnet\" \\<br>&nbsp;--subnet-prefix \"10.1.1.0/24\"<div><br></div><div>* NOTE: Because of the last 2 parameters, this command will simultaneously create the subnet \"the-subnet\" along with the vnet</div>"
             ],
             "flags": 0,
             "guid": "o}Z%M0Z#!E",
@@ -331,7 +331,7 @@
             "data": "",
             "fields": [
                 "How do you create a public IP address in Azure CLI?",
-                "az network public-ip create \\<br>&nbsp;--resource-group \"demo-rg\" \\<br>&nbsp;--name \"demo-linux-1-public-ip-1\""
+                "az network public-ip create \\<br>&nbsp;--resource-group \"the-group\" \\<br>&nbsp;--name \"the-ip-name\""
             ],
             "flags": 0,
             "guid": "x|31NjU^.^",
@@ -346,7 +346,7 @@
             "data": "",
             "fields": [
                 "How do you create a Network Security Group in Azure CLI?",
-                "az network nsg create \\<br>&nbsp;--resource-group \"demo-rg\" \\<br>&nbsp;--name \"demo-linux-nsg-1\""
+                "az network nsg create \\<br>&nbsp;--resource-group \"the-group\" \\<br>&nbsp;--name \"the-nsg-name\""
             ],
             "flags": 0,
             "guid": "o53*zKBze0",
@@ -361,7 +361,7 @@
             "data": "",
             "fields": [
                 "How do you create a Network Interface with Azure CLI?",
-                "az network nic create \\<br>&nbsp;--resource-group \"demo-rg\" \\<br>&nbsp;--name \"demo-linux-1-nic-1\" \\<br>&nbsp;--vnet-name \"demo-vnet-1\" \\<br>&nbsp;--subnet \"demo-subnet-1\" \\<br>&nbsp;--network-security-group \"demo-linux-nsg-1\" \\<br>&nbsp;--public-ip-address \"demo-linux-1-public-ip-1\""
+                "az network nic create \\<br>&nbsp;--resource-group \"the-group\" \\<br>&nbsp;--name \"the-nic-name\" \\<br>&nbsp;--vnet-name \"the-vnet\" \\<br>&nbsp;--subnet \"the-subnet\" \\<br>&nbsp;--network-security-group \"the-nsg\" \\<br>&nbsp;--public-ip-address \"the-ip-name\""
             ],
             "flags": 0,
             "guid": "BK,>7nCMb5",
@@ -376,7 +376,7 @@
             "data": "",
             "fields": [
                 "What is the Azure CLI command to create a virtual machine (with some common parameters)?",
-                "az vm create \\<br>&nbsp;--resource-group \"demo-rg\" \\<br>&nbsp;--location \"centralus\" \\<br>&nbsp;--name \"demo-linux-1\" \\<br>&nbsp;--nics \"demo-linux-1-nic-1\" \\<br>&nbsp;--image \"rhel\" \\<br>&nbsp;--admin-username \"admin\" \\<br>&nbsp;--authentication-type \"ssh\" \\<br>&nbsp;--ssh-key-value ~/.ssh/my_key_rsa.pub"
+                "az vm create \\<br>&nbsp;--resource-group \"the-group\" \\<br>&nbsp;--location \"centralus\" \\<br>&nbsp;--name \"the-vm-name\" \\<br>&nbsp;--nics \"the-nic\" \\<br>&nbsp;--image \"rhel\" \\<br>&nbsp;--admin-username \"admin\" \\<br>&nbsp;--authentication-type \"ssh\" \\<br>&nbsp;--ssh-key-value ~/.ssh/my_key_rsa.pub"
             ],
             "flags": 0,
             "guid": "OO8y((v(6+",
@@ -391,7 +391,7 @@
             "data": "",
             "fields": [
                 "How do you open port 22 on a virtual machine using Azure CLI?",
-                "az vm open-port \\<br>&nbsp;--resource-group \"demo-rg\" \\<br>&nbsp;--name \"demo-linux-1\" \\<br>&nbsp;--port \"22\""
+                "az vm open-port \\<br>&nbsp;--resource-group \"the-group\" \\<br>&nbsp;--name \"the-vm-name\" \\<br>&nbsp;--port \"22\""
             ],
             "flags": 0,
             "guid": "KaOXMh<2[b",
@@ -406,7 +406,7 @@
             "data": "",
             "fields": [
                 "How do you list the ip address(es) of a VM using Azure CLI?",
-                "az vm list-ip-addresses --name \"the machine name\" -o table"
+                "az vm list-ip-addresses --name \"the-machine-name\" -o table"
             ],
             "flags": 0,
             "guid": "Ov{DKL+}vp",
@@ -735,7 +735,7 @@
             "data": "",
             "fields": [
                 "What are the types of Azure Disks?",
-                "Managed and Unmanaged"
+                "Managed and Unmanaged<br><br>Standard and Premium"
             ],
             "flags": 0,
             "guid": "BNl+dsC}CP",
@@ -825,7 +825,7 @@
             "data": "",
             "fields": [
                 "What is the AZ CLI command to create and attach a virtual disc to a machine",
-                "az vm disk attach \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --vm-name \"the-machine\" \\<br>&nbsp;&nbsp;&nbsp; --name \"psdemo-linux-1c-st0\" \\ #Used to be -disk, but that's being deprecated<br>&nbsp;&nbsp;&nbsp; --new \\<br>&nbsp;&nbsp;&nbsp; --size-gb 25 \\<br>&nbsp;&nbsp;&nbsp; --sku \"Premium_LRS\" # {StandardSSD_LRS, Standard_LRS}"
+                "az vm disk attach \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --vm-name \"the-machine\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-disk-name\" \\ #Used to be --disk, but that's being deprecated<br>&nbsp;&nbsp;&nbsp; --new \\<br>&nbsp;&nbsp;&nbsp; --size-gb 25 \\<br>&nbsp;&nbsp;&nbsp; --sku \"Premium_LRS\" # {StandardSSD_LRS, Standard_LRS}"
             ],
             "flags": 0,
             "guid": "fu&yk*`oC4",
