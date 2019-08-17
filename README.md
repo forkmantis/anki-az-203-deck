@@ -7,7 +7,7 @@ Once you have installed Anki, you will need the [CrowdAnki](https://ankiweb.net/
 
 # Why an Anki deck?
 
-Prior to creating this repository, I've been using spaced repetition for a little over a year as an efficient way of remembering things that I learn.  Spaced repetition attempts to exploit one's "forgetting curve" to get the most learning from the least effort by scheduling what you study in gradually increasing intervals.  You can read more about spaced repetition [here](https://collegeinfogeek.com/spaced-repetition-memory-technique/)
+As of the creation of this repository, I've been using spaced repetition for a little over a year as an efficient way of remembering things that I learn.  Spaced repetition attempts to exploit one's "forgetting curve" to get the most learning from the least effort by scheduling what you study in gradually increasing intervals.  You can read more about spaced repetition [here](https://collegeinfogeek.com/spaced-repetition-memory-technique/)
 
 # Contributing
 If you would like to refine existing cards or submit new cards, feel free to open up a pull request.
