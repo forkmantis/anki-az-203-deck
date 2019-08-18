@@ -765,7 +765,7 @@
             "data": "",
             "fields": [
                 "What are the standard drive letters for Windows VMs in Azure for&nbsp;<div><br></div><div>* Operating System</div><div>* Temporary Files</div><div>* Data</div>",
-                "<div>* <font color=\"#e11cbe\">C</font>: Operating System</div><div>* <font color=\"#e11cbe\">D</font>: Temporary Files</div><div>* <font color=\"#e11cbe\">X</font>: Data</div>"
+                "<div>* <font color=\"#e11cbe\">C</font>: Operating System</div><div>* <font color=\"#e11cbe\">D</font>: Temporary Files</div><div>* [<font color=\"#e11cbe\">X</font>]: Data</div>"
             ],
             "flags": 0,
             "guid": "u81.mE;M!L",
@@ -1118,6 +1118,141 @@
             "tags": [
                 "AZ-203",
                 "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 2 major categories of SQL hosting in Azure?",
+                "IaaS - VM w/ SQL installed<div>PaaS - Azure SQL Database</div>"
+            ],
+            "flags": 0,
+            "guid": "lz41VEh,SA",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the Azure PaaS SQL offerings?",
+                "<font color=\"#e11cbe\">Managed Instance</font> - per core licensing, discounts if you already have a server license<div>Single Database</div><div><font color=\"#e11cbe\">Elastic Pool</font> - Many databases sharing DTUs</div>"
+            ],
+            "flags": 0,
+            "guid": "o}@=NM8c6h",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the pricing models of PaaS SQL in Azure?",
+                "DTU - paying by the transactions or compute power<div>vCore - paying by the hardware</div>"
+            ],
+            "flags": 0,
+            "guid": "g7a-(SKz?s",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the least expensive pricing plan for Azure SQL PaaS?",
+                "DTU"
+            ],
+            "flags": 0,
+            "guid": "evpRV.#0Ft",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Can you convert from DTU to vCore based pricing for SQL PaaS in Azure with no downtime?",
+                "Yes"
+            ],
+            "flags": 0,
+            "guid": "HyhaLv>:]",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When creating a virtual server for PaaS SQL in Azure, what does the 'Allow Azure services to access server' checkbox enable?",
+                "* Use of the Query Editor from the Azure portal<div>* Allowing Azure VMs to have access</div>"
+            ],
+            "flags": 0,
+            "guid": "FIZA@|6e!l",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some ways you can connect your machine to a SQL instance in Azure?",
+                "<div>From the Firewall settings for the database in Azure Portal:&nbsp;</div><div><br></div>* Whitelist the IP you're connecting from ('Add Client IP' button adds your current IP address)<div>* Use Site-to-Site or Point-to-Site connectivity</div>"
+            ],
+            "flags": 0,
+            "guid": "M$c$AemIxx",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 4 SQL Command Categories?",
+                "<font color=\"#e11cbe\">Data Manipulation Language</font> - SELECT, INSER, UPDATE, DELETE<div><font color=\"#e11cbe\">Data Control Language</font> - GRANT, REVOKE</div><div><font color=\"#e11cbe\">Transactional Control Language</font> - COMMIT, ROLLBACK</div><div><font color=\"#e11cbe\">Data Definition Language</font> - CREATE, ALTER, DROP</div>"
+            ],
+            "flags": 0,
+            "guid": "Eha9F%;h]g",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the T-SQL syntax to alter a column's datatype?",
+                "ALTER TABLE [schema].[table_name]<br>ALTER COLUMN ColumnName VARCHAR(50)"
+            ],
+            "flags": 0,
+            "guid": "fvci{807+6",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
             ]
         }
     ]
