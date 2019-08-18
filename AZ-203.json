@@ -98,7 +98,7 @@
             "sortf": 0,
             "tags": [
                 "AZ-203",
-                "azure-virtual-machine"
+                "azure-sql-database"
             ],
             "tmpls": [
                 {
@@ -1249,6 +1249,291 @@
             ],
             "flags": 0,
             "guid": "fvci{807+6",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When creating the initial admin user account for an Azure SQL PaaS database, where is that user account created?",
+                "In the <font color=\"#e11cbe\">master</font> database."
+            ],
+            "flags": 0,
+            "guid": "n`yUuBLiAU",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a contained database user?",
+                "A user whose login is stored in the target or contained database, rather than the master database, which is the more traditional approach.<div><br></div><div>It is possible that in the future, Microsoft may require users to switch to this model in the future to attain a higher availability SLA</div>"
+            ],
+            "flags": 0,
+            "guid": "xA@P6f/qS+",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What role can Virtual Networks play in enabling access to Azure SQL databases?",
+                "By granting access to a virtual network in the firewall protecting your SQL server, you conveniently grant access to App Services and other resources hosted within that virtual network."
+            ],
+            "flags": 0,
+            "guid": "O)#K#;#?NG",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Why might you not want to allow access for an App Service to an Azure SQL database by whitelisting it's IP Addresses?",
+                "Because an App Service can use many outbound IP addresses, and you have to add a rule for each one individually.&nbsp; It might be OK for a single App Service, but won't scale well if you have multiple App Services.<div><br></div><div>An easier alternative is to whitelist a VNet, and put the app service into the whitelisted VNet</div>"
+            ],
+            "flags": 0,
+            "guid": "OKb7?*}hK&",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "&nbsp;What is the difference between a traditional database User principle and a Contained DB User?",
+                "<div>A Contained DB User has it's username and password stored directly in the database it's contained in, and will travel with that database if it is ever relocated.<br></div><div><br></div><div>The traditional User is mapped to a Login that is stored in the master database.&nbsp; If you relocate this database, you will have to create a Login on the new database and map it to the User.</div>"
+            ],
+            "flags": 0,
+            "guid": "C;-<!jF/Og",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the T-SQL commands for creating a login and associated user?",
+                "CREATE LOGIN theLoginName WITH PASSWORD 'superstrongsecret'<div><br></div><div>CREATE USER theUserName FOR LOGIN theLoginName</div>"
+            ],
+            "flags": 0,
+            "guid": "Fs|MYh~=XZ",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the T-SQL command for creating a Contained DB User?",
+                "CREATE USER theUserName WITH PASSWORD = 'supersecretpassword'"
+            ],
+            "flags": 0,
+            "guid": "sE,)t[OXk-",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the T-SQL command for creating an Active Directory user?",
+                "CREATE USER [user@domain.com] FROM EXTERNAL PROVIDER"
+            ],
+            "flags": 0,
+            "guid": "uZz@E)n+zC",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some reasons for setting up Auditing on a SQL server?",
+                "* Regulation Compliance - health regulations, etc<div>* Suspicious Activity - failed logins or injection attempts</div><div>* Unusual Activity or Performance Issues - query failures or long running queries</div>"
+            ],
+            "flags": 0,
+            "guid": "xa@%@:A2Fg",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 3 destinations in Azure where you could send your SQL audit logs?",
+                "* Blob Storage<div>* Log Analytics</div><div>* Event Hub</div>"
+            ],
+            "flags": 0,
+            "guid": "G*6)l%Ke~e",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How can you view Audit Logs from within the Azure portal?",
+                "On the Audit blade of your database, there is a \"View Audit Logs\" button on the top of the page that will give you an overview and allow you to drill down further."
+            ],
+            "flags": 0,
+            "guid": "tok~wTSW$R",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "From the Audit Records blade of an Azure Database, what is one option that will allow you to query for specific log records that might not be in the overview",
+                "Click 'Run in Query Editor' and use the built in SQL query editor in the Portal"
+            ],
+            "flags": 0,
+            "guid": "xeTEsn6)an",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What recent SQL security feature might be helpful in a multi-tenant database?",
+                "Row level security"
+            ],
+            "flags": 0,
+            "guid": "G!G*uB+oq~",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 3 Encryption options for Azure SQL databases?",
+                "* Transpartent Data Encryption<div>* Always Encrypted</div><div>* Column Encryption in T-SQL</div>"
+            ],
+            "flags": 0,
+            "guid": "Ilj)6X5z-c",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Azure SQL, what is Dynamic Data Masking?",
+                "A collection of functions that allow you to obscure data, such as displaying an only a few characters from an email address, rather than the entire thing."
+            ],
+            "flags": 0,
+            "guid": "o2SGPqZ%Xs",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When looking at a SQL database in the Azure Portal, what 4 blades are available in the <font color=\"#e11cbe\">Intillegent Performance</font> section?",
+                "* Performance Overview<div>* Performance Recommendations</div><div>* Query Performance Insight</div><div>* Automatic Tuning</div>"
+            ],
+            "flags": 0,
+            "guid": "h]q=,)m`8G",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What types of recommendations will Azure SQL <font color=\"#e11cbe\">Performance Recommendations</font> make?",
+                "* <font color=\"#e11cbe\">Create Index</font> - Will auto-revert if it doesn't improve performance<div>* <font color=\"#e11cbe\">Drop Index</font> - when there is duplication</div><div>* <font color=\"#e11cbe\">Parameterize Queries</font> - Trys to better leverage the reuse of Query Execution Plans</div><div>* <font color=\"#e11cbe\">Fix Schema Issues</font> - Deprecated, because it's being moved to the Intelligent Insights report</div>"
+            ],
+            "flags": 0,
+            "guid": "zA=8V_x{E4",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the Azure portal, when looking at a SQL database, what information will <font color=\"#e11cbe\">Query Performance Insight</font> give you?",
+                "* Top Resource Consuming Queries<div>* Top Queries by Duration</div><div>* Top Queries by Execution Count</div>"
+            ],
+            "flags": 0,
+            "guid": "l1pRIz%:/u",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Where can Azure SQL Diagnostics Telemetry Log data be saved?",
+                "* Azure Storage<div>* Log Analytics</div><div>* Event Hub</div>"
+            ],
+            "flags": 0,
+            "guid": "m$Y3hw:+]%",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
