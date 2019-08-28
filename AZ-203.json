@@ -98,7 +98,7 @@
             "sortf": 0,
             "tags": [
                 "AZ-203",
-                "azure-sql-database"
+                "azure-blob-storage"
             ],
             "tmpls": [
                 {
@@ -226,7 +226,7 @@
             "data": "",
             "fields": [
                 "How do you install the Azure commandlets into Powershell?",
-                "Install-Module AzureRM<div><br></div><div>The Azure module (as opposed to AzureRM) uses the classic deployment model, not the preferred Resource Manager deployment model.</div>"
+                "todo: update or delete in favor of the AZ one.<br><br>Install-Module AzureRM<div><br></div><div>The Azure module (as opposed to AzureRM) uses the classic deployment model, not the preferred Resource Manager deployment model.</div>"
             ],
             "flags": 0,
             "guid": "M2)M%L_R<1",
@@ -644,7 +644,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are the two types of storage in Azure?",
+                "What are the two tiers of storage in Azure?",
                 "<font color=\"#e11cbe\">Standard</font> - magnetic media<div><font color=\"#e11cbe\">Premium</font> - SSD</div>"
             ],
             "flags": 0,
@@ -780,7 +780,7 @@
             "data": "",
             "fields": [
                 "What are the standard mount points for Linux VMs in Azure for&nbsp;<div><br></div><div>* Operating System</div><div>* Temporary Files</div><div>* Data</div>",
-                "<div>* <font color=\"#e11cbe\">/dev/sda</font> - Operating System</div><div>* <font color=\"#e11cbe\">/dev/sdb</font> -&nbsp;Temporary Files</div><div>* <font color=\"#e11cbe\">/dev/sdX</font> -&nbsp;Data</div>"
+                "<div>* <font color=\"#e11cbe\">/dev/sda</font> - Operating System</div><div>* <font color=\"#e11cbe\">/dev/sdb</font> -&nbsp;Temporary Files</div><div>* <font color=\"#e11cbe\">/dev/sd[X]</font> -&nbsp;Data</div>"
             ],
             "flags": 0,
             "guid": "A4oRBOaGXY",
@@ -1140,7 +1140,7 @@
             "data": "",
             "fields": [
                 "What are the Azure PaaS SQL offerings?",
-                "<font color=\"#e11cbe\">Managed Instance</font> - per core licensing, discounts if you already have a server license<div>Single Database</div><div><font color=\"#e11cbe\">Elastic Pool</font> - Many databases sharing DTUs</div>"
+                "<font color=\"#e11cbe\">Managed Instance</font> - per core licensing, discounts if you already have a server license<br><br><font color=\"#e11cbe\">Single Database</font><br><br><font color=\"#e11cbe\">Elastic Pool</font> - Many databases sharing DTUs"
             ],
             "flags": 0,
             "guid": "o}@=NM8c6h",
@@ -1200,7 +1200,7 @@
             "data": "",
             "fields": [
                 "When creating a virtual server for PaaS SQL in Azure, what does the 'Allow Azure services to access server' checkbox enable?",
-                "* Use of the Query Editor from the Azure portal<div>* Allowing Azure VMs to have access</div>"
+                "* Use of the Query Editor from the Azure portal<div>* Allowing Azure VMs, app services, etc to have access</div>"
             ],
             "flags": 0,
             "guid": "FIZA@|6e!l",
@@ -1214,7 +1214,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are some ways you can connect your machine to a SQL instance in Azure?",
+                "What are some ways you can allow network connectivity from your machine to a SQL instance in Azure?",
                 "<div>From the Firewall settings for the database in Azure Portal:&nbsp;</div><div><br></div>* Whitelist the IP you're connecting from ('Add Client IP' button adds your current IP address)<div>* Use Site-to-Site or Point-to-Site connectivity</div>"
             ],
             "flags": 0,
@@ -1538,6 +1538,336 @@
             "tags": [
                 "AZ-203",
                 "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 4 services in Azure offered as part of Azure Storage?",
+                "* Blob Storage<div>* File Storage</div><div>* Table Storage</div><div>* Queue Storage</div>"
+            ],
+            "flags": 0,
+            "guid": "GW@BV{QR+y",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How much data can you store in an Azure Storage Account?",
+                "500TB without asking<div><br></div><div>You can ask to have the limit increased to 5 PetaBytes, or 10x more than the default limit.</div>"
+            ],
+            "flags": 0,
+            "guid": "KV){L!rRl+",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How many Azure Storage Accounts can you create under one Azure Subscription?",
+                "200, without asking.&nbsp; More if you ask Microsoft."
+            ],
+            "flags": 0,
+            "guid": "r0R48P,V^e",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Azure Storage, when using Locally Redundant Storage (LRS), How many copies of your data are stored in the selected data center?",
+                "3"
+            ],
+            "flags": 0,
+            "guid": "bUBbPwqfdA",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In choosing an Azure Storage Account kind, what is the difference between StorageV2 (general purpose v2) and BlobStorage?",
+                "BlobStorage is for blobs only.<div><br></div><div>StorageV2 includes everything in BlobStorage, plus allows for File, Table and Queue storage as well.</div>"
+            ],
+            "flags": 0,
+            "guid": "vM+yFH;]",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does Zone-redundant storage provide?",
+                "Your data will be distributed across 2 or 3 data centers in the region you chose.&nbsp;&nbsp;<div><br></div><div>If an entire data center goes down, you will still have your data, but if an entire region goes down, you will lose it.</div>"
+            ],
+            "flags": 0,
+            "guid": "D6jY6<K)(T",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When using Geo-redundant storage (GRS), how is your data stored?",
+                "3 copies in a data center in your chosen region, and 3 copies in a data center in another data center in a different region.&nbsp;&nbsp;<div><br></div><div>The data in the backup data center is only accessible in the event of a failover.</div>"
+            ],
+            "flags": 0,
+            "guid": "Rg!QWHka`k",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the difference between Read-Access Geo-Redundant Storage (RA-GRS) and GRS?",
+                "In RA-GRS, the data in the backup data center provides read-access at all times.<br><br>For normal GRS, the backup data is only available in the event of a failover."
+            ],
+            "flags": 0,
+            "guid": "A#l7&b,vnL",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Can Premium Storage be used for BlobStorage?",
+                "No.&nbsp; Currently Premium storage can only be used for VM disks."
+            ],
+            "flags": 0,
+            "guid": "l{[O$bDFeb",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the \"secure transfer required\" setting for Azure Blob Storage?",
+                "If you enable it, only HTTPS requests will be able to access the stored data."
+            ],
+            "flags": 0,
+            "guid": "cRtuw.yLBe",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are Azure Blob Containers?",
+                "They exist under a Storage Account, and are like root folders for storing blobs."
+            ],
+            "flags": 0,
+            "guid": "cKr,GvTJev",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How many Blob Containers can you create under a storage account?",
+                "It is unlimited."
+            ],
+            "flags": 0,
+            "guid": "m6xTc`gn%M",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How many blobs can you store in an Azure Blob Container?",
+                "The number is unlimited, as long as the total file size for the storage account as a whole are adhered to."
+            ],
+            "flags": 0,
+            "guid": "kL:b8mK|*1",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the components to a URI for a blob in Azure Blob Storage?",
+                "http{,s}://[storage-acct-name].blob.core.windows.net/[container-name]/[resource.name]"
+            ],
+            "flags": 0,
+            "guid": "I@FUZt=J(;",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Azure blob storage in a blob container is flat.&nbsp; How can you organize your blobs if you have a lot?",
+                "The name can include the '/' character, making it appear as blobs were organized into a directory structure."
+            ],
+            "flags": 0,
+            "guid": "C}e}~R2Yer",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 3 levels of access an Azure Blob Container can provide?",
+                "<font color=\"#e11cbe\">Private</font> - an SAS key is required to access a blob<div><font color=\"#e11cbe\">Blob</font> - Anyone with a URL to a blob can access it, but you cannot browse</div><div><font color=\"#e11cbe\">Container</font> - Like Blob access, but users can also discover blobs by listing them.</div>"
+            ],
+            "flags": 0,
+            "guid": "BNTW`hE7)d",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What URL pattern let's you list the blobs in an Azure blob container?",
+                "http{,s}://[storage-acct-name].blob.core.windows.net/[container-name]<font color=\"#e11cbe\">?comp=list</font>"
+            ],
+            "flags": 0,
+            "guid": "I#]T:!|js$",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the three blob types available for Azure Blobs and their purposes?",
+                "* <font color=\"#e11cbe\">Block Blob</font> - have to be completely replaced, like uploading a new photo or logo.<div>* <font color=\"#e11cbe\">Append Blob</font> - can add to the end.&nbsp; Great for log files</div><div>* <font color=\"#e11cbe\">Page Blob</font> - random read/write access.&nbsp; Needed for VM Hard Drives.</div>"
+            ],
+            "flags": 0,
+            "guid": "G0eeT5B1YS",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When it comes to Azure Blob storage pricing, what is one way that <font color=\"#e11cbe\">Hot</font> storage differs from <font color=\"#e11cbe\">Cool</font> and <font color=\"#e11cbe\">Archive</font>?",
+                "With Hot storage, you do not pay for <font color=\"#e11cbe\">data retrieval</font> and <font color=\"#e11cbe\">data writing</font>."
+            ],
+            "flags": 0,
+            "guid": "J9E:dU4*7y",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which NuGet package is used for working with Azure Blob Storage?",
+                "Microsoft.Azure.Storage.Blob"
+            ],
+            "flags": 0,
+            "guid": "vqj7e*(Nwf",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 2 GUI clients you can use to access Azure Storage Accounts?",
+                "<font color=\"#e11cbe\">Azure Storage Explorer</font> - standalone desktop app<div><font color=\"#e11cbe\">Cloud Explorer</font> - integrated into Visual Studio</div>"
+            ],
+            "flags": 0,
+            "guid": "Fo7}iUlQ`Y",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What options can you use to emulate Azure Storage on your local machine for development?",
+                "Microsoft Azure Storage Emulator - Windows Only<div>Azurite - open source, node.js based</div>"
+            ],
+            "flags": 0,
+            "guid": "iw$,`i0T86",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
             ]
         }
     ]
