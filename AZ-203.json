@@ -630,7 +630,7 @@
             "data": "",
             "fields": [
                 "What extension do you need to install into AZ CLI to be able to copy a VM image from one region to another? What command installs the extension?",
-                "az extension add --name image-copy-extension"
+                "az extension add --name <font color=\"#e11cbe\">image-copy-extension</font>"
             ],
             "flags": 0,
             "guid": "K[L&@FA}qt",
@@ -660,7 +660,7 @@
             "data": "",
             "fields": [
                 "What are the fixed constraints of Standard Storage in Azure?",
-                "Throughput - 60Mbps/sec<div>IOPS - 500 per disk</div>"
+                "Throughput - <font color=\"#e11cbe\">60</font>Mbps/sec<div>IOPS - <font color=\"#e11cbe\">500</font> per disk</div>"
             ],
             "flags": 0,
             "guid": "qlwdz`/7*C",
@@ -870,7 +870,7 @@
             "data": "",
             "fields": [
                 "What is the AZ CLI command for detaching a virtual disk from a VM?",
-                "az vm disk detach \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --vm-name \"the-vm-name\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-disk-name\""
+                "az <font color=\"#e11cbe\">vm disk detach</font> \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --vm-name \"the-vm-name\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-disk-name\""
             ],
             "flags": 0,
             "guid": "G1y=n)`)h)",
@@ -1740,7 +1740,7 @@
             "data": "",
             "fields": [
                 "What are the components to a URI for a blob in Azure Blob Storage?",
-                "http{,s}://[storage-acct-name].blob.core.windows.net/[container-name]/[resource.name]"
+                "http{,s}://[<font color=\"#e11cbe\">storage-acct-name</font>].blob.core.windows.net/[<font color=\"#e11cbe\">container-name</font>]/[<font color=\"#e11cbe\">resource.name</font>]"
             ],
             "flags": 0,
             "guid": "I@FUZt=J(;",
