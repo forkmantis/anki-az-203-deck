@@ -406,7 +406,7 @@
             "data": "",
             "fields": [
                 "How do you list the ip address(es) of a VM using Azure CLI?",
-                "az vm list-ip-addresses --name \"the-machine-name\" -o table"
+                "az vm list-ip-addresses --name \"the-machine-name\""
             ],
             "flags": 0,
             "guid": "Ov{DKL+}vp",
@@ -1864,6 +1864,351 @@
             ],
             "flags": 0,
             "guid": "iw$,`i0T86",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How much metadata can you store on each Azure Blob? (in kilobytes)",
+                "You can use up to 8k total across all of the key/value pairs."
+            ],
+            "flags": 0,
+            "guid": "xhUU@!}EI/",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "&nbsp;What are the parameters used in the Shared Access Signature (SAS) portion of an Azure Blob URI?",
+                "* <font color=\"#e11cbe\">sp</font>=rwcd -&gt; Permissions<div>* <font color=\"#e11cbe\">st</font>=[datetime] -&gt; Start Time</div><div>* <font color=\"#e11cbe\">se</font>=[datetime] -&gt; End time</div><div>* <font color=\"#e11cbe\">spr</font>=https -&gt; Protocol</div><div>* <font color=\"#e11cbe\">sv</font>=2017-11-09 -&gt; Storage service version</div><div>* <font color=\"#e11cbe\">sig</font>=[sha256] -&gt; The Signature</div><div>* <font color=\"#e11cbe\">sr</font>=b -&gt; Storage resource (b for Blob)</div>"
+            ],
+            "flags": 0,
+            "guid": "g~_PS?S[PU",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the most important part of a Shared Access Signature (SAS) in terms of controlling access to Azure Blobs?",
+                "The expiry time."
+            ],
+            "flags": 0,
+            "guid": "D)>L#P!DM$",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the two types (scopes) of Shared Access Signatures in Azure?",
+                "* <font color=\"#e11cbe\">Service</font> level<div>* <font color=\"#e11cbe\">Account</font> level</div>"
+            ],
+            "flags": 0,
+            "guid": "GoAby!0cuk",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What property helps you implement Optimistic Concurrency when handling Azure Blobs?",
+                "The ETag"
+            ],
+            "flags": 0,
+            "guid": "BpnlGbV~oi",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What tool is available to implement Pessimistic concurrency when working with Azure Blobs?",
+                "Leases.<div><br></div><div>You can acquire a LeaseId, which lasts for a specified period of time, and pass it as a parameter into your operations.&nbsp; Anyone attempting to modify a blob or its metadata without a valid lease id will not be able to.</div>"
+            ],
+            "flags": 0,
+            "guid": "f71[;CRuv5",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What operation can you perform on a Leased Azure Blob if you need to operate on it?",
+                "Break Lease"
+            ],
+            "flags": 0,
+            "guid": "cb_94nfT~B",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the relationship between an Azure Blob and its Snapshots?",
+                "* Snapshots are Read Only<div>* A Snapshot belongs to a base Blob, and cannot live without it.</div><div>* A Blob can have many snapshots</div>"
+            ],
+            "flags": 0,
+            "guid": "mzKS:ro9uT",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Using the C# Client library, what <font color=\"#e11cbe\">CloudBlobContainer</font> method and parameter(s) would you use to delete a Blob?",
+                ".<font color=\"#e11cbe\">DeleteAsync</font>(theBlockBlob);"
+            ],
+            "flags": 0,
+            "guid": "B|_iE!D,;}",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What type of metadata can you store on Blob Containers and Blobs?",
+                "Key/Value pairs"
+            ],
+            "flags": 0,
+            "guid": "yE{s/!W69h",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When two users are updating Azure Block Blobs at the same time, what is the default behavior?",
+                "The last or final sequential update \"wins\"."
+            ],
+            "flags": 0,
+            "guid": "i}4:P1Obct",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Using the C# Client Library, what <font color=\"#e11cbe\">CloudBlockBlob</font> method would you use to create a snapshot of an Azure Blob?",
+                "await cloudBlockBlob.<font color=\"#e11cbe\">CreateSnapshotAsync</font>();"
+            ],
+            "flags": 0,
+            "guid": "on.;J*q{dA",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How would you find out how many blobs are stored in your Azure storage account?",
+                "Using <font color=\"#e11cbe\">Metrics</font>, create a chart that uses the \"<font color=\"#e11cbe\">Blob Count</font>\" metric"
+            ],
+            "flags": 0,
+            "guid": "Cw8Io{t=wg",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the maximum number of Blobs that will be returned by <font color=\"#e11cbe\">ListBlobsSegmentedAsync</font>()?",
+                "<font color=\"#e11cbe\">5,000</font>"
+            ],
+            "flags": 0,
+            "guid": "qFxOn7okwH",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When using <font color=\"#e11cbe\">ListBlobsSegmentedAsync</font>, if you need to access more blobs than you can list at once, what do you do?",
+                "Use the <font color=\"#e11cbe\">BlobContinuationToken</font> returned by ListBlobsSegmentedAsync to make subsequent requests until the token returns <font color=\"#e11cbe\">null</font>."
+            ],
+            "flags": 0,
+            "guid": "Nd;D)d|tRh",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "If you needed a way of listing subsets of blobs by some attribute, what naming strategy would make this easy?",
+                "Since <font color=\"#e11cbe\">ListBlobsSegmentedAsync</font> can use a <font color=\"#e11cbe\">prefix</font> paremeter, name your files in a way to leverage that. I.e., if date matters, you could use a schema like <font color=\"#e11cbe\">YYYY/MM/DD</font>/theblob.name in your naming convention."
+            ],
+            "flags": 0,
+            "guid": "H}!P$ZKNd>",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the .Net client libary for Blobs, what CloudBlockBlob method can be used to retrieve a Blob's metadata?",
+                ".<font color=\"#e11cbe\">FetchAttributesAsync</font>();"
+            ],
+            "flags": 0,
+            "guid": "xd.PcJ&d7Q",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the .Net client libary for Blobs, what CloudBlockBlob method can be used to store metadata on the blob?",
+                ".<font color=\"#e11cbe\">SetMetadataAsync</font>();"
+            ],
+            "flags": 0,
+            "guid": "D7vdO)m{|!",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the .Net client libary for Blobs, what CloudBlockBlob method can be used to generate a SAS token?",
+                "var policy = new SharedAccessBlobPolicy<div>{</div><div>&nbsp; &nbsp; Permissions = SharedAccessBlobPermissions.Read;</div><div>&nbsp; &nbsp; SharedAccessExpiryTime = DateTime.Now.AddHours(1);</div><div>};</div><div><br></div><div>cloudBlockBlob.<font color=\"#e11cbe\">GetSharedAccessSignature</font>(policy);</div>"
+            ],
+            "flags": 0,
+            "guid": "Os3Qqv+&&`",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the .Net client libary for Blobs, what CloudBlockBlob method can be used to break a blob's lease?",
+                ".<font color=\"#e11cbe\">BreakLeaseAsync</font>();"
+            ],
+            "flags": 0,
+            "guid": "DS@e]bY4nT",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the .Net client libary for Blobs, what CloudBlockBlob method can be used to create a 1 minute lease on a blob?",
+                ".<font color=\"#e11cbe\">AquireLeaseAsync</font>(TimeSpan.FromMinutes(1));"
+            ],
+            "flags": 0,
+            "guid": "FAjI=c^%M5",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the .Net client libary for Blobs, what CloudBlockBlob method can be used to set the Access Tier on a blob?",
+                ".<font color=\"#e11cbe\">SetStandardBlobTierAsync</font>(StandardBlobTier.Async);"
+            ],
+            "flags": 0,
+            "guid": "E}k||C0&`?",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the default public access level on an Azure Blob Container?",
+                "private"
+            ],
+            "flags": 0,
+            "guid": "q}T+t.X5(%",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
