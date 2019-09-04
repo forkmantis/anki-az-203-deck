@@ -97,8 +97,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "AZ-203",
-                "azure-blob-storage"
+                "EntityFramework"
             ],
             "tmpls": [
                 {
@@ -1860,7 +1859,7 @@
             "data": "",
             "fields": [
                 "What options can you use to emulate Azure Storage on your local machine for development?",
-                "Microsoft Azure Storage Emulator - Windows Only<div>Azurite - open source, node.js based</div>"
+                "<font color=\"#e11cbe\">Microsoft Azure Storage Emulator</font> - Windows Only<div><font color=\"#e11cbe\">Azurite</font> - open source, node.js based</div>"
             ],
             "flags": 0,
             "guid": "iw$,`i0T86",
@@ -1934,8 +1933,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What property helps you implement Optimistic Concurrency when handling Azure Blobs?",
-                "The ETag"
+                "What property helps you implement <font color=\"#e11cbe\">Optimistic Concurrency</font> when handling Azure Blobs?",
+                "The <font color=\"#e11cbe\">ETag</font>"
             ],
             "flags": 0,
             "guid": "BpnlGbV~oi",
@@ -1949,8 +1948,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What tool is available to implement Pessimistic concurrency when working with Azure Blobs?",
-                "Leases.<div><br></div><div>You can acquire a LeaseId, which lasts for a specified period of time, and pass it as a parameter into your operations.&nbsp; Anyone attempting to modify a blob or its metadata without a valid lease id will not be able to.</div>"
+                "What tool is available to implement <font color=\"#e11cbe\">Pessimistic Concurrency</font> when working with Azure Blobs?",
+                "<font color=\"#e11cbe\">Leases</font>.<div><br></div><div>You can acquire a LeaseId, which lasts for a specified period of time, and pass it as a parameter into your operations.&nbsp; Anyone attempting to modify a blob or its metadata without a valid lease id will not be able to.</div>"
             ],
             "flags": 0,
             "guid": "f71[;CRuv5",
@@ -2213,6 +2212,21 @@
             "tags": [
                 "AZ-203",
                 "azure-blob-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "&nbsp;What is the relationship between Azure Active Directlry (AAD) and Active Directory (AD)?",
+                "* AAD is not a replacment for AD<div>* AAD can work with AD, but does not require AD</div>"
+            ],
+            "flags": 0,
+            "guid": "NRsX:Li:eU",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
             ]
         }
     ]
