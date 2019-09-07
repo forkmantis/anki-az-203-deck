@@ -2228,6 +2228,111 @@
                 "AZ-203",
                 "azure-active-directory"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is WS-Federation?",
+                "An older protocol using a redirect flow where, as an anonymous user, you are redirected to an authenticator site that will authenticate you, and then send you back with SAML to prove your identity"
+            ],
+            "flags": 0,
+            "guid": "L_9^>TVXTP",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is SAMLP?",
+                "A successor to WS-Federation that gave some improvements."
+            ],
+            "flags": 0,
+            "guid": "O:AzI=eLY?",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a <font color=\"#e11cbe\">JWT</font> token?",
+                "Simply, a <font color=\"#e11cbe\">JSON Web Token</font><div><br></div><div>They are an open, industry standard (<font color=\"#e11cbe\">RFC 7519</font>) method for representing claims between two parties</div>"
+            ],
+            "flags": 0,
+            "guid": "mTq#m6:&[j",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a typical OpenID authentication flow?",
+                "* Anonymous user shows up at site<div>* They are redirected to an authenticating site where they provide credentials</div><div>* That site posts back to your site with an id_token</div><div>* Your site establishes a session for the user</div>"
+            ],
+            "flags": 0,
+            "guid": "FA{oxt1a,v",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What (3) authentication protocols does Azure AD support as of late 2018",
+                "* WS-Federation<div>* SAMLP</div><div>* OpenID Connect</div>"
+            ],
+            "flags": 0,
+            "guid": "z!2)o8sxSd",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Why is <font color=\"#e11cbe\">Proof of Key Exchange</font> (<font color=\"#e11cbe\">PKCE</font>) a recommended protocol for mobile apps?",
+                "It solve the problem that when an <font color=\"#e11cbe\">id_token</font> is returned to you, it posts back to a redirect URL that might be hijacked by another app on the device registered to the same URL.&nbsp;<div><br></div><div>PKCE uses a code verifier to prevent the hijacking</div>"
+            ],
+            "flags": 0,
+            "guid": "Fq-Kw,)@AL",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Azure Active Directory registered apps, what is the difference between an <font color=\"#e11cbe\">Object ID</font> and and <font color=\"#e11cbe\">Application ID</font>?",
+                "* The Object ID is a unique ID for the application<div>* The Application ID (also sometimes called a client id) is how the application will identify itself to Azure AD</div>"
+            ],
+            "flags": 0,
+            "guid": "imqs$.B@H)",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
         }
     ]
 }
