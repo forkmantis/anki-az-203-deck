@@ -390,7 +390,7 @@
             "data": "",
             "fields": [
                 "How do you open port 22 on a virtual machine using Azure CLI?",
-                "az vm open-port \\<br>&nbsp;--resource-group \"the-group\" \\<br>&nbsp;--name \"the-vm-name\" \\<br>&nbsp;--port \"22\""
+                "az vm <font color=\"#e11cbe\">open-port</font> \\<br>&nbsp;--resource-group \"the-group\" \\<br>&nbsp;--name \"the-vm-name\" \\<br>&nbsp;--port \"22\""
             ],
             "flags": 0,
             "guid": "KaOXMh<2[b",
@@ -405,7 +405,7 @@
             "data": "",
             "fields": [
                 "How do you list the ip address(es) of a VM using Azure CLI?",
-                "az vm list-ip-addresses --name \"the-machine-name\""
+                "az vm <font color=\"#e11cbe\">list-ip-addresses</font> --name \"the-machine-name\""
             ],
             "flags": 0,
             "guid": "Ov{DKL+}vp",
@@ -494,7 +494,7 @@
             "data": "",
             "fields": [
                 "What command do you use to Generalize a Windows VM?",
-                "sysprep.exe /generalize /shutdown /oobe<div><br></div><div>This removes all computer specific information.&nbsp;</div><div><br></div><div>/oobe stands for Out Of Box Experience.</div><div><br></div><div>/shutdown only shuts down the OS.&nbsp; You still have to shutdown and deallocate the VM itself.</div>"
+                "<font color=\"#e11cbe\">sysprep</font>.exe /<font color=\"#e11cbe\">generalize</font> /<font color=\"#e11cbe\">shutdown</font> /<font color=\"#e11cbe\">oobe</font><div><br></div><div>This removes all computer specific information.&nbsp;</div><div><br></div><div>/oobe stands for Out Of Box Experience.</div><div><br></div><div>/shutdown only shuts down the OS.&nbsp; You still have to shutdown and deallocate the VM itself.</div>"
             ],
             "flags": 0,
             "guid": "sMJvFAujOK",
@@ -674,7 +674,7 @@
             "data": "",
             "fields": [
                 "How does the tier of VM relate to the performance of Azure storage?",
-                "Basic tier machines cap out at 300 IOPS&nbsp;<div>Standard tier machines cap out at 500 IOPS</div><div><br></div><div>when looking at 8k IOs.</div>"
+                "Basic tier machines cap out at <font color=\"#e11cbe\">300</font> IOPS&nbsp;<div>Standard tier machines cap out at <font color=\"#e11cbe\">500</font> IOPS</div><div><br></div><div>when looking at <font color=\"#e11cbe\">8k</font> IOs.</div>"
             ],
             "flags": 0,
             "guid": "Q}U.]:]iTt",
@@ -824,7 +824,7 @@
             "data": "",
             "fields": [
                 "What is the AZ CLI command to create and attach a virtual disc to a machine",
-                "az vm disk attach \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --vm-name \"the-machine\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-disk-name\" \\ #Used to be --disk, but that's being deprecated<br>&nbsp;&nbsp;&nbsp; --new \\<br>&nbsp;&nbsp;&nbsp; --size-gb 25 \\<br>&nbsp;&nbsp;&nbsp; --sku \"Premium_LRS\" # {StandardSSD_LRS, Standard_LRS}"
+                "az vm <font color=\"#e11cbe\">disk attach</font> \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --vm-name \"the-machine\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-disk-name\" \\ #Used to be --disk, but that's being deprecated<br>&nbsp;&nbsp;&nbsp; --new \\<br>&nbsp;&nbsp;&nbsp; --size-gb 25 \\<br>&nbsp;&nbsp;&nbsp; --sku \"Premium_LRS\" # {StandardSSD_LRS, Standard_LRS}"
             ],
             "flags": 0,
             "guid": "fu&yk*`oC4",
@@ -1424,7 +1424,7 @@
             "data": "",
             "fields": [
                 "From the Audit Records blade of an Azure Database, what is one option that will allow you to query for specific log records that might not be in the overview",
-                "Click 'Run in Query Editor' and use the built in SQL query editor in the Portal"
+                "Click '<font color=\"#e11cbe\">Run in Query Editor</font>' and use the built in SQL query editor in the Portal"
             ],
             "flags": 0,
             "guid": "xeTEsn6)an",
