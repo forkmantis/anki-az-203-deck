@@ -1364,7 +1364,7 @@
             "data": "",
             "fields": [
                 "What is the T-SQL command for creating an Active Directory user?",
-                "CREATE USER [user@domain.com] FROM EXTERNAL PROVIDER"
+                "<font color=\"#e11cbe\">CREATE USER</font> [user@domain.com] <font color=\"#e11cbe\">FROM EXTERNAL PROVIDER</font>"
             ],
             "flags": 0,
             "guid": "uZz@E)n+zC",
