@@ -2574,6 +2574,156 @@
                 "AZ-203",
                 "azure-active-directory"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Windows, what server-specific data does <font color=\"#e11cbe\">sysprep.exe</font> eliminate?",
+                "* Computer Name<div>* Security Identifiers (SIDs)</div><div>* Local Administrator/root identity</div><div>* Device driver cache</div><div>* Event logs</div>"
+            ],
+            "flags": 0,
+            "guid": "DABS97aYAM",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Why might you want to back up a VM before generalizing it?",
+                "Generalization is destructive and permanent.&nbsp; If you will ever need the VM again, the backup will be your only way of accessing the machine."
+            ],
+            "flags": 0,
+            "guid": "H6PnelNTd>",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a key difference between a Disk snapshot vs a VM backup?",
+                "A disk snapshot is only a backup of a single disk.<div><br></div><div>A VM backup is a backup of the virtual machine plus snapshots of each disk it utilizes.</div>"
+            ],
+            "flags": 0,
+            "guid": "w6_cd$Ljt#",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the Powershell command to convert an unmanaged disk into a managed disk in Azure?",
+                "ConvertTo-AzVMManagedDisk"
+            ],
+            "flags": 0,
+            "guid": "M3G^tU+e36",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which Azure feature lets administrators restrict Azure deployment properties?",
+                "Azure Policy"
+            ],
+            "flags": 0,
+            "guid": "q%K!p$GTpj",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In an Azure ARM template, what number does <font color=\"#e11cbe\">copyIndex</font>() start at?",
+                "zero"
+            ],
+            "flags": 0,
+            "guid": "BKJa=9uOf>",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "An <font color=\"#e11cbe\">Azure Initiative</font> is a collection of what?",
+                "Azure Policies"
+            ],
+            "flags": 0,
+            "guid": "o)PJVjxO;H",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 3 common Autoscale options in Azure VM Scale Sets (VMSS)?",
+                "* Scheduled<div>* Manual</div><div>* Metric based</div>"
+            ],
+            "flags": 0,
+            "guid": "e^gi*?9xbf",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What kind of work loads are most appropriate for <font color=\"#e11cbe\">low-priority</font> VMs in a <font color=\"#e11cbe\">Scale Set</font>?",
+                "Workloads that can be interrupted"
+            ],
+            "flags": 0,
+            "guid": "e0V2`Z{jIS",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In what section of an ARM template can you utilize the <font color=\"#e11cbe\">copy</font> attribute?",
+                "In the <font color=\"#e11cbe\">Resources</font> section"
+            ],
+            "flags": 0,
+            "guid": "iYsHp-`0IY",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
         }
     ]
 }
