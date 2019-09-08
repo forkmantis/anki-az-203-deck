@@ -2439,6 +2439,141 @@
                 "AZ-203",
                 "azure-active-directory"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What 2 options do you have for application type when registering a new application in Azure AD?",
+                "* Web App/Web API<div>* Native App</div>"
+            ],
+            "flags": 0,
+            "guid": "hva1ya$drk",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Azure Active Directory (AAD), when registering to use a third party as the authentication provider, who is the <font color=\"#e11cbe\">client</font> to the third party?",
+                "Azure AD"
+            ],
+            "flags": 0,
+            "guid": "u45#NtBwh]",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When do new users show up in the Users section of Azure AD B2C?",
+                "After the first successful sign-in"
+            ],
+            "flags": 0,
+            "guid": "KMKj(1m:X2",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a primary disadvantage of using username/password authentication with SQL server?",
+                "It adds the burden of an additional set of password policies and user accounts to manage"
+            ],
+            "flags": 0,
+            "guid": "noSP~`2{ei",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What standard do the Microsoft Authenticator app use?",
+                "OAUTH"
+            ],
+            "flags": 0,
+            "guid": "g.NUCYrqxu",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What credentials can the OAuth 2.0 Client Credentials Grant flow use?",
+                "* Passwords<div>* Certificates</div>"
+            ],
+            "flags": 0,
+            "guid": "q*ML0{BD7$",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How do you send access tokens to an API?",
+                "As an Authorization header"
+            ],
+            "flags": 0,
+            "guid": "Dn&RP7lhP0",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the difference between <font color=\"#e11cbe\">OpenID Connect</font> and <font color=\"#e11cbe\">OAuth</font>?",
+                "OpenID Connect includes the <font color=\"#e11cbe\">user identity</font>"
+            ],
+            "flags": 0,
+            "guid": "A7aCngBBNG",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What NuGet package do you need to use to work with Azure AD?",
+                "Microsoft.IdentityModel.Clients.ActiveDirectory"
+            ],
+            "flags": 0,
+            "guid": "zUckkAZL.!",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
         }
     ]
 }
