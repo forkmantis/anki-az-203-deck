@@ -97,7 +97,8 @@
             ],
             "sortf": 0,
             "tags": [
-                "EntityFramework"
+                "AZ-203",
+                "azure-active-directory"
             ],
             "tmpls": [
                 {
@@ -2328,6 +2329,111 @@
             ],
             "flags": 0,
             "guid": "imqs$.B@H)",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 3 major domains that you work with in regards to authentication?",
+                "<div>* Business to Employee (<font color=\"#e11cbe\">B2E</font>)<br></div><div>* Business to Business&nbsp;(<font color=\"#e11cbe\">B2B</font>)<br></div><div>* Business to Consumer (<font color=\"#e11cbe\">B2C</font>)</div>"
+            ],
+            "flags": 0,
+            "guid": "AzD53xzx>N",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some generalities around B2B authentication?",
+                "* Each business's differing policies may conflict<div>* Federation is used</div><div>* Users end up logging into someone else's network</div>"
+            ],
+            "flags": 0,
+            "guid": "A@go4$al:U",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the Factors of Multi Factor Authentication?",
+                "* Something you know (passwords)<div>* Something you have (phone, dongle, etc)</div><div>* Something you are (fingerprint, face, etc)</div>"
+            ],
+            "flags": 0,
+            "guid": "vah<K:>#l4",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 2 tiers of MFA available for Azure?",
+                "* Basic MFA (free for admins and Office 365 users)<div>* Premium</div>"
+            ],
+            "flags": 0,
+            "guid": "g.{`zDX$Pk",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 2 pricing models for Azure MFA Authentication?",
+                "* <font color=\"#e11cbe\">Per User</font><div>&nbsp; * Flat rate/mo</div><div>&nbsp; * Good for fixed number of employees</div><div>&nbsp; * Can user other per-user licenses also</div><div>* <font color=\"#e11cbe\">Per Authentication</font><br></div><div>&nbsp; * Good for extermal users</div><div>&nbsp; * Per 10 authentications (rounded up)</div>"
+            ],
+            "flags": 0,
+            "guid": "e;8Lx7Snc&",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does certificate authentication offer over password authentication?",
+                "* Secret information is not sent over the wire<div>* Central revocation is easy</div><div>* Handles both identification and authentication</div><div>* Suitable for internet scale</div>"
+            ],
+            "flags": 0,
+            "guid": "Kk|@=5>l*k",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-active-directory"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the drawback of certificate authentication over password authentication?",
+                "It requires a more complex infrastructure"
+            ],
+            "flags": 0,
+            "guid": "c}gD*iJq1W",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
