@@ -98,7 +98,7 @@
             "sortf": 0,
             "tags": [
                 "AZ-203",
-                "azure-active-directory"
+                "azure-web-jobs"
             ],
             "tmpls": [
                 {
@@ -1245,7 +1245,7 @@
             "data": "",
             "fields": [
                 "What is the T-SQL syntax to alter a column's datatype?",
-                "ALTER TABLE [schema].[table_name]<br>ALTER COLUMN ColumnName VARCHAR(50)"
+                "<font color=\"#e11cbe\">ALTER TABLE</font> [schema].[table_name]<br><font color=\"#e11cbe\">ALTER COLUMN</font> ColumnName VARCHAR(50)"
             ],
             "flags": 0,
             "guid": "fvci{807+6",
@@ -1875,7 +1875,7 @@
             "data": "",
             "fields": [
                 "How much metadata can you store on each Azure Blob? (in kilobytes)",
-                "You can use up to 8k total across all of the key/value pairs."
+                "You can use up to <font color=\"#e11cbe\">8k</font> total across all of the key/value pairs."
             ],
             "flags": 0,
             "guid": "xhUU@!}EI/",
@@ -2190,14 +2190,15 @@
             "data": "",
             "fields": [
                 "In the .Net client libary for Blobs, what CloudBlockBlob method can be used to set the Access Tier on a blob?",
-                ".<font color=\"#e11cbe\">SetStandardBlobTierAsync</font>(StandardBlobTier.Async);"
+                ".<font color=\"#e11cbe\">SetStandardBlobTierAsync</font>(StandardBlobTier.Async);<br><br>todo: check the enum parameter"
             ],
             "flags": 0,
             "guid": "E}k||C0&`?",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
-                "azure-blob-storage"
+                "azure-blob-storage",
+                "fact-check"
             ]
         },
         {
@@ -2723,6 +2724,126 @@
             "tags": [
                 "AZ-203",
                 "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are Azure Web Jobs?",
+                "They are like tasks or function apps that run in the context of your website."
+            ],
+            "flags": 0,
+            "guid": "O6SJoRrcs8",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-web-jobs"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the modes an Azure Web Job can run in?",
+                "* Scheduled<div>* Triggered</div><div>* Continuous</div>"
+            ],
+            "flags": 0,
+            "guid": "C12_G^Zh?k",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-web-jobs"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How are Azure Web Jobs <font color=\"#e11cbe\">triggered</font> from an external source?",
+                "Using a <font color=\"#e11cbe\">webhook</font>"
+            ],
+            "flags": 0,
+            "guid": "H{Lpf^4SX6",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-web-jobs"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the WebJobs SDK, what is the purpose of the <font color=\"#e11cbe\">JobHost</font>?",
+                "It <font color=\"#e11cbe\">blocks</font> the executing application and <font color=\"#e11cbe\">sets up the triggers</font> for functions"
+            ],
+            "flags": 0,
+            "guid": "c8,apNg<HO",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-web-jobs"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is an advantage of Azure Web Jobs over function apps?",
+                "They have access to the <font color=\"#e11cbe\">application settings</font> of the app service they are hosted in."
+            ],
+            "flags": 0,
+            "guid": "G_=LM-D5JW",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-web-jobs"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What type of application is created by the Visual Studio <font color=\"#e11cbe\">Web Job template</font>?",
+                "A <font color=\"#e11cbe\">Console</font> Application"
+            ],
+            "flags": 0,
+            "guid": "Eiak_{,&4b",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-web-jobs"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are Web Jobs for?",
+                "They provide a mechanism for executing&nbsp;<font color=\"#e11cbe\">background work</font> for a web application."
+            ],
+            "flags": 0,
+            "guid": "J#8gFUho_y",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-web-jobs"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the benefit of associating a Web Job with a Web Application in Visual Studio?",
+                "When the Web Application is published, the Web Job will also be published."
+            ],
+            "flags": 0,
+            "guid": "Ov!3P6Ry?M",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-web-jobs"
             ]
         }
     ]
