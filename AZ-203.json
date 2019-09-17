@@ -97,8 +97,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "AZ-203",
-                "azure-web-jobs"
+                "HJW"
             ],
             "tmpls": [
                 {
@@ -331,7 +330,7 @@
             "data": "",
             "fields": [
                 "How do you create a public IP address in Azure CLI?",
-                "az network public-ip create \\<br>&nbsp;--resource-group \"the-group\" \\<br>&nbsp;--name \"the-ip-name\""
+                "<font color=\"#e11cbe\">az network public-ip create</font> \\<br>&nbsp;--<font color=\"#e11cbe\">resource-group</font> \"the-group\" \\<br>&nbsp;--<font color=\"#e11cbe\">name</font> \"the-ip-name\""
             ],
             "flags": 0,
             "guid": "x|31NjU^.^",
@@ -1109,8 +1108,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What kind of Azure VM disk types require you to account for scalability targets when adding new disks to your Azure environment?",
-                "Unmanaged Disks<div><br></div><div>Managed disks handle this for you transparently</div>"
+                "What kind of Azure VM disk types require you to account for <font color=\"#e11cbe\">scalability targets</font> when adding new disks to your Azure environment?",
+                "<font color=\"#e11cbe\">Unmanaged Disks</font><div><br></div><div>Managed disks handle this for you transparently</div>"
             ],
             "flags": 0,
             "guid": "E%$Epkn)y7",
@@ -1154,8 +1153,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are the pricing models of PaaS SQL in Azure?",
-                "DTU - paying by the transactions or compute power<div>vCore - paying by the hardware</div>"
+                "What are the pricing models of <font color=\"#e11cbe\">PaaS SQL</font> in Azure?",
+                "<font color=\"#e11cbe\">DTU</font> - paying by the transactions or compute power<div><font color=\"#e11cbe\">vCore</font> - paying by the hardware</div>"
             ],
             "flags": 0,
             "guid": "g7a-(SKz?s",
@@ -1334,8 +1333,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are the T-SQL commands for creating a login and associated user?",
-                "CREATE LOGIN theLoginName WITH PASSWORD 'superstrongsecret'<div><br></div><div>CREATE USER theUserName FOR LOGIN theLoginName</div>"
+                "What are the T-SQL commands for creating a <font color=\"#e11cbe\">login</font> and associated <font color=\"#e11cbe\">user</font>?",
+                "<font color=\"#e11cbe\">CREATE LOGIN</font> theLoginName <font color=\"#e11cbe\">WITH PASSWORD</font> 'superstrongsecret'<div><br></div><div><font color=\"#e11cbe\">CREATE USER</font> theUserName <font color=\"#e11cbe\">FOR LOGIN</font> theLoginName</div>"
             ],
             "flags": 0,
             "guid": "Fs|MYh~=XZ",
@@ -1349,8 +1348,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the T-SQL command for creating a Contained DB User?",
-                "CREATE USER theUserName WITH PASSWORD = 'supersecretpassword'"
+                "What is the T-SQL command for creating a <font color=\"#e11cbe\">Contained DB User</font>?",
+                "<font color=\"#e11cbe\">CREATE USER</font> theUserName <font color=\"#e11cbe\">WITH PASSWORD</font> = 'supersecretpassword'"
             ],
             "flags": 0,
             "guid": "sE,)t[OXk-",
@@ -1574,8 +1573,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "How many Azure Storage Accounts can you create under one Azure Subscription?",
-                "200, without asking.&nbsp; More if you ask Microsoft."
+                "How many Azure <font color=\"#e11cbe\">Storage Accounts</font> can you create under one <font color=\"#e11cbe\">Azure Subscription</font>?",
+                "<font color=\"#e11cbe\">200</font>, without asking.&nbsp; More if you ask Microsoft."
             ],
             "flags": 0,
             "guid": "r0R48P,V^e",
@@ -2190,15 +2189,14 @@
             "data": "",
             "fields": [
                 "In the .Net client libary for Blobs, what CloudBlockBlob method can be used to set the Access Tier on a blob?",
-                ".<font color=\"#e11cbe\">SetStandardBlobTierAsync</font>(StandardBlobTier.Async);<br><br>todo: check the enum parameter"
+                ".<font color=\"#e11cbe\">SetStandardBlobTierAsync</font>(StandardBlobTier.Archive);<br><br>Enum values include Archive, Cool, Hot and Unknown"
             ],
             "flags": 0,
             "guid": "E}k||C0&`?",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
-                "azure-blob-storage",
-                "fact-check"
+                "azure-blob-storage"
             ]
         },
         {
@@ -2386,7 +2384,7 @@
             "data": "",
             "fields": [
                 "What are the 2 tiers of MFA available for Azure?",
-                "* Basic MFA (free for admins and Office 365 users)<div>* Premium</div>"
+                "* <font color=\"#e11cbe\">Basic MFA</font> (free for admins and Office 365 users)<div>* <font color=\"#e11cbe\">Premium</font></div>"
             ],
             "flags": 0,
             "guid": "g.{`zDX$Pk",
@@ -2520,7 +2518,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What credentials can the OAuth 2.0 Client Credentials Grant flow use?",
+                "What types of credentials can the OAuth 2.0 Client Credentials Grant flow use?",
                 "* Passwords<div>* Certificates</div>"
             ],
             "flags": 0,
@@ -2536,7 +2534,7 @@
             "data": "",
             "fields": [
                 "How do you send access tokens to an API?",
-                "As an Authorization header"
+                "As an <font color=\"#e11cbe\">Authorization</font> header"
             ],
             "flags": 0,
             "guid": "Dn&RP7lhP0",
@@ -2596,7 +2594,7 @@
             "data": "",
             "fields": [
                 "Why might you want to back up a VM before generalizing it?",
-                "Generalization is destructive and permanent.&nbsp; If you will ever need the VM again, the backup will be your only way of accessing the machine."
+                "Generalization is <font color=\"#e11cbe\">destructive</font> and <font color=\"#e11cbe\">permanent</font>.&nbsp; If you will ever need the VM again, the backup will be your only way of accessing the machine."
             ],
             "flags": 0,
             "guid": "H6PnelNTd>",
@@ -2844,6 +2842,171 @@
             "tags": [
                 "AZ-203",
                 "azure-web-jobs"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is Azure <font color=\"#e11cbe\">Managed Identities</font>?",
+                "It's a feature of <font color=\"#e11cbe\">Azure Active Directories</font> that prevents developers from having to manage credentials or risk checking them into source control."
+            ],
+            "flags": 0,
+            "guid": "dOS&)xR`+r",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-managed-identities"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the cost of Azure Managed Identities?",
+                "They are free with your Azure AD for Azure subscriptions."
+            ],
+            "flags": 0,
+            "guid": "evu<kK]:!+",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-managed-identities"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is <font color=\"#e11cbe\">Managed Service Identity</font>?",
+                "The former name for <font color=\"#e11cbe\">Managed Identities</font> for Azure"
+            ],
+            "flags": 0,
+            "guid": "P*6P7etC1`",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-managed-identities"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does an Azure Resource have access to by default when you enable Managed Identity on it?",
+                "Nothing."
+            ],
+            "flags": 0,
+            "guid": "h=)ZWR0eFB",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-managed-identities"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the two types of Azure Managed Identities?",
+                "* System Assigned<div>* User Assigned</div>"
+            ],
+            "flags": 0,
+            "guid": "PSJ4d6I:kH",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-managed-identities"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "If a VM with a <font color=\"#e11cbe\">System Assigned</font> Managed Identity is deleted, what does Active Directory do for you?",
+                "It cleans up the AD credentials related to that resource"
+            ],
+            "flags": 0,
+            "guid": "iU<4i]iGZu",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-managed-identities"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In what way are Azure <font color=\"#e11cbe\">User Assigned </font>Managed Identities different from <font color=\"#e11cbe\">System Assigned</font> Managed Identities in terms of resources they can be assigned to?",
+                "<font color=\"#e11cbe\">User Assigned</font> Identities can be assigned to <font color=\"#e11cbe\">multiple resources</font>, where <font color=\"#e11cbe\">System Assigned</font> identities will only be assigned to a <font color=\"#e11cbe\">single resource</font>."
+            ],
+            "flags": 0,
+            "guid": "M,#pZ.s0L,",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-managed-identities"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Does Managed Identity offer any benefit when used with Azure resources that are <font color=\"#e11cbe\">not RBAC aware</font>?",
+                "<font color=\"#e11cbe\">Yes</font>, providing that they accept <font color=\"#e11cbe\">Azure AD Tokens</font>."
+            ],
+            "flags": 0,
+            "guid": "H_|$GB]m_0",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-managed-identities"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is Azure Instance Metadata Service (IMDS)?",
+                "It's a REST endpoint available to all IaaS VMs that can provide information such as:<div><br></div><div>* SKU</div><div>* Networking Configuration</div><div>* Upcoming Maintenance Events</div>"
+            ],
+            "flags": 0,
+            "guid": "FcHIMl{~7_",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-managed-identities"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "At what IP address is <font color=\"#e11cbe\">Azure Instance Metadata Service</font> (<font color=\"#e11cbe\">IMDS</font>) available?",
+                "<font color=\"#e11cbe\">169</font>.<font color=\"#e11cbe\">254</font>.<font color=\"#e11cbe\">169</font>.<font color=\"#e11cbe\">254</font> (well known and non-routable)"
+            ],
+            "flags": 0,
+            "guid": "tcq~V$12Jc",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-managed-identities"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When connecting to Azure via Powershell, using <font color=\"#e11cbe\">Managed Identities</font>, what command and parameters do you use?",
+                "Connect-AzAccount -<font color=\"#e11cbe\">MSI</font> -Subscription &lt;subcription-id&gt;"
+            ],
+            "flags": 0,
+            "guid": "OEj`H{eXxA",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-managed-identities"
             ]
         }
     ]
