@@ -97,7 +97,8 @@
             ],
             "sortf": 0,
             "tags": [
-                "HJW"
+                "AZ-203",
+                "azure-virtual-machine"
             ],
             "tmpls": [
                 {
@@ -284,8 +285,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "How do you store scripts and data in CloudShell?",
-                "Azure uses File Storage to persist data.<div><br></div><div>It's mounted as `clouddrive` in your $HOME directory, and is available in both bash and powershell.</div>"
+                "How do you <font color=\"#e11cbe\">store scripts</font> and data in <font color=\"#e11cbe\">CloudShell</font>?",
+                "Azure uses <font color=\"#e11cbe\">File Storage</font> to persist data.<div><br></div><div>It's mounted as `<font color=\"#e11cbe\">clouddrive</font>` in your <font color=\"#e11cbe\">$HOME</font> directory, and is available in both bash and powershell.</div>"
             ],
             "flags": 0,
             "guid": "fzYdJ<+ZH&",
@@ -299,8 +300,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the Azure CLI command to create a resource group?",
-                "az group create \\<br>&nbsp; --name \"the name\" \\<div>&nbsp; --location \"centralus\"</div>"
+                "What is the Azure CLI command to <font color=\"#e11cbe\">create</font> a <font color=\"#e11cbe\">resource group</font>?",
+                "<font color=\"#e11cbe\">az group create</font> \\<br>&nbsp; --<font color=\"#e11cbe\">name</font> \"the name\" \\<div>&nbsp; --<font color=\"#e11cbe\">location</font> \"centralus\"</div>"
             ],
             "flags": 0,
             "guid": "C`$fl]A97|",
@@ -314,8 +315,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the Azure CLI command to create a VNet (with some common params)",
-                "az network vnet create \\<br>&nbsp;--resource-group \"the-group\" \\<br>&nbsp;--name \"the-vnet\" \\<br>&nbsp;--address-prefix \"10.1.0.0/16\" \\<br>&nbsp;--subnet-name \"the-subnet\" \\<br>&nbsp;--subnet-prefix \"10.1.1.0/24\"<div><br></div><div>* NOTE: Because of the last 2 parameters, this command will simultaneously create the subnet \"the-subnet\" along with the vnet</div>"
+                "What is the Azure CLI command to <font color=\"#e11cbe\">create</font> a <font color=\"#e11cbe\">VNet</font> (with some common params)",
+                "<font color=\"#e11cbe\">az network vnet create</font> \\<br>&nbsp;--<font color=\"#e11cbe\">resource-group</font> \"the-group\" \\<br>&nbsp;--<font color=\"#e11cbe\">name</font> \"the-vnet\" \\<br>&nbsp;--<font color=\"#e11cbe\">address-prefix</font> \"10.1.0.0/16\" \\<br>&nbsp;--<font color=\"#e11cbe\">subnet-name</font> \"the-subnet\" \\<br>&nbsp;--<font color=\"#e11cbe\">subnet-prefix</font> \"10.1.1.0/24\"<div><br></div><div>* NOTE: Because of the last 2 parameters, this command will simultaneously create the subnet \"the-subnet\" along with the vnet</div>"
             ],
             "flags": 0,
             "guid": "o}Z%M0Z#!E",
@@ -405,7 +406,7 @@
             "data": "",
             "fields": [
                 "How do you list the ip address(es) of a VM using Azure CLI?",
-                "az vm <font color=\"#e11cbe\">list-ip-addresses</font> --name \"the-machine-name\""
+                "<font color=\"#e11cbe\">az vm list-ip-addresses</font>&nbsp;\\<div>&nbsp; --<font color=\"#e11cbe\">name</font> \"the-machine-name\"</div>"
             ],
             "flags": 0,
             "guid": "Ov{DKL+}vp",
@@ -508,8 +509,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the waagent command?",
-                "* It comes from the Azure VM Agent<div>* It is pre-installed on Azure marketplace images</div><div>* It is available from your distro's package repositories if you are using your own images</div>"
+                "What is the <font color=\"#e11cbe\">waagent</font> command?",
+                "* It comes from the <font color=\"#e11cbe\">Azure VM Agent</font><div>* It is <font color=\"#e11cbe\">pre-installed</font> on Azure marketplace images</div><div>* It is available from your distro's <font color=\"#e11cbe\">package repositories</font> if you are using your own images</div>"
             ],
             "flags": 0,
             "guid": "wFb{M:oKC~",
@@ -554,7 +555,7 @@
             "data": "",
             "fields": [
                 "What is the AZ CLI command to generalize a VM?",
-                "az vm generalize --resource-group \"the-group\" --name \"the-name\""
+                "<font color=\"#e11cbe\">az vm generalize</font>&nbsp;\\<div>&nbsp; --<font color=\"#e11cbe\">resource-group</font> \"the-group\" \\</div><div>&nbsp; --<font color=\"#e11cbe\">name</font> \"the-name\"</div>"
             ],
             "flags": 0,
             "guid": "K-z/d9q.~h",
@@ -1229,7 +1230,7 @@
             "data": "",
             "fields": [
                 "What are the 4 SQL Command Categories?",
-                "<font color=\"#e11cbe\">Data Manipulation Language</font> - SELECT, INSER, UPDATE, DELETE<div><font color=\"#e11cbe\">Data Control Language</font> - GRANT, REVOKE</div><div><font color=\"#e11cbe\">Transactional Control Language</font> - COMMIT, ROLLBACK</div><div><font color=\"#e11cbe\">Data Definition Language</font> - CREATE, ALTER, DROP</div>"
+                "<font color=\"#e11cbe\">Data Manipulation Language</font> - SELECT, INSERT, UPDATE, DELETE<div><font color=\"#e11cbe\">Data Control Language</font> - GRANT, REVOKE</div><div><font color=\"#e11cbe\">Transactional Control Language</font> - COMMIT, ROLLBACK</div><div><font color=\"#e11cbe\">Data Definition Language</font> - CREATE, ALTER, DROP</div>"
             ],
             "flags": 0,
             "guid": "Eha9F%;h]g",
@@ -1558,8 +1559,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "How much data can you store in an Azure Storage Account?",
-                "500TB without asking<div><br></div><div>You can ask to have the limit increased to 5 PetaBytes, or 10x more than the default limit.</div>"
+                "How much data can you store in an Azure <font color=\"#e11cbe\">Storage Account</font>?",
+                "<font color=\"#e11cbe\">500TB</font> without asking<div><br></div><div>You can ask to have the limit increased to <font color=\"#e11cbe\">5 PetaBytes</font>, or 10x more than the default limit.</div>"
             ],
             "flags": 0,
             "guid": "KV){L!rRl+",
@@ -1678,8 +1679,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the \"secure transfer required\" setting for Azure Blob Storage?",
-                "If you enable it, only HTTPS requests will be able to access the stored data."
+                "What is the \"<font color=\"#e11cbe\">secure transfer required</font>\" setting for Azure Blob Storage?",
+                "If you enable it, only <font color=\"#e11cbe\">HTTPS</font> requests will be able to access the stored data."
             ],
             "flags": 0,
             "guid": "cRtuw.yLBe",
@@ -1708,8 +1709,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "How many Blob Containers can you create under a storage account?",
-                "It is unlimited."
+                "How many Blob Containers can you create under a <font color=\"#e11cbe\">storage account</font>?",
+                "It is <font color=\"#e11cbe\">unlimited</font>."
             ],
             "flags": 0,
             "guid": "m6xTc`gn%M",
@@ -2039,7 +2040,7 @@
             "data": "",
             "fields": [
                 "Using the C# Client Library, what <font color=\"#e11cbe\">CloudBlockBlob</font> method would you use to create a snapshot of an Azure Blob?",
-                "await cloudBlockBlob.<font color=\"#e11cbe\">CreateSnapshotAsync</font>();"
+                ".<font color=\"#e11cbe\">CreateSnapshotAsync</font>();"
             ],
             "flags": 0,
             "guid": "on.;J*q{dA",
@@ -2188,8 +2189,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "In the .Net client libary for Blobs, what CloudBlockBlob method can be used to set the Access Tier on a blob?",
-                ".<font color=\"#e11cbe\">SetStandardBlobTierAsync</font>(StandardBlobTier.Archive);<br><br>Enum values include Archive, Cool, Hot and Unknown"
+                "In the .Net client libary for Blobs, what CloudBlockBlob method can be used to set the <font color=\"#e11cbe\">Access Tier</font> on a blob?",
+                ".<font color=\"#e11cbe\">SetStandardBlobTierAsync</font>(StandardBlobTier.Archive);<br><br>Enum values include <font color=\"#e11cbe\">Archive</font>, <font color=\"#e11cbe\">Cool</font>, <font color=\"#e11cbe\">Hot</font> and <font color=\"#e11cbe\">Unknown</font>"
             ],
             "flags": 0,
             "guid": "E}k||C0&`?",
@@ -2278,8 +2279,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is a typical OpenID authentication flow?",
-                "* Anonymous user shows up at site<div>* They are redirected to an authenticating site where they provide credentials</div><div>* That site posts back to your site with an id_token</div><div>* Your site establishes a session for the user</div>"
+                "What is a typical <font color=\"#e11cbe\">OpenID authentication flow</font>?",
+                "* <font color=\"#e11cbe\">Anonymous</font> user shows up at site<div>* They are <font color=\"#e11cbe\">redirected</font> to an authenticating site where they provide credentials</div><div>* That site posts back to your site with an <font color=\"#e11cbe\">id_token</font></div><div>* Your site establishes a <font color=\"#e11cbe\">session</font> for the user</div>"
             ],
             "flags": 0,
             "guid": "FA{oxt1a,v",
@@ -2383,7 +2384,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are the 2 tiers of MFA available for Azure?",
+                "What are the 2 tiers of <font color=\"#e11cbe\">MFA</font> available for Azure?",
                 "* <font color=\"#e11cbe\">Basic MFA</font> (free for admins and Office 365 users)<div>* <font color=\"#e11cbe\">Premium</font></div>"
             ],
             "flags": 0,
@@ -2503,7 +2504,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What standard do the Microsoft Authenticator app use?",
+                "What standard does the Microsoft Authenticator app use?",
                 "OAUTH"
             ],
             "flags": 0,
@@ -2518,8 +2519,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What types of credentials can the OAuth 2.0 Client Credentials Grant flow use?",
-                "* Passwords<div>* Certificates</div>"
+                "What types of credentials can the <font color=\"#e11cbe\">OAuth 2.0 Client Credentials Grant flow</font> use?",
+                "* <font color=\"#e11cbe\">Passwords</font><div>* <font color=\"#e11cbe\">Certificates</font></div>"
             ],
             "flags": 0,
             "guid": "q*ML0{BD7$",
