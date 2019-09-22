@@ -3009,6 +3009,111 @@
                 "AZ-203",
                 "azure-managed-identities"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the two types of data collected by <font color=\"#e11cbe\">Azure Monitor</font>?",
+                "* <font color=\"#e11cbe\">Metrics</font><div>* <font color=\"#e11cbe\">Logs</font></div>"
+            ],
+            "flags": 0,
+            "guid": "Bxsw0o?Hz_",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-performance-monitoring"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the three flavors of Azure <font color=\"#e11cbe\">Insights</font> Monitoring?",
+                "* <font color=\"#e11cbe\">Application</font> Insights<div>* <font color=\"#e11cbe\">Container</font> Insights</div><div>* <font color=\"#e11cbe\">VM</font> Insights</div>"
+            ],
+            "flags": 0,
+            "guid": "Dd;W0VId6&",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-performance-monitoring"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 3 visualization options for monitoring in Azure?",
+                "* <font color=\"#e11cbe\">Dashboards</font><div>* <font color=\"#e11cbe\">Log Views</font></div><div>* <font color=\"#e11cbe\">Power BI</font><br></div>"
+            ],
+            "flags": 0,
+            "guid": "byc+.0>3Oi",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-performance-monitoring"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the Azure PowerShell command to create a <font color=\"#e11cbe\">Resource Group</font>?",
+                "<font color=\"#e11cbe\">New-AzResourceGroup</font> `<br>&nbsp;&nbsp; -<font color=\"#e11cbe\">ResourceGroupName</font> \"myResourceGroupVM\" `<br>&nbsp;&nbsp; -<font color=\"#e11cbe\">Location</font> \"EastUS\""
+            ],
+            "flags": 0,
+            "guid": "b!6<x@Zey7",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How does the command <font color=\"#e11cbe\">Get-Credential</font> apply to creating an Azure VM?",
+                "$<font color=\"#e11cbe\">cred</font> = Get-Credential<div><br></div><div>Copy it into a variable and pass it in to the -<font color=\"#e11cbe\">Credential</font> argument of the <font color=\"#e11cbe\">New-AzVm</font> command.&nbsp; It prevents your password from being visible on the screen at any time.</div>"
+            ],
+            "flags": 0,
+            "guid": "e@P:G|2jE9",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the <font color=\"#e11cbe\">PowerShell</font> command to create a new Azure <font color=\"#e11cbe\">VM</font> (with arguments)?",
+                "<font color=\"#e11cbe\">New-AzVm</font> `<br>&nbsp;&nbsp;&nbsp; -<font color=\"#e11cbe\">ResourceGroupName</font> \"myResourceGroupVM\" `<br>&nbsp;&nbsp;&nbsp; -<font color=\"#e11cbe\">Name</font> \"myVM\" `<br>&nbsp;&nbsp;&nbsp; -<font color=\"#e11cbe\">Location</font> \"EastUS\" `<br>&nbsp;&nbsp;&nbsp; -<font color=\"#e11cbe\">VirtualNetworkName</font> \"myVnet\" `<br>&nbsp;&nbsp;&nbsp; -<font color=\"#e11cbe\">SubnetName</font> \"mySubnet\" `<br>&nbsp;&nbsp;&nbsp; -<font color=\"#e11cbe\">SecurityGroupName</font> \"myNetworkSecurityGroup\" `<br>&nbsp;&nbsp;&nbsp; -<font color=\"#e11cbe\">PublicIpAddressName</font> \"myPublicIpAddress\" `<br>&nbsp;&nbsp;&nbsp; -<font color=\"#e11cbe\">Credential</font> $cred <font color=\"#e11cbe\">// $cred = Get-Credential</font>"
+            ],
+            "flags": 0,
+            "guid": "OQ[D`CUEq_",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the <font color=\"#e11cbe\">mstsc</font> command?",
+                "<font color=\"#e11cbe\">Microsoft Terminal Services Client</font>"
+            ],
+            "flags": 0,
+            "guid": "N^}c;o</Eg",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-virtual-machine"
+            ]
         }
     ]
 }
