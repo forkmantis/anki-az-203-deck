@@ -96,10 +96,7 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                "AZ-203",
-                "azure-virtual-machine"
-            ],
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
@@ -255,8 +252,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is Azure Drive?",
-                "The landing place for Azure CloudShell.<div><br></div><div>It represents your Azure resources as a file system.</div>"
+                "What is <font color=\"#e11cbe\">Azure Drive</font>?",
+                "The landing place for <font color=\"#e11cbe\">Azure CloudShell</font>.<div><br></div><div>It represents your Azure resources <font color=\"#e11cbe\">as a file system</font>.</div>"
             ],
             "flags": 0,
             "guid": "b?tjQI-~Lb",
@@ -360,8 +357,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "How do you create a Network Interface with Azure CLI?",
-                "az network nic create \\<br>&nbsp;--resource-group \"the-group\" \\<br>&nbsp;--name \"the-nic-name\" \\<br>&nbsp;--vnet-name \"the-vnet\" \\<br>&nbsp;--subnet \"the-subnet\" \\<br>&nbsp;--network-security-group \"the-nsg\" \\<br>&nbsp;--public-ip-address \"the-ip-name\""
+                "How do you create a <font color=\"#e11cbe\">Network Interface</font> with <font color=\"#e11cbe\">Azure CLI</font>?",
+                "az <font color=\"#e11cbe\">network nic create</font> \\<br>&nbsp;--<font color=\"#e11cbe\">resource-group</font> \"the-group\" \\<br>&nbsp;--<font color=\"#e11cbe\">name</font> \"the-nic-name\" \\<br>&nbsp;--<font color=\"#e11cbe\">vnet-name</font> \"the-vnet\" \\<br>&nbsp;--<font color=\"#e11cbe\">subnet</font> \"the-subnet\" \\<br>&nbsp;--<font color=\"#e11cbe\">network-security-group</font> \"the-nsg\" \\<br>&nbsp;--<font color=\"#e11cbe\">public-ip-address</font> \"the-ip-name\""
             ],
             "flags": 0,
             "guid": "BK,>7nCMb5",
@@ -375,8 +372,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the Azure CLI command to create a virtual machine (with some common parameters)?",
-                "az vm create \\<br>&nbsp;--resource-group \"the-group\" \\<br>&nbsp;--location \"centralus\" \\<br>&nbsp;--name \"the-vm-name\" \\<br>&nbsp;--nics \"the-nic\" \\<br>&nbsp;--image \"rhel\" \\<br>&nbsp;--admin-username \"admin\" \\<br>&nbsp;--authentication-type \"ssh\" \\<br>&nbsp;--ssh-key-value ~/.ssh/my_key_rsa.pub"
+                "What is the Azure CLI command to <font color=\"#e11cbe\">create a virtual machine</font> (with some common parameters)?",
+                "az <font color=\"#e11cbe\">vm create</font> \\<br>&nbsp;--<font color=\"#e11cbe\">resource-group</font> \"the-group\" \\<br>&nbsp;--<font color=\"#e11cbe\">location</font> \"centralus\" \\<br>&nbsp;--<font color=\"#e11cbe\">name</font> \"the-vm-name\" \\<br>&nbsp;--<font color=\"#e11cbe\">nics</font> \"the-nic\" \\<br>&nbsp;--<font color=\"#e11cbe\">image</font> \"rhel\" \\<br>&nbsp;--<font color=\"#e11cbe\">admin-username</font> \"admin\" \\<br>&nbsp;--<font color=\"#e11cbe\">authentication-type</font> \"ssh\" \\<br>&nbsp;--<font color=\"#e11cbe\">ssh-key-value</font> ~/.ssh/my_key_rsa.pub"
             ],
             "flags": 0,
             "guid": "OO8y((v(6+",
@@ -480,7 +477,7 @@
             "data": "",
             "fields": [
                 "What are the steps involved in creating a custom VM image from a marketplace image?",
-                "* New up a VM using an image from the marketplace<div>* Make your customizations</div><div>* {Generalize,Deprovision} the image</div><div>* Stop and deallocate the VM</div><div>* Mark the image as Generalized</div><div>* Create a custom image</div>"
+                "* New up a VM using an image from the marketplace<div>* Make your customizations</div><div>* use {sysprep,waagent} to remove machine specific data/settings</div><div>* Stop and deallocate the VM</div><div>* Mark the image as Generalized</div><div>* Create a custom image</div>"
             ],
             "flags": 0,
             "guid": "i_o:~(;Wba",
@@ -524,8 +521,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What command do you use to Deallocate (aka Generalize) a Linux VM image?",
-                "sudo waagent -deprovision+user -force<div><br></div><div>After the command is finished, Shutdown and Deallocate the VM.</div>"
+                "What command do you use to <font color=\"#e11cbe\">Deallocate</font> (aka Generalize) a <font color=\"#e11cbe\">Linux</font> VM image?",
+                "sudo <font color=\"#e11cbe\">waagent</font> -<font color=\"#e11cbe\">deprovision</font>+<font color=\"#e11cbe\">user</font> -<font color=\"#e11cbe\">force</font><div><br></div><div>After the command is finished, Shutdown and Deallocate the VM.</div>"
             ],
             "flags": 0,
             "guid": "caKviZ.8r+",
@@ -540,7 +537,7 @@
             "data": "",
             "fields": [
                 "What is the AZ CLI command to deallocate a VM?",
-                "az vm <font color=\"#e11cbe\">deallocate</font> --resource-group \"the-group\" --name \"the-name\""
+                "az vm <font color=\"#e11cbe\">deallocate</font> \\<br>--resource-group \"the-group\" \\<br>--name \"the-name\""
             ],
             "flags": 0,
             "guid": "M7AS_#pViH",
@@ -569,8 +566,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the Azure CLI command for creating a custom vm image?",
-                "az image create \\<div>&nbsp;--resource-group \"the-group\" \\</div><div>&nbsp;--name \"the-name\" \\</div><div>&nbsp;--source \"the-generalized-vm-name\"</div>"
+                "What is the Azure CLI command for <font color=\"#e11cbe\">creating</font> a <font color=\"#e11cbe\">custom vm image</font>?",
+                "az <font color=\"#e11cbe\">image create</font> \\<div>&nbsp;--<font color=\"#e11cbe\">resource-group</font> \"the-group\" \\</div><div>&nbsp;--<font color=\"#e11cbe\">name</font> \"the-name\" \\</div><div>&nbsp;--<font color=\"#e11cbe\">source</font> \"the-generalized-vm-name\"</div>"
             ],
             "flags": 0,
             "guid": "H!BN17;3-I",
@@ -584,8 +581,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the powershell command to change your active subscription in Azure?",
-                "Select-AzSubscription -SubscriptionName \"the name\""
+                "What is the <font color=\"#e11cbe\">powershell</font> command to <font color=\"#e11cbe\">change your active subscription</font> in Azure?",
+                "<font color=\"#e11cbe\">Select-AzSubscription</font> ´<br>  -<font color=\"#e11cbe\">SubscriptionName</font> \"the name\""
             ],
             "flags": 0,
             "guid": "H7U~+E:Hl",
@@ -750,7 +747,7 @@
             "data": "",
             "fields": [
                 "What is Microsoft's recommendation for <font color=\"#e11cbe\">Standard</font>/<font color=\"#e11cbe\">Premium</font> storage, and <font color=\"#e11cbe\">Managed</font>/<font color=\"#e11cbe\">Unmanaged</font> disks?",
-                "For critical production workloads, they recommend Premium and managed disks.<div><br></div><div>For non-critical production workloads and backup scenarios, they recommend standard disks.</div>"
+                "For critical production workloads, they recommend <font color=\"#e11cbe\">Premium</font> and <font color=\"#e11cbe\">managed</font> disks.<div><br></div><div>For non-critical production workloads and backup scenarios, they recommend <font color=\"#e11cbe\">standard</font> disks.</div>"
             ],
             "flags": 0,
             "guid": "zbMFm<^_Lv",
@@ -824,8 +821,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the AZ CLI command to create and attach a virtual disc to a machine",
-                "az vm <font color=\"#e11cbe\">disk attach</font> \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --vm-name \"the-machine\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-disk-name\" \\ #Used to be --disk, but that's being deprecated<br>&nbsp;&nbsp;&nbsp; --new \\<br>&nbsp;&nbsp;&nbsp; --size-gb 25 \\<br>&nbsp;&nbsp;&nbsp; --sku \"Premium_LRS\" # {StandardSSD_LRS, Standard_LRS}"
+                "What is the AZ CLI command to create and <font color=\"#e11cbe\">attach a virtual disc</font> to a <font color=\"#e11cbe\">virtual machine</font>",
+                "az <font color=\"#e11cbe\">vm</font> <font color=\"#e11cbe\">disk attach</font> \\<br>&nbsp;&nbsp;&nbsp; --<font color=\"#e11cbe\">resource-group</font> \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --<font color=\"#e11cbe\">vm-name</font> \"the-machine\" \\<br>&nbsp;&nbsp;&nbsp; --<font color=\"#e11cbe\">name</font> \"the-disk-name\" \\ #Used to be --disk, but that's being deprecated<br>&nbsp;&nbsp;&nbsp; --<font color=\"#e11cbe\">new</font> \\<br>&nbsp;&nbsp;&nbsp; --<font color=\"#e11cbe\">size-gb</font> 25 \\<br>&nbsp;&nbsp;&nbsp; --<font color=\"#e11cbe\">sku</font> \"Premium_LRS\" # {StandardSSD_LRS, Standard_LRS}"
             ],
             "flags": 0,
             "guid": "fu&yk*`oC4",
@@ -1214,8 +1211,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are some ways you can allow network connectivity from your machine to a SQL instance in Azure?",
-                "<div>From the Firewall settings for the database in Azure Portal:&nbsp;</div><div><br></div>* Whitelist the IP you're connecting from ('Add Client IP' button adds your current IP address)<div>* Use Site-to-Site or Point-to-Site connectivity</div>"
+                "What are some ways you can <font color=\"#e11cbe\">allow network connectivity</font> from your machine to a SQL instance in Azure?",
+                "<div>From the <font color=\"#e11cbe\">Firewall settings</font> for the database in Azure Portal:&nbsp;</div><div><br></div>* <font color=\"#e11cbe\">Whitelist the IP</font> you're connecting from ('Add Client IP' button adds your current IP address)<div>* Use <font color=\"#e11cbe\">Site-to-Site</font> or <font color=\"#e11cbe\">Point-to-Site</font> connectivity</div>"
             ],
             "flags": 0,
             "guid": "M$c$AemIxx",
@@ -1379,8 +1376,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are some reasons for setting up Auditing on a SQL server?",
-                "* Regulation Compliance - health regulations, etc<div>* Suspicious Activity - failed logins or injection attempts</div><div>* Unusual Activity or Performance Issues - query failures or long running queries</div>"
+                "What are some reasons for setting up <font color=\"#e11cbe\">Auditing</font> on a SQL server?",
+                "* <font color=\"#e11cbe\">Regulation Compliance</font> - health regulations, etc<div>* <font color=\"#e11cbe\">Suspicious Activit</font>y - failed logins or injection attempts</div><div>* <font color=\"#e11cbe\">Unusual Activity</font> or <font color=\"#e11cbe\">Performance Issues</font> - query failures or long running queries</div>"
             ],
             "flags": 0,
             "guid": "xa@%@:A2Fg",
@@ -1409,8 +1406,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "How can you view Audit Logs from within the Azure portal?",
-                "On the Audit blade of your database, there is a \"View Audit Logs\" button on the top of the page that will give you an overview and allow you to drill down further."
+                "How can you view <font color=\"#e11cbe\">Audit Logs</font> for sql databases from within the Azure portal?",
+                "On the <font color=\"#e11cbe\">Audit</font> blade of your database, there is a \"<font color=\"#e11cbe\">View Audit Logs</font>\" button on the top of the page that will give you an overview and allow you to drill down further."
             ],
             "flags": 0,
             "guid": "tok~wTSW$R",
@@ -1589,7 +1586,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "In Azure Storage, when using Locally Redundant Storage (LRS), How many copies of your data are stored in the selected data center?",
+                "In Azure Storage, when using <font color=\"#e11cbe\">Locally Redundant Storage</font> (<font color=\"#e11cbe\">LRS</font>), How many copies of your data are stored in the selected data center?",
                 "3"
             ],
             "flags": 0,
@@ -1635,7 +1632,7 @@
             "data": "",
             "fields": [
                 "When using Geo-redundant storage (GRS), how is your data stored?",
-                "3 copies in a data center in your chosen region, and 3 copies in a data center in another data center in a different region.&nbsp;&nbsp;<div><br></div><div>The data in the backup data center is only accessible in the event of a failover.</div>"
+                "3 copies in a data center in your chosen region, and 3 copies in a data center in a different region.&nbsp;&nbsp;<div><br></div><div>The data in the backup data center is only accessible in the event of a failover.</div>"
             ],
             "flags": 0,
             "guid": "Rg!QWHka`k",
@@ -2234,7 +2231,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is WS-Federation?",
+                "What is <font color=\"#e11cbe\">WS-Federation</font>?",
                 "An older protocol using a redirect flow where, as an anonymous user, you are redirected to an authenticator site that will authenticate you, and then send you back with SAML to prove your identity"
             ],
             "flags": 0,
@@ -2684,7 +2681,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are 3 common Autoscale options in Azure VM Scale Sets (VMSS)?",
+                "What are 3 common <font color=\"#e11cbe\">Autoscale</font> options in <font color=\"#e11cbe\">Azure VM Scale Sets</font> (<font color=\"#e11cbe\">VMSS</font>)?",
                 "* Scheduled<div>* Manual</div><div>* Metric based</div>"
             ],
             "flags": 0,
@@ -2864,8 +2861,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the cost of Azure Managed Identities?",
-                "They are free with your Azure AD for Azure subscriptions."
+                "What is the cost of <font color=\"#e11cbe\">Azure Managed Identities</font>?",
+                "They are <font color=\"#e11cbe\">free</font> with your <font color=\"#e11cbe\">Azure AD for Azure</font> subscriptions."
             ],
             "flags": 0,
             "guid": "evu<kK]:!+",
@@ -2894,7 +2891,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What does an Azure Resource have access to by default when you enable Managed Identity on it?",
+                "What does an <font color=\"#e11cbe\">Azure Resource</font> have access to by default when you enable <font color=\"#e11cbe\">Managed Identity</font> on it?",
                 "Nothing."
             ],
             "flags": 0,
@@ -3113,6 +3110,141 @@
             "tags": [
                 "AZ-203",
                 "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In <font color=\"#e11cbe\">Azure Alerts</font>, what is the action type <font color=\"#e11cbe\">ITSM</font> an acronym for?",
+                "<font color=\"#e11cbe\">IT Service Management</font> such as Service Now or System Center Service Manager"
+            ],
+            "flags": 0,
+            "guid": "rkdZ,fzP5v",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-performance-monitoring"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In <font color=\"#e11cbe\">Azure Alerts</font>, how many actions can you have for each <font color=\"#e11cbe\">Action Group</font>?",
+                "Up to <font color=\"#e11cbe\">10</font>"
+            ],
+            "flags": 0,
+            "guid": "y9(cnOxk1",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-performance-monitoring"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What 2 ways can you add <font color=\"#e11cbe\">Application Insights</font> to an Azure app service?",
+                "* Enable in the <font color=\"#e11cbe\">Azure Portal</font> (adds extension to the app service)<div>* Enable explicitly in <font color=\"#e11cbe\">application code</font> (more control)</div>"
+            ],
+            "flags": 0,
+            "guid": "m2uSW90LX-",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-performance-monitoring"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are <font color=\"#e11cbe\">Workbooks</font> (in Azure Application Insights)",
+                "Workbooks combine <font color=\"#e11cbe\">text</font>, Analytics <font color=\"#e11cbe\">queries</font>, Azure <font color=\"#e11cbe\">Metrics</font>, and <font color=\"#e11cbe\">parameters</font> into rich interactive reports.&nbsp;<br>"
+            ],
+            "flags": 0,
+            "guid": "f[Vw1E!x<>",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-performance-monitoring"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What information do you need in your app to send data to <font color=\"#e11cbe\">Application Insights</font>?",
+                "an <font color=\"#e11cbe\">Instrumentation Key</font>"
+            ],
+            "flags": 0,
+            "guid": "zf7Y.l%5`^",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-application-insights"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which property correlates UI requests to the server's service handlers in the <font color=\"#e11cbe\">Application Insights SDK</font>?",
+                "<font color=\"#e11cbe\">operation_id</font>"
+            ],
+            "flags": 0,
+            "guid": "u11iSKc<@+",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-application-insights"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How is your Azure bill for <font color=\"#e11cbe\">Application Insights</font> calculated?",
+                "Per <font color=\"#e11cbe\">GB</font> of data ingested above 5 GB"
+            ],
+            "flags": 0,
+            "guid": "p#@h6$:R+A",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-application-insights"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which Application Insights SDK property controls the display name of a component in <font color=\"#e11cbe\">Application Map</font>?",
+                "<font color=\"#e11cbe\">cloud_rolename</font>"
+            ],
+            "flags": 0,
+            "guid": "ga_(aO#^(7",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-application-insights"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What 8 methods are available on the Azure Application Insights API for <font color=\"#e11cbe\">custom events</font> and <font color=\"#e11cbe\">metrics</font>?",
+                "* TrackPageView<br><div>* TrackEvent</div><div>* GetMetric</div><div>* TrackMetric</div><div>* TrackException</div><div>* TrackRequest</div><div>* TrackTrace</div><div>* TrackDependency</div>"
+            ],
+            "flags": 0,
+            "guid": "QpUGOck,(g",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-application-insights"
             ]
         }
     ]
