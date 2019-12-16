@@ -96,7 +96,10 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [],
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ],
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
@@ -212,21 +215,6 @@
             ],
             "flags": 0,
             "guid": "J^.ytVf`je",
-            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
-            "tags": [
-                "AZ-203",
-                "azure-virtual-machine"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "How do you install the Azure commandlets into Powershell?",
-                "todo: update or delete in favor of the AZ one.<br><br>Install-Module AzureRM<div><br></div><div>The Azure module (as opposed to AzureRM) uses the classic deployment model, not the preferred Resource Manager deployment model.</div>"
-            ],
-            "flags": 0,
-            "guid": "M2)M%L_R<1",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -388,7 +376,7 @@
             "data": "",
             "fields": [
                 "How do you open port 22 on a virtual machine using Azure CLI?",
-                "az vm <font color=\"#e11cbe\">open-port</font> \\<br>&nbsp;--resource-group \"the-group\" \\<br>&nbsp;--name \"the-vm-name\" \\<br>&nbsp;--port \"22\""
+                "az <font color=\"#e11cbe\">vm</font> <font color=\"#e11cbe\">open-port</font> \\<br>&nbsp;<font color=\"#e11cbe\">--resource-group</font> \"the-group\" \\<br>&nbsp;<font color=\"#e11cbe\">--name</font> \"the-vm-name\" \\<br>&nbsp;<font color=\"#e11cbe\">--port</font> \"22\""
             ],
             "flags": 0,
             "guid": "KaOXMh<2[b",
@@ -597,7 +585,7 @@
             "data": "",
             "fields": [
                 "What is the powershell command to get an Azure VM's status?",
-                "Get-AzVM `<div>-ResourceGroupName \"the group\" `</div><div>-Name \"the name\" `</div><div>-Status</div>"
+                "<font color=\"#e11cbe\">Get-AzVM</font> `<div>-<font color=\"#e11cbe\">ResourceGroupName</font> \"the group\" `</div><div>-<font color=\"#e11cbe\">Name</font> \"the name\" `</div><div>-<font color=\"#e11cbe\">Status</font></div>"
             ],
             "flags": 0,
             "guid": "AC|3ykEub,",
@@ -641,7 +629,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are the two tiers of storage in Azure?",
+                "What are the two tiers of disk storage in Azure?",
                 "<font color=\"#e11cbe\">Standard</font> - magnetic media<div><font color=\"#e11cbe\">Premium</font> - SSD</div>"
             ],
             "flags": 0,
@@ -866,8 +854,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the AZ CLI command for detaching a virtual disk from a VM?",
-                "az <font color=\"#e11cbe\">vm disk detach</font> \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --vm-name \"the-vm-name\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-disk-name\""
+                "What is the <font color=\"#e11cbe\">AZ CLI</font> command for detaching a virtual disk from a VM?",
+                "az <font color=\"#e11cbe\">vm disk detach</font> \\<br>&nbsp;&nbsp;&nbsp; <font color=\"#e11cbe\">--resource-group</font> \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; <font color=\"#e11cbe\">--vm-name</font> \"the-vm-name\" \\<br>&nbsp;&nbsp;&nbsp; <font color=\"#e11cbe\">--name</font> \"the-disk-name\""
             ],
             "flags": 0,
             "guid": "G1y=n)`)h)",
@@ -881,8 +869,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the AZ CLI command for deleting a virtual disk?",
-                "az disk delete \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-disk-name\""
+                "What is the <font color=\"#e11cbe\">AZ CLI</font> command for deleting a virtual disk?",
+                "az <font color=\"#e11cbe\">disk delete</font> \\<br>&nbsp;&nbsp;&nbsp; <font color=\"#e11cbe\">--resource-group</font> \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; <font color=\"#e11cbe\">--name</font> \"the-disk-name\""
             ],
             "flags": 0,
             "guid": "zu?0U3k`-R",
@@ -912,7 +900,7 @@
             "data": "",
             "fields": [
                 "What is the Azure CLI command for creating a virtual disk snapshot?",
-                "az snapshot create \\<br>&nbsp;&nbsp;&nbsp; --resource-group \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --source \"the-virtual-disk-name-from-az-disk-list\" \\<br>&nbsp;&nbsp;&nbsp; --name \"the-name-of-the-snapshot\""
+                "az <font color=\"#e11cbe\">snapshot create</font> \\<br>&nbsp;&nbsp;&nbsp; --<font color=\"#e11cbe\">resource-group</font> \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --<font color=\"#e11cbe\">source</font> \"the-virtual-disk-name-from-az-disk-list\" \\<br>&nbsp;&nbsp;&nbsp; --<font color=\"#e11cbe\">name</font> \"the-name-of-the-snapshot\""
             ],
             "flags": 0,
             "guid": "s?;TL)JcR;",
@@ -1781,7 +1769,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What URL pattern let's you list the blobs in an Azure blob container?",
+                "What URL parameter lets you list the blobs in an Azure blob container?",
                 "http{,s}://[storage-acct-name].blob.core.windows.net/[container-name]<font color=\"#e11cbe\">?comp=list</font>"
             ],
             "flags": 0,
@@ -3245,6 +3233,291 @@
             "tags": [
                 "AZ-203",
                 "azure-application-insights"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The four tenants of Cloud Computing",
+                "* Resources available On Demand<div>* Self Service</div><div>* Massive Scalability</div><div>* Consumption based Billing</div>"
+            ],
+            "flags": 0,
+            "guid": "FWvxC6zZwL",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the <font color=\"#e11cbe\">3 core features</font> of Azure Batch?",
+                "* <font color=\"#e11cbe\">Resource Management</font><div>* <font color=\"#e11cbe\">Process Management</font></div><div>* Resource and Process <font color=\"#e11cbe\">Monitoring</font></div>"
+            ],
+            "flags": 0,
+            "guid": "p%O#][$,Lp",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How much does it cost to use <font color=\"#e11cbe\">Azure Batch</font>?",
+                "<font color=\"#e11cbe\">Azure Batch</font> is free to use.&nbsp; The only charge is the <font color=\"#e11cbe\">processing</font> consumed."
+            ],
+            "flags": 0,
+            "guid": "LhKi_D&beI",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What 3 kinds of resources can be added to an Azure Batch Account?",
+                "* Pools<div>* Applications</div><div>* Certificates</div>"
+            ],
+            "flags": 0,
+            "guid": "c!_:$MgL}.",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What file type can be uploaded for an Azure Batch Application?",
+                "Zip files"
+            ],
+            "flags": 0,
+            "guid": "BgP_7^W{?T",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What 3 things can Azure Batch use Storage Accounts for?",
+                "<div>* Resource files to be used by a job</div>* Input files to be processed by the batches<div>* Output files processed by the batches</div>"
+            ],
+            "flags": 0,
+            "guid": "APyLXv[EgA",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Azure Batch, a Job is a collection of?",
+                "Tasks, which are one unit of processing of the overall Job."
+            ],
+            "flags": 0,
+            "guid": "IRw#9zUH{u",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 4 core features of Azure Batch Resource Management?",
+                "* Managing nodes<div>* Auto scaling</div><div>* Low priority nodes</div><div>* Applications</div>"
+            ],
+            "flags": 0,
+            "guid": "C^+^IMTt#%",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What 3 types of nodes can be utilized in Azure Batch?",
+                "* Cloud Service Worker Roles<div>* Virtual Machines</div><div>* Third Party Applications</div>"
+            ],
+            "flags": 0,
+            "guid": "j@cuSAki|T",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "&nbsp;As of June 2019, how much do Azure Batch VM Compute Hours cost?",
+                "Around $<font color=\"#e11cbe\">0.18</font> per hour"
+            ],
+            "flags": 0,
+            "guid": "FRzH5W8k,i",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some common third party applications that can be used by Azure Batch?",
+                "3d rendering applications, like Autodesk Maya and 3ds Max"
+            ],
+            "flags": 0,
+            "guid": "AAjdSq?}y]",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "As far as Azure Batch resources go, why are VMs generally preferable to Cloud Service Worker Roles?",
+                "* VMs are stateful IaaS as opposed to stateless PaaS<div>* VMs give you full control to the OS</div><div>* VMs give you permanent storage</div><div>* VMs give you full customization</div>"
+            ],
+            "flags": 0,
+            "guid": "sd%@u>36pI",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some of the metrics that Azure Batch Autoscaling can respond to?",
+                "* CPU Percentage<div>* Memory usage</div><div>* # Active Tasks</div><div>* # Running Tasks<br>* # Pending Tasks</div><div>* # Failed Tasks</div>"
+            ],
+            "flags": 0,
+            "guid": "Ab{shgS}[G",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the significance of <font color=\"#e11cbe\">Low Priority Nodes</font> in Azure Batch?",
+                "Costs can be reduced by using machines during idle time, at the tradeoff of having to wait longer for them to be available."
+            ],
+            "flags": 0,
+            "guid": "pnuRbmU;NE",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Azure Batch, Applications can be owned by what 2 things?",
+                "* Pools, which means they'll be deployed to every node in the pool<div>* Tasks, meaning they'll only be deployed to nodes running that task</div>"
+            ],
+            "flags": 0,
+            "guid": "n<xF8ZM%gb",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What 4 things can Azure Batch manage in regards to Jobs and Tasks?",
+                "* Scheduling<div>* Job Prioritization</div><div>* Retries on failure</div><div>* Maximum task duration</div><div>* Task Dependencies</div>"
+            ],
+            "flags": 0,
+            "guid": "N+F~D!rP~<",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Azure Batch, what are Multi-Instance Tasks?",
+                "Tasks that run on multiple nodes, with a primary and one ore more subtasks"
+            ],
+            "flags": 0,
+            "guid": "Lz8k)<wS(|",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How do Azure Batch Multi-Instance Tasks communicate with each other?",
+                "* <font color=\"#e11cbe\">Inter-node communication</font> must be enabled on the pool<div>* They use the <font color=\"#e11cbe\">Message Passing Interface</font> (<font color=\"#e11cbe\">MPI</font>)</div>"
+            ],
+            "flags": 0,
+            "guid": "M;Gj[F&cQ)",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which tools can be used to monitor Resources and Processes in Azure Batch?",
+                "* Azure Portal<div>* Batch Labs Monitoring (destop application)</div><div>* Application Insights</div><div>* API Metrics through REST, .NET, Az Cli, Az Powershell</div>"
+            ],
+            "flags": 0,
+            "guid": "E0;$~9o;Mg",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
             ]
         }
     ]
