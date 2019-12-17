@@ -3456,6 +3456,7 @@
             "guid": "n<xF8ZM%gb",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
+                "add-highlights",
                 "AZ-203",
                 "azure-batch"
             ]
@@ -3514,6 +3515,186 @@
             ],
             "flags": 0,
             "guid": "E0;$~9o;Mg",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is <font color=\"#e11cbe\">Azure Batch Labs</font>?",
+                "A cross platform, open source desktop application for interacting with Azure Batch."
+            ],
+            "flags": 0,
+            "guid": "tnvMFjo5>-",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What tools can you use to work with or integrate with Azure Batch?",
+                "* Azure Portal<div>* Azure Batch Labs (Desktop Application)</div><div>* .NET applications via Azure.Batch NuGet package</div><div>* AZ Cli</div><div>* Powershell (w/ AzureRM.Batch module)</div>"
+            ],
+            "flags": 0,
+            "guid": "Dp2CmX%Zl2",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "&nbsp;What are the Azure Batch limits on Accounts Per Region Per Subscription?",
+                "1-3 default<div>50 by asking MS Support</div>"
+            ],
+            "flags": 0,
+            "guid": "H(P<]ZNrUH",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "&nbsp;What are the Azure Batch limits on {<font color=\"#e11cbe\">Dedicated,Low Priority</font>} Cores per Batch Account?",
+                "10-100 default<br>Unspecified by calling MS Support"
+            ],
+            "flags": 0,
+            "guid": "I^fAqm?X|]",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the limit on Active Jobs and Job Schedules per Batch Account?",
+                "100-300 Default<div>5,000 by calling MS Support</div>"
+            ],
+            "flags": 0,
+            "guid": "I`lT-l].{7",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the limit on Pools per Batch Account?",
+                "20-100 default<div>2,500 by calling MS Support</div>"
+            ],
+            "flags": 0,
+            "guid": "i~tL^#l3Vp",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the Azure Batch limits on concurrent tasks per compute node?",
+                "4x node cores"
+            ],
+            "flags": 0,
+            "guid": "m5!6KvUGxH",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the Azure Batch limits on Applications per Batch Account?",
+                "20"
+            ],
+            "flags": 0,
+            "guid": "q^(`$vHtQc",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the Azure Batch limits on Application Packages per application?",
+                "40"
+            ],
+            "flags": 0,
+            "guid": "q>Gmz{UHdx",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the Azure Batch limits on Application Package Size?",
+                "~195GB"
+            ],
+            "flags": 0,
+            "guid": "m#8cfpWa|l",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the Azure Batch limits on Maximum Lifetime for processing jobs and why?",
+                "7 days, because it uses Azure Queues behind the scenes."
+            ],
+            "flags": 0,
+            "guid": "m&vTH@^Cr_",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the Azure Batch limits on Compute Nodes in Inter-Node Communication Enabled Pool?",
+                "100"
+            ],
+            "flags": 0,
+            "guid": "bbL$PZ>k.L",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
