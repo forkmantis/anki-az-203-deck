@@ -97,8 +97,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "AZ-203",
-                "azure-batch"
+                "dotfiles"
             ],
             "tmpls": [
                 {
@@ -3284,8 +3283,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What 3 kinds of resources can be added to an Azure Batch Account?",
-                "* Pools<div>* Applications</div><div>* Certificates</div>"
+                "What 3 kinds of resources can be added to an <font color=\"#e11cbe\">Azure Batch Account</font>?",
+                "* <font color=\"#e11cbe\">Pools</font><div>* <font color=\"#e11cbe\">Applications</font></div><div>* <font color=\"#e11cbe\">Certificates</font></div>"
             ],
             "flags": 0,
             "guid": "c!_:$MgL}.",
@@ -3314,8 +3313,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What 3 things can Azure Batch use Storage Accounts for?",
-                "<div>* Resource files to be used by a job</div>* Input files to be processed by the batches<div>* Output files processed by the batches</div>"
+                "What 3 things can Azure Batch use <font color=\"#e11cbe\">Storage Accounts</font> for?",
+                "<div>* <font color=\"#e11cbe\">Resource files</font> to be used by a job</div>* <font color=\"#e11cbe\">Input files</font> to be processed by the batches<div>* <font color=\"#e11cbe\">Output files</font> processed by the batches</div>"
             ],
             "flags": 0,
             "guid": "APyLXv[EgA",
@@ -3344,7 +3343,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are the 4 core features of Azure Batch Resource Management?",
+                "What are the 4 core features of Azure Batch <font color=\"#e11cbe\">Resource Management</font>?",
                 "* Managing nodes<div>* Auto scaling</div><div>* Low priority nodes</div><div>* Applications</div>"
             ],
             "flags": 0,
@@ -3449,14 +3448,13 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "In Azure Batch, Applications can be owned by what 2 things?",
-                "* Pools, which means they'll be deployed to every node in the pool<div>* Tasks, meaning they'll only be deployed to nodes running that task</div>"
+                "In Azure Batch, <font color=\"#e11cbe\">Applications</font> can be owned by what 2 things?",
+                "* <font color=\"#e11cbe\">Pools</font>, which means they'll be deployed to every node in the pool<div>* <font color=\"#e11cbe\">Tasks</font>, meaning they'll only be deployed to nodes running that task</div>"
             ],
             "flags": 0,
             "guid": "n<xF8ZM%gb",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
-                "add-highlights",
                 "AZ-203",
                 "azure-batch"
             ]
@@ -3465,8 +3463,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What 4 things can Azure Batch manage in regards to Jobs and Tasks?",
-                "* Scheduling<div>* Job Prioritization</div><div>* Retries on failure</div><div>* Maximum task duration</div><div>* Task Dependencies</div>"
+                "What 5 things can Azure Batch manage in regards to <font color=\"#e11cbe\">Jobs</font> and <font color=\"#e11cbe\">Tasks</font>?",
+                "* <font color=\"#e11cbe\">Scheduling</font><div>* Job <font color=\"#e11cbe\">Prioritization</font></div><div>* <font color=\"#e11cbe\">Retries</font> on failure</div><div>* Maximum task <font color=\"#e11cbe\">duration</font></div><div>* Task <font color=\"#e11cbe\">Dependencies</font></div>"
             ],
             "flags": 0,
             "guid": "N+F~D!rP~<",
@@ -3570,7 +3568,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "&nbsp;What are the Azure Batch limits on {<font color=\"#e11cbe\">Dedicated,Low Priority</font>} Cores per Batch Account?",
+                "&nbsp;What are the Azure Batch limits on {<font color=\"#e11cbe\">Dedicated,Low Priority</font>} <font color=\"#e11cbe\">Cores</font> per Batch Account?",
                 "10-100 default<br>Unspecified by calling MS Support"
             ],
             "flags": 0,
@@ -3585,8 +3583,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the limit on Active Jobs and Job Schedules per Batch Account?",
-                "100-300 Default<div>5,000 by calling MS Support</div>"
+                "What is the limit on <font color=\"#e11cbe\">Active Jobs</font> and <font color=\"#e11cbe\">Job Schedules</font> per <font color=\"#e11cbe\">Batch Account</font>?",
+                "<font color=\"#e11cbe\">100-300</font> Default<div><font color=\"#e11cbe\">5,000</font> by calling MS Support</div>"
             ],
             "flags": 0,
             "guid": "I`lT-l].{7",
@@ -3600,8 +3598,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is the limit on Pools per Batch Account?",
-                "20-100 default<div>2,500 by calling MS Support</div>"
+                "What is the limit on <font color=\"#e11cbe\">Pools</font> per <font color=\"#e11cbe\">Batch Account</font>?",
+                "<font color=\"#e11cbe\">20-100</font> default<div><font color=\"#e11cbe\">2,500</font> by calling MS Support</div>"
             ],
             "flags": 0,
             "guid": "i~tL^#l3Vp",
@@ -3630,8 +3628,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are the Azure Batch limits on Applications per Batch Account?",
-                "20"
+                "What are the Azure Batch limits on <font color=\"#e11cbe\">Applications</font> per <font color=\"#e11cbe\">Batch Account</font>?",
+                "<font color=\"#e11cbe\">20</font>"
             ],
             "flags": 0,
             "guid": "q^(`$vHtQc",
@@ -3645,8 +3643,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are the Azure Batch limits on Application Packages per application?",
-                "40"
+                "What are the Azure Batch limits on <font color=\"#e11cbe\">Application Packages</font> per <font color=\"#e11cbe\">application</font>?",
+                "<font color=\"#e11cbe\">40</font>"
             ],
             "flags": 0,
             "guid": "q>Gmz{UHdx",
