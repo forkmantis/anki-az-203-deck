@@ -97,7 +97,8 @@
             ],
             "sortf": 0,
             "tags": [
-                "dotfiles"
+                "AZ-203",
+                "azure-functions"
             ],
             "tmpls": [
                 {
@@ -869,7 +870,7 @@
             "data": "",
             "fields": [
                 "What is the <font color=\"#e11cbe\">AZ CLI</font> command for deleting a virtual disk?",
-                "az <font color=\"#e11cbe\">disk delete</font> \\<br>&nbsp;&nbsp;&nbsp; <font color=\"#e11cbe\">--resource-group</font> \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; <font color=\"#e11cbe\">--name</font> \"the-disk-name\""
+                "az <font color=\"#e11cbe\">disk delete</font> \\<br>&nbsp;&nbsp;&nbsp; --<font color=\"#e11cbe\">resource-group</font> \"the-group\" \\<br>&nbsp;&nbsp;&nbsp; --<font color=\"#e11cbe\">name</font> \"the-disk-name\""
             ],
             "flags": 0,
             "guid": "zu?0U3k`-R",
@@ -2953,8 +2954,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What is Azure Instance Metadata Service (IMDS)?",
-                "It's a REST endpoint available to all IaaS VMs that can provide information such as:<div><br></div><div>* SKU</div><div>* Networking Configuration</div><div>* Upcoming Maintenance Events</div>"
+                "What is Azure <font color=\"#e11cbe\">Instance Metadata Service</font> (<font color=\"#e11cbe\">IMDS</font>)?",
+                "It's a <font color=\"#e11cbe\">REST</font> endpoint available to all <font color=\"#e11cbe\">IaaS VM</font>s that can provide information such as:<div><br></div><div>* SKU</div><div>* Networking Configuration</div><div>* Upcoming Maintenance Events</div>"
             ],
             "flags": 0,
             "guid": "FcHIMl{~7_",
@@ -3403,8 +3404,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "As far as Azure Batch resources go, why are VMs generally preferable to Cloud Service Worker Roles?",
-                "* VMs are stateful IaaS as opposed to stateless PaaS<div>* VMs give you full control to the OS</div><div>* VMs give you permanent storage</div><div>* VMs give you full customization</div>"
+                "As far as Azure Batch resources go, why are <font color=\"#e11cbe\">VM</font>s generally preferable to <font color=\"#e11cbe\">Cloud Service Worker Roles</font>?",
+                "* VMs are <font color=\"#e11cbe\">stateful</font> IaaS as opposed to stateless PaaS<div>* VMs give you <font color=\"#e11cbe\">full control</font> to the OS</div><div>* VMs give you <font color=\"#e11cbe\">permanent storage</font></div><div>* VMs give you <font color=\"#e11cbe\">full customization</font></div>"
             ],
             "flags": 0,
             "guid": "sd%@u>36pI",
@@ -3478,15 +3479,15 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "In Azure Batch, what are Multi-Instance Tasks?",
-                "Tasks that run on multiple nodes, with a primary and one ore more subtasks"
+                "In Azure Batch, what are <font color=\"#e11cbe\">Multi-Instance Tasks</font>?",
+                "Tasks that run on <font color=\"#e11cbe\">multiple nodes</font>, with a <font color=\"#e11cbe\">primary</font> and one or more <font color=\"#e11cbe\">subtasks</font>"
             ],
             "flags": 0,
             "guid": "Lz8k)<wS(|",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
-                "azure-batch"
+                "zure-batch"
             ]
         },
         {
@@ -3553,8 +3554,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "&nbsp;What are the Azure Batch limits on Accounts Per Region Per Subscription?",
-                "1-3 default<div>50 by asking MS Support</div>"
+                "What are the Azure Batch limits on <font color=\"#e11cbe\">Accounts</font> Per <font color=\"#e11cbe\">Region</font> Per <font color=\"#e11cbe\">Subscription</font>?",
+                "<font color=\"#e11cbe\">1</font>-<font color=\"#e11cbe\">3</font> default<div><font color=\"#e11cbe\">50</font> by asking MS Support</div>"
             ],
             "flags": 0,
             "guid": "H(P<]ZNrUH",
@@ -3569,7 +3570,7 @@
             "data": "",
             "fields": [
                 "&nbsp;What are the Azure Batch limits on {<font color=\"#e11cbe\">Dedicated,Low Priority</font>} <font color=\"#e11cbe\">Cores</font> per Batch Account?",
-                "10-100 default<br>Unspecified by calling MS Support"
+                "<font color=\"#e11cbe\">10</font>-<font color=\"#e11cbe\">100</font> default<br><font color=\"#e11cbe\">Unspecified</font> by calling MS Support"
             ],
             "flags": 0,
             "guid": "I^fAqm?X|]",
@@ -3606,15 +3607,16 @@
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
-                "azure-batch"
+                "azure-batch",
+                "leech"
             ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are the Azure Batch limits on concurrent tasks per compute node?",
-                "4x node cores"
+                "What are the Azure Batch limits on <font color=\"#e11cbe\">concurrent tasks</font> per <font color=\"#e11cbe\">compute node</font>?",
+                "<font color=\"#e11cbe\">4</font>&nbsp;per core on the nodes"
             ],
             "flags": 0,
             "guid": "m5!6KvUGxH",
@@ -3673,8 +3675,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are the Azure Batch limits on Maximum Lifetime for processing jobs and why?",
-                "7 days, because it uses Azure Queues behind the scenes."
+                "What are the Azure Batch limits on <font color=\"#e11cbe\">Maximum Lifetime</font> for processing jobs and why?",
+                "<font color=\"#e11cbe\">7</font> days, because it uses <font color=\"#e11cbe\">Azure Queues</font> behind the scenes."
             ],
             "flags": 0,
             "guid": "m&vTH@^Cr_",
@@ -3688,8 +3690,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are the Azure Batch limits on Compute Nodes in Inter-Node Communication Enabled Pool?",
-                "100"
+                "What are the Azure Batch limits on <font color=\"#e11cbe\">Compute Nodes</font> in <font color=\"#e11cbe\">Inter-Node Communication Enabled Pool</font>?",
+                "<font color=\"#e11cbe\">100</font>"
             ],
             "flags": 0,
             "guid": "bbL$PZ>k.L",
@@ -3697,6 +3699,216 @@
             "tags": [
                 "AZ-203",
                 "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some considerations you should make when choosing a <font color=\"#e11cbe\">VM</font> for an <font color=\"#e11cbe\">Azure Batch</font> job?",
+                "* Have an idea of the balance of <font color=\"#e11cbe\">CPU</font>, <font color=\"#e11cbe\">IO</font> and <font color=\"#e11cbe\">Memory</font> your task requires<div>* Is it possible to use <font color=\"#e11cbe\">caching</font> to combat high IO?</div><div>* Are there <font color=\"#e11cbe\">task dependencies</font> that might leave some nodes idle waiting on others to finish?</div>"
+            ],
+            "flags": 0,
+            "guid": "LsG&fk3<b2",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What <font color=\"#e11cbe\">NuGet</font> package contains the Client Library for <font color=\"#e11cbe\">Azure Batch</font>?",
+                "<font color=\"#e11cbe\">Azure</font>.<font color=\"#e11cbe\">Batch</font>"
+            ],
+            "flags": 0,
+            "guid": "P3I#>B;W2U",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Azure Batch, what is the difference between the <font color=\"#e11cbe\">Packed</font> and <font color=\"#e11cbe\">Spread</font> options in the <font color=\"#e11cbe\">Task Scheduling Policy</font>?",
+                "<font color=\"#e11cbe\">Packed</font> will maximuze use of 1 CPU core before assigning tasks to another core.<div><br></div><div><font color=\"#e11cbe\">Spread</font> will try to keep tasks evenly distributed across cores.</div>"
+            ],
+            "flags": 0,
+            "guid": "L)<3pvIm<r",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Azure Batch <font color=\"#e11cbe\">Autoscale Formulas</font>, what <font color=\"#e11cbe\">read/write variables</font> do you set to control the number of nodes in your pool?",
+                "$<font color=\"#e11cbe\">TargetDedicatedNodes</font><div>$<font color=\"#e11cbe\">TargetLowPriorityNodes</font></div>"
+            ],
+            "flags": 0,
+            "guid": "Cp2lvpOfK",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the <font color=\"#e11cbe\">Powershell</font> command to create an Azure <font color=\"#e11cbe\">Batch Account</font>?",
+                "<font color=\"#e11cbe\">New-AzBatchAccount</font> `<div>&nbsp; -<font color=\"#e11cbe\">AccountName</font> \"theName\" `</div><div>&nbsp; -<font color=\"#e11cbe\">Location</font> \"theLocation\" `</div><div>&nbsp; -<font color=\"#e11cbe\">ResourceGroupName</font> \"theResourceGroupName\"</div>"
+            ],
+            "flags": 0,
+            "guid": "EO28F$.ml<",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In <font color=\"#e11cbe\">Azure Batch</font>, regarding <font color=\"#e11cbe\">Job</font>, <font color=\"#e11cbe\">Pool</font> and <font color=\"#e11cbe\">Tasks</font>, which order must you create these resources in?",
+                "Pool<div>Job</div><div>Tasks</div>"
+            ],
+            "flags": 0,
+            "guid": "uI6!JUO?zt",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-batch"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What <font color=\"#e11cbe\">Runtime Stacks</font> are supported in Azure Functions as of Jan 2020?",
+                "<div>dotnet core</div><div>Node.JS</div><div>Java</div><div>Python</div><div>Powershell Core</div>"
+            ],
+            "flags": 0,
+            "guid": "O&K{2QmPr$",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some popular <font color=\"#e11cbe\">triggers</font> for <font color=\"#e11cbe\">Azure Functions</font>?",
+                "Timer<div>Queue Message</div><div>HTTP Requests</div>"
+            ],
+            "flags": 0,
+            "guid": "B(?;6WBO79",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are <font color=\"#e11cbe\">Bindings</font> in regards to <font color=\"#e11cbe\">Azure Functions</font>?",
+                "Bindings allow you to <font color=\"#e11cbe\">use other Azure Resources</font> (Queue, Cosmos DB, Blob Storage, etc) as either inputs or outputs <font color=\"#e11cbe\">without writing boilerplate code</font>.&nbsp; Instead, you configure input and output bindings for the function app."
+            ],
+            "flags": 0,
+            "guid": "Qi.+imD9|s",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 3 benefits you gain from the <font color=\"#e11cbe\">Serverless Architecture</font> behind <font color=\"#e11cbe\">Azure Functions</font>?",
+                "* Servers are abstracted away from you (managed, patched, etc)<div>* Consumption based billing</div><div>* Auto Scaling</div>"
+            ],
+            "flags": 0,
+            "guid": "qn9)611Zw}",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 3 <font color=\"#e11cbe\">hosting models</font> available in Azure Functions?",
+                "* Consumption Plan<div>* App Service Plan</div><div>* Docker Container</div>"
+            ],
+            "flags": 0,
+            "guid": "g.i,N7{^q_",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 3 <font color=\"#e11cbe\">development environments</font> for <font color=\"#e11cbe\">Azure Functions</font>?",
+                "* Azure Portal<div>* Visual Studio (2017 or newer)</div><div>* Azure Functions Core Tools (cross platform)</div>"
+            ],
+            "flags": 0,
+            "guid": "t1=N1o~A^@",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Azure Functions, what is the distinction between a <font color=\"#e11cbe\">Function App</font> and a <font color=\"#e11cbe\">Function</font>?",
+                "A <font color=\"#e11cbe\">Function App</font> is a unit of deployment that is a grouping of <font color=\"#e11cbe\">functions</font>.&nbsp; It can contain one or more functions, and holds a common configuration shared by its functions."
+            ],
+            "flags": 0,
+            "guid": "APAieS{*Lf",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Can you develop <font color=\"#e11cbe\">Azure Functions</font> with Visual <font color=\"#e11cbe\">Studio Community Edition</font>?",
+                "<font color=\"#e11cbe\">Yes</font>"
+            ],
+            "flags": 0,
+            "guid": "A8Tsm3WPY}",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
             ]
         }
     ]
