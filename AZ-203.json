@@ -3910,6 +3910,201 @@
                 "AZ-203",
                 "azure-functions"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a primary difference between <font color=\"#e11cbe\">Azure Functions</font> <font color=\"#e11cbe\">v1</font> and <font color=\"#e11cbe\">v2</font>?",
+                "<font color=\"#e11cbe\">v1</font> is based on <font color=\"#e11cbe\">.NET Framework</font>, and only runs on Windows<div><br></div><div><font color=\"#e11cbe\">v2</font> is based on <font color=\"#e11cbe\">.NET Standard</font> and can be cross platform</div>"
+            ],
+            "flags": 0,
+            "guid": "stj?r`/Vr$",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Azure Function Apps, is it possible to have more than one binding on a single function?",
+                "Yes"
+            ],
+            "flags": 0,
+            "guid": "KNBFBz[nxd",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 3 main methods of deploying <font color=\"#e11cbe\">Azure Function Apps</font>?",
+                "* <font color=\"#e11cbe\">Manual Deploy</font> through VS or VSCode<div>* <font color=\"#e11cbe\">Automated Pipeline</font></div><div>* <font color=\"#e11cbe\">Zip File</font></div>"
+            ],
+            "flags": 0,
+            "guid": "D8s^j%#VHY",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are Azure Functions Proxies",
+                "A way of intercepting http requests to functions and redirecting or transforming them."
+            ],
+            "flags": 0,
+            "guid": "i3p$)#{Y8a",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What file lets you define and configure Azure Function Proxies",
+                "proxies.json"
+            ],
+            "flags": 0,
+            "guid": "NWL!X}Zpk+",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the levels of <font color=\"#e11cbe\">Azure Function access</font>?",
+                "<font color=\"#e11cbe\">Anonymous</font> - open<div><font color=\"#e11cbe\">Function</font> - requires a specific key</div><div><font color=\"#e11cbe\">Easy Auth</font> - platform level security</div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "HT$rxjhL7f",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some of the advantages of hosting an <font color=\"#e11cbe\">Azure Function App</font> in a <font color=\"#e11cbe\">container</font>?",
+                "Allows you to host your function app somewhere other than Azure, like in an <font color=\"#e11cbe\">on-prem data center</font> or in a <font color=\"#e11cbe\">non-Azure cloud</font><div><br></div><div>Allows you to leverage container hosting in Azure (<font color=\"#e11cbe\">Azure Container Instances</font> or <font color=\"#e11cbe\">Azure Kubernetes Services</font>)</div>"
+            ],
+            "flags": 0,
+            "guid": "f*E1$[w4y<",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some of the disadvantages of hosting <font color=\"#e11cbe\">Azure Function Apps</font> in <font color=\"#e11cbe\">containers</font>?",
+                "* No <font color=\"#e11cbe\">Consumption Based</font> billing<div>* You won't take advantage of Function Apps' <font color=\"#e11cbe\">auto-scaling</font></div><div>* More <font color=\"#e11cbe\">overhead</font> to connect to other Azure Resources, like Storage Accounts or Application Insights</div>"
+            ],
+            "flags": 0,
+            "guid": "B27.it*PT`",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Using <font color=\"#e11cbe\">Azure Function Core Tools</font>, how do you <font color=\"#e11cbe\">initialize</font> a Function App meant to deploy via <font color=\"#e11cbe\">Docker</font>?",
+                "func init <font color=\"#e11cbe\">--docker</font><div><br></div><div>This will create a Dockerfile along with the rest of the boilerplate for the function app</div>"
+            ],
+            "flags": 0,
+            "guid": "iZj3{n6r(x",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Where do you find <font color=\"#e11cbe\">run history</font> of <font color=\"#e11cbe\">Azure Functions</font> in the Azure Portal?",
+                "In the function app view, expand the <font color=\"#e11cbe\">Function</font>, and click the <font color=\"#e11cbe\">Monitor</font> node for that function."
+            ],
+            "flags": 0,
+            "guid": "FhRfO]QZXY",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "For an Azure Function, which <font color=\"#e11cbe\">file</font> stores information about <font color=\"#e11cbe\">triggers</font> and <font color=\"#e11cbe\">bindings</font>?",
+                "<font color=\"#e11cbe\">function</font>.json"
+            ],
+            "flags": 0,
+            "guid": "f#2&$;FpX1",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which <font color=\"#e11cbe\">Azure API</font> enables you to deploy an Azure Function App as an uploaded <font color=\"#e11cbe\">Zip</font> file?",
+                "<font color=\"#e11cbe\">Kudu</font> API"
+            ],
+            "flags": 0,
+            "guid": "u`=4+v-3|:",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "For an <font color=\"#e11cbe\">HTTP</font> triggered <font color=\"#e11cbe\">Azure Function App</font> named <font color=\"#e11cbe\">Foo</font>, what will the default route be?",
+                "<font color=\"#e11cbe\">/api</font>/Foo"
+            ],
+            "flags": 0,
+            "guid": "A.o!C*0GN8",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
         }
     ]
 }
