@@ -55,7 +55,8 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [
-        "_sans-forgetica.otf"
+        "_sans-forgetica.otf",
+        "paste-e0234f7222db91412d617a8382d0440275aa266a.jpg"
     ],
     "name": "AZ-203",
     "note_models": [
@@ -98,7 +99,7 @@
             "sortf": 0,
             "tags": [
                 "AZ-203",
-                "azure-functions"
+                "azure-securing-data"
             ],
             "tmpls": [
                 {
@@ -3209,7 +3210,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Which Application Insights SDK property controls the display name of a component in <font color=\"#e11cbe\">Application Map</font>?",
+                "Which Application Insights SDK property controls the <font color=\"#e11cbe\">display name</font> of a component in <font color=\"#e11cbe\">Application Map</font>?",
                 "<font color=\"#e11cbe\">cloud_rolename</font>"
             ],
             "flags": 0,
@@ -3946,7 +3947,7 @@
             "data": "",
             "fields": [
                 "What are 3 main methods of deploying <font color=\"#e11cbe\">Azure Function Apps</font>?",
-                "* <font color=\"#e11cbe\">Manual Deploy</font> through VS or VSCode<div>* <font color=\"#e11cbe\">Automated Pipeline</font></div><div>* <font color=\"#e11cbe\">Zip File</font></div>"
+                "* <font color=\"#e11cbe\">Manual Deploy</font> through VS or VSCode<div>* <font color=\"#e11cbe\">Automated Pipeline</font></div><div>* <font color=\"#e11cbe\">Zip File</font> via kudu</div>"
             ],
             "flags": 0,
             "guid": "D8s^j%#VHY",
@@ -3960,8 +3961,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are Azure Functions Proxies",
-                "A way of intercepting http requests to functions and redirecting or transforming them."
+                "What are Azure Functions <font color=\"#e11cbe\">Proxies</font>?",
+                "A way of <font color=\"#e11cbe\">intercepting</font> http requests to functions and <font color=\"#e11cbe\">redirecting</font> or <font color=\"#e11cbe\">transforming</font> them."
             ],
             "flags": 0,
             "guid": "i3p$)#{Y8a",
@@ -4021,7 +4022,7 @@
             "data": "",
             "fields": [
                 "What are some of the disadvantages of hosting <font color=\"#e11cbe\">Azure Function Apps</font> in <font color=\"#e11cbe\">containers</font>?",
-                "* No <font color=\"#e11cbe\">Consumption Based</font> billing<div>* You won't take advantage of Function Apps' <font color=\"#e11cbe\">auto-scaling</font></div><div>* More <font color=\"#e11cbe\">overhead</font> to connect to other Azure Resources, like Storage Accounts or Application Insights</div>"
+                "* No <font color=\"#e11cbe\">Consumption Based</font> billing<div>* You won't take advantage of Function Apps' <font color=\"#e11cbe\">auto-scaling</font></div><div>* No <font color=\"#e11cbe\"> bindings</font> to connect to other Azure Resources, like Storage Accounts or Application Insights</div>"
             ],
             "flags": 0,
             "guid": "B27.it*PT`",
@@ -4104,6 +4105,351 @@
             "tags": [
                 "AZ-203",
                 "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the powershell command to create a new <font color=\"#e11cbe\">Azure Key Vault</font>?",
+                "<font color=\"#e11cbe\">New-AzKeyVault</font> `<div>&nbsp; -<font color=\"#e11cbe\">VaultName</font> 'theName' `</div><div>&nbsp; -<font color=\"#e11cbe\">ResourceGroupName</font> 'theGroupName' `</div><div>&nbsp; -<font color=\"#e11cbe\">Location</font> 'East US'</div>"
+            ],
+            "flags": 0,
+            "guid": "P0@tvZeWZ[",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How would you modify the Azure Key Vault secret url below to get the latest version of a secret rather than a specific version?<div><br></div><div>https://myvault.vault.azure.net:443/secrets/SecretName/48c6cb3250f9481aa96142d14c608e74</div>",
+                "<div>Remove the key ID and refer to the secret by name only.</div><div><br></div>https://myvault.vault.azure.net:443/secrets/SecretName<font color=\"#e11cbe\">/48c6cb3250f9481aa96142d14c608e74</font>"
+            ],
+            "flags": 0,
+            "guid": "iC=A*G(3W:",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 2 properties you can use to protect Azure Key Vaults from being deleted?",
+                "* EnableSoftDelete<div>* DoNotPurge</div>"
+            ],
+            "flags": 0,
+            "guid": "c{C<KvHG7g",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the <font color=\"#e11cbe\">AZ CLI</font> command to create a <font color=\"#e11cbe\">managed identity</font> for a web application?",
+                "az <font color=\"#e11cbe\">webapp identity assign</font> \\<div>&nbsp; --<font color=\"#e11cbe\">resource-group</font> TheGroup \\</div><div>&nbsp; --<font color=\"#e11cbe\">name</font> TheWebAppName</div>"
+            ],
+            "flags": 0,
+            "guid": "mu*z&Tkyf{",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the <font color=\"#e11cbe\">AZ CLI</font> command to create a SQL user from a <font color=\"#e11cbe\">Managed Identity</font>?",
+                "az <font color=\"#e11cbe\">sql server ad-admin create</font> \\<div>&nbsp; --<font color=\"#e11cbe\">resource-group</font> TheGroup \\</div><div>&nbsp; --<font color=\"#e11cbe\">server-name</font> TheSqlServerName \\</div><div>&nbsp; --<font color=\"#e11cbe\">display-name</font> UserName \\</div><div>&nbsp; --<font color=\"#e11cbe\">object-id</font> [Managed Id GUID]</div>"
+            ],
+            "flags": 0,
+            "guid": "i|7)02^^^V",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "If using a <font color=\"#e11cbe\">Managed Identity</font> to connect to SQL, what resources are available to test your code on your local dev environment?",
+                "For versions of Visual Studio prior to 2017 update 5, you can install the <font color=\"#e11cbe\">Azure Services Authentication Extension</font>.<div><br></div><div>VS 2017 update 5 and later have this functionality built in.</div>"
+            ],
+            "flags": 0,
+            "guid": "HrhlkOkS)%",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does <font color=\"#e11cbe\">Microsoft Credential Scanner</font> do?",
+                "It is a build task that monitors identifies credential leaks in source code, such as passwords checked into config files."
+            ],
+            "flags": 0,
+            "guid": "C+9WB7O=E",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How do you configure which account to use for authentication for Azure Services in Visual Studio?",
+                "Tools &gt; Options &gt; <font color=\"#e11cbe\">Azure Service Authentication</font><div><br><div><img src=\"paste-e0234f7222db91412d617a8382d0440275aa266a.jpg\"><br></div></div>"
+            ],
+            "flags": 0,
+            "guid": "t|s>*g{:(k",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the difference between <font color=\"#e11cbe\">Data in Transit</font> and <font color=\"#e11cbe\">Data at Rest</font>?",
+                "<font color=\"#e11cbe\">Data in Transit</font> describes data that is moving across the internet, through a service bus, over the network, etc, between two endpoints.<div><br></div><div><font color=\"#e11cbe\">Data at Rest</font> is inert data that is stored physically somewhere.</div>"
+            ],
+            "flags": 0,
+            "guid": "PeFID95P9r",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What Azure Services can utilize Azure <font color=\"#e11cbe\">Storage Service Encryption</font> (<font color=\"#e11cbe\">SSE</font>)?",
+                "* Azure Blob<div>* Azure Table</div><div>* Azure Files</div><div>* Azure Queue</div><div>* Azure Managed Disks</div>"
+            ],
+            "flags": 0,
+            "guid": "mleBO[C~8~",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Is Azure <font color=\"#e11cbe\">Storage Service Encryption</font> optional?",
+                "<font color=\"#e11cbe\">No</font>.&nbsp; It is enabled by default and cannot be disabled."
+            ],
+            "flags": 0,
+            "guid": "Eee$`[Bd#,",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What <font color=\"#e11cbe\">cipher</font> is used for encryption on the <font color=\"#e11cbe\">Azure Storage</font> platform?",
+                "256 bit AES."
+            ],
+            "flags": 0,
+            "guid": "Fe+FQh|_&t",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Why might you want to use a <font color=\"#e11cbe\">customer owned</font> encryption key over a Microsoft managed key for Azure <font color=\"#e11cbe\">Storage Service Encryption</font>?",
+                "* To achieve external <font color=\"#e11cbe\">compliance</font><div>* For <font color=\"#e11cbe\">auditing</font> keys</div><div>* For flexibility in <font color=\"#e11cbe\">rotating</font> keys</div><div>* For controlling <font color=\"#e11cbe\">access</font> to the keys</div>"
+            ],
+            "flags": 0,
+            "guid": "QA!W4a1I)m",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What <font color=\"#e11cbe\">PowerShell</font> command let's you see if you have the <font color=\"#e11cbe\">AzureAD</font> module installed?",
+                "Get-Module AzureAD -ListAvailable"
+            ],
+            "flags": 0,
+            "guid": "u1NYo@4^)D",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Does Azure SQL \"<font color=\"#e11cbe\">Always Encrypted</font>\" encryption cover data <font color=\"#e11cbe\">in transit</font> or <font color=\"#e11cbe\">at rest</font>?",
+                "Both"
+            ],
+            "flags": 0,
+            "guid": "z:o9{Rg+qg",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Who can view Azure SQL data that's been encrypted with the <font color=\"#e11cbe\">Always Encrypted</font> option?",
+                "<font color=\"#e11cbe\">Users</font> or <font color=\"#e11cbe\">Applications</font> who have been <font color=\"#e11cbe\">granted access</font> to the encryption key"
+            ],
+            "flags": 0,
+            "guid": "B57tz:w1CY",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a <font color=\"#e11cbe\">Column Master Key</font> (<font color=\"#e11cbe\">CMK</font>)?",
+                "For Azure Key Vault, the CMK is used to encrypt <font color=\"#e11cbe\">Column Encryption Keys</font> (<font color=\"#e11cbe\">CEK</font>) which are the actual keys used to encrypt and decrypt Always On encrypted data."
+            ],
+            "flags": 0,
+            "guid": "ix;4$3[J+|",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "For Azure SQL Databases, what are the two <font color=\"#e11cbe\">Column Encryption Types</font>?",
+                "* Randomized<div>* Deterministic</div>"
+            ],
+            "flags": 0,
+            "guid": "yJDEid[CU.",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the advantages and disadvantages of <font color=\"#e11cbe\">Randomized</font> vs <font color=\"#e11cbe\">Deterministic</font> column encryption?",
+                "* Randomized generates different encrypted values for the same plain text, which makes it more secure, but not searchable, joinable, indexable or groupable<div>* Deterministic always generates the same encrypted value, which is less secure but does allow the encrypted data to be searchable, joinable, indexable and groupable</div>"
+            ],
+            "flags": 0,
+            "guid": "DnMk2($QO3",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What product do you search for in the Azure Portal to purchase an SSL certificate?",
+                "App Service Certificate"
+            ],
+            "flags": 0,
+            "guid": "e&j_5O=g>I",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What 2 pricing tiers are available in Azure for App Service Certificates?",
+                "* S1 Standard - for a single certificate<div>* W1 Wild Card - a wild card certificate to cover many subdomains</div>"
+            ],
+            "flags": 0,
+            "guid": "D[RKTCeT&$",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What <font color=\"#e11cbe\">PowerShell</font> command can be used to <font color=\"#e11cbe\">add hostnames</font> to an Azure WebApp",
+                "<font color=\"#e11cbe\">Set-AzWebApp</font> `<div>&nbsp; -<font color=\"#e11cbe\">Name</font> \"webAppName\" `</div><div>&nbsp; -<font color=\"#e11cbe\">ResourceGroupName</font> \"theGroupName\" `</div><div>&nbsp; -<font color=\"#e11cbe\">HostNames</font> @(\"name1\", \"name2\", ...)</div>"
+            ],
+            "flags": 0,
+            "guid": "p?us>*HwcA",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What <font color=\"#e11cbe\">PowerShell</font> command can <font color=\"#e11cbe\">assign/bind</font> a local <font color=\"#e11cbe\">SSL certificate</font> to your Azure WebApp?",
+                "<font color=\"#e11cbe\">New-AzWebAppSSLBinding</font> `<div>&nbsp; -<font color=\"#e11cbe\">WebAppName</font> \"theName\" `</div><div>&nbsp; -<font color=\"#e11cbe\">ResourceGroupName</font> \"theGroup\" `</div><div>&nbsp; -<font color=\"#e11cbe\">Name</font> \"theCertName\" `</div><div>&nbsp; -<font color=\"#e11cbe\">CertificateFilePath</font> &lt;filesystem.path&gt; `</div><div>&nbsp; -<font color=\"#e11cbe\">CertificatePassword</font> \"$ecret\" `</div><div>&nbsp; -<font color=\"#e11cbe\">SslState</font> SniEnabled</div>"
+            ],
+            "flags": 0,
+            "guid": "G]~}s2ZJc:",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
             ]
         }
     ]
