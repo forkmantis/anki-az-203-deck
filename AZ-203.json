@@ -1830,8 +1830,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are 2 GUI clients you can use to access Azure Storage Accounts?",
-                "<font color=\"#e11cbe\">Azure Storage Explorer</font> - standalone desktop app<div><font color=\"#e11cbe\">Cloud Explorer</font> - integrated into Visual Studio</div>"
+                "What are 3 GUI clients you can use to access Azure Storage Accounts?",
+                "<font color=\"#e11cbe\">Azure Storage Explorer</font> - standalone desktop app<br><br><font color=\"#e11cbe\">Cloud Explorer</font> - integrated into Visual Studio<br><br><font color=\"#e11cbe\">Azurite</font> - cross platform application"
             ],
             "flags": 0,
             "guid": "Fo7}iUlQ`Y",
@@ -1852,6 +1852,7 @@
             "guid": "iw$,`i0T86",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
+                "accuracy?",
                 "AZ-203",
                 "azure-blob-storage"
             ]
@@ -4352,7 +4353,7 @@
             "data": "",
             "fields": [
                 "What is a <font color=\"#e11cbe\">Column Master Key</font> (<font color=\"#e11cbe\">CMK</font>)?",
-                "For Azure Key Vault, the CMK is used to encrypt <font color=\"#e11cbe\">Column Encryption Keys</font> (<font color=\"#e11cbe\">CEK</font>) which are the actual keys used to encrypt and decrypt Always On encrypted data."
+                "The CMK is used to encrypt <font color=\"#e11cbe\">Column Encryption Keys</font> (<font color=\"#e11cbe\">CEK</font>) which are the actual keys used to encrypt and decrypt Always On encrypted data.<br><br>Stored in key vault (always?)"
             ],
             "flags": 0,
             "guid": "ix;4$3[J+|",
@@ -4418,6 +4419,7 @@
             "guid": "D[RKTCeT&$",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
+                "add-highlights",
                 "AZ-203",
                 "azure-securing-data"
             ]
@@ -4446,6 +4448,171 @@
             ],
             "flags": 0,
             "guid": "G]~}s2ZJc:",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are <font color=\"#e11cbe\">TEE</font>s?",
+                "Trusted Execution Environments"
+            ],
+            "flags": 0,
+            "guid": "B449e7Ql|2",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Regarding <font color=\"#e11cbe\">Trusted Execution Environments</font> (TEEs), what is an <font color=\"#e11cbe\">Enclave</font>?",
+                "A <font color=\"#e11cbe\">grouping of code</font>&nbsp;and <font color=\"#e11cbe\">data</font> inside of the TEE, most likely related to a single application.<div><br></div><div>A TEE can contain many Enclaves.</div>"
+            ],
+            "flags": 0,
+            "guid": "z@~XRBNHaO",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is an <font color=\"#e11cbe\">Enclave SDK</font>?",
+                "An common <font color=\"#e11cbe\">API</font> that runs across Trusted Execution Environments (TEEs) so that confidential applications can be <font color=\"#e11cbe\">portable</font>."
+            ],
+            "flags": 0,
+            "guid": "MA/5#i`G$b",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Regarding <font color=\"#e11cbe\">Trusted Execution Environments</font> (<font color=\"#e11cbe\">TEE</font>s), what is <font color=\"#e11cbe\">Attestation</font>?",
+                "The act of <font color=\"#e11cbe\">verifying</font> code running&nbsp; in <font color=\"#e11cbe\">TEE</font>s before allowing it access to protected data."
+            ],
+            "flags": 0,
+            "guid": "A?d{mdG5YW",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 2 major types of <font color=\"#e11cbe\">Trusted Execution Environments</font> (<font color=\"#e11cbe\">TEE</font>s)?",
+                "* Hardware backed<div>* Software backed</div>"
+            ],
+            "flags": 0,
+            "guid": "D[j~P._C~X",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What technology do Azure hardware backed TEEs run on (as of 2019)?",
+                "Intel <font color=\"#e11cbe\">Software Guard Extensions</font> (<font color=\"#e11cbe\">SGX</font>)"
+            ],
+            "flags": 0,
+            "guid": "l<{K,C[a5m",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What benefit does <font color=\"#e11cbe\">Always Encrypted with Secure Enclaves</font>, introduced in <font color=\"#e11cbe\">SQL Server 2019</font> (using software backed enclaves), offer?",
+                "Rather than send encryped data to the client to be processed, which prevented joining, grouping, sorting and filtering by randomly encrypted columns, the data is decrypted first on the server in a secure enclave, allowing queries to operate on all columns, and only the resulting data is sent to the client."
+            ],
+            "flags": 0,
+            "guid": "N{OQV|C/h3",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Is Always Encrypted with Secure Enclaves supported by hardware backed enclaves?",
+                "As of mid 2019, no, but Microsoft plans to use hardware backed enclaves in the future."
+            ],
+            "flags": 0,
+            "guid": "Klt._[%!YW",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "If you want to use your <font color=\"#e11cbe\">own</font> encryption keys, which Azure <font color=\"#e11cbe\">VM Disk encryption</font> product must you use?",
+                "<font color=\"#e11cbe\">Azure Disk Encryption</font>"
+            ],
+            "flags": 0,
+            "guid": "ep:hACi,Y3",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When using <font color=\"#e11cbe\">Always Encrypted</font> with Azure SQL, where does the data encryption happen?",
+                "In the client appliciation"
+            ],
+            "flags": 0,
+            "guid": "oN?(8]C;B<",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Where is the <font color=\"#e11cbe\">Column Master Key</font> (<font color=\"#e11cbe\">CMK</font>) for Azure's Always Encrypted option stored?",
+                "Either <font color=\"#e11cbe\">Azure Key Vault</font> or <font color=\"#e11cbe\">Windows Certificate Store</font>"
+            ],
+            "flags": 0,
+            "guid": "JNVwy$k<2C",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
