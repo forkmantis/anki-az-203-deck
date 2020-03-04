@@ -99,7 +99,7 @@
             "sortf": 0,
             "tags": [
                 "AZ-203",
-                "azure-securing-data"
+                "azure-serverless"
             ],
             "tmpls": [
                 {
@@ -126,6 +126,7 @@
             ],
             "flags": 0,
             "guid": "i*fS:=+0C>",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -141,6 +142,7 @@
             ],
             "flags": 0,
             "guid": "NpA(g|KRD]",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -156,6 +158,7 @@
             ],
             "flags": 0,
             "guid": "y,A{*iWOJL",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -171,6 +174,7 @@
             ],
             "flags": 0,
             "guid": "Fv&hzZ$aV0",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -186,6 +190,7 @@
             ],
             "flags": 0,
             "guid": "2{c)*vZGN",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -201,6 +206,7 @@
             ],
             "flags": 0,
             "guid": "req<4j/tbG",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -216,6 +222,7 @@
             ],
             "flags": 0,
             "guid": "J^.ytVf`je",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -231,6 +238,7 @@
             ],
             "flags": 0,
             "guid": "Mv1d4zyIRk",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -246,6 +254,7 @@
             ],
             "flags": 0,
             "guid": "b?tjQI-~Lb",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -261,6 +270,7 @@
             ],
             "flags": 0,
             "guid": "RbCk)G#s!4",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -276,6 +286,7 @@
             ],
             "flags": 0,
             "guid": "fzYdJ<+ZH&",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -291,6 +302,7 @@
             ],
             "flags": 0,
             "guid": "C`$fl]A97|",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -306,6 +318,7 @@
             ],
             "flags": 0,
             "guid": "o}Z%M0Z#!E",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -321,6 +334,7 @@
             ],
             "flags": 0,
             "guid": "x|31NjU^.^",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -336,6 +350,7 @@
             ],
             "flags": 0,
             "guid": "o53*zKBze0",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -351,6 +366,7 @@
             ],
             "flags": 0,
             "guid": "BK,>7nCMb5",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -366,6 +382,7 @@
             ],
             "flags": 0,
             "guid": "OO8y((v(6+",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -381,6 +398,7 @@
             ],
             "flags": 0,
             "guid": "KaOXMh<2[b",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -396,6 +414,7 @@
             ],
             "flags": 0,
             "guid": "Ov{DKL+}vp",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -411,6 +430,7 @@
             ],
             "flags": 0,
             "guid": "uP[+x,CuN7",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203"
@@ -425,6 +445,7 @@
             ],
             "flags": 0,
             "guid": "H#0;a#TR:x",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -440,6 +461,7 @@
             ],
             "flags": 0,
             "guid": "t4!Dhxd~#L",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -455,6 +477,7 @@
             ],
             "flags": 0,
             "guid": "A_ND<sSF/g",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -470,6 +493,7 @@
             ],
             "flags": 0,
             "guid": "i_o:~(;Wba",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -485,6 +509,7 @@
             ],
             "flags": 0,
             "guid": "sMJvFAujOK",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -500,6 +525,7 @@
             ],
             "flags": 0,
             "guid": "wFb{M:oKC~",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -515,6 +541,7 @@
             ],
             "flags": 0,
             "guid": "caKviZ.8r+",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -530,6 +557,7 @@
             ],
             "flags": 0,
             "guid": "M7AS_#pViH",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -545,6 +573,7 @@
             ],
             "flags": 0,
             "guid": "K-z/d9q.~h",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -560,6 +589,7 @@
             ],
             "flags": 0,
             "guid": "H!BN17;3-I",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -575,6 +605,7 @@
             ],
             "flags": 0,
             "guid": "H7U~+E:Hl",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -590,6 +621,7 @@
             ],
             "flags": 0,
             "guid": "AC|3ykEub,",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -605,6 +637,7 @@
             ],
             "flags": 0,
             "guid": "rYAcYS_glI",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -620,6 +653,7 @@
             ],
             "flags": 0,
             "guid": "K[L&@FA}qt",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -635,6 +669,7 @@
             ],
             "flags": 0,
             "guid": "w>EV|bU7RZ",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -650,6 +685,7 @@
             ],
             "flags": 0,
             "guid": "qlwdz`/7*C",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -665,6 +701,7 @@
             ],
             "flags": 0,
             "guid": "Q}U.]:]iTt",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -680,6 +717,7 @@
             ],
             "flags": 0,
             "guid": "K#EYOcPM3K",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -695,6 +733,7 @@
             ],
             "flags": 0,
             "guid": "BZr1Qqwz:a",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -710,6 +749,7 @@
             ],
             "flags": 0,
             "guid": "Fa3&rnp3OY",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -725,6 +765,7 @@
             ],
             "flags": 0,
             "guid": "BNl+dsC}CP",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -740,6 +781,7 @@
             ],
             "flags": 0,
             "guid": "zbMFm<^_Lv",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -755,6 +797,7 @@
             ],
             "flags": 0,
             "guid": "u81.mE;M!L",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -770,6 +813,7 @@
             ],
             "flags": 0,
             "guid": "A4oRBOaGXY",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -785,6 +829,7 @@
             ],
             "flags": 0,
             "guid": "OZjU]V%Ac`",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -800,6 +845,7 @@
             ],
             "flags": 0,
             "guid": "I[uJiqW6#/",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -815,6 +861,7 @@
             ],
             "flags": 0,
             "guid": "fu&yk*`oC4",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -830,6 +877,7 @@
             ],
             "flags": 0,
             "guid": "EZ[j2#A#(3",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -845,6 +893,7 @@
             ],
             "flags": 0,
             "guid": "xdU@P}pVN6",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -860,6 +909,7 @@
             ],
             "flags": 0,
             "guid": "G1y=n)`)h)",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -875,6 +925,7 @@
             ],
             "flags": 0,
             "guid": "zu?0U3k`-R",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -890,6 +941,7 @@
             ],
             "flags": 0,
             "guid": "P:C9pQPr/T",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -905,6 +957,7 @@
             ],
             "flags": 0,
             "guid": "s?;TL)JcR;",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -920,6 +973,7 @@
             ],
             "flags": 0,
             "guid": "pfROD[l/+T",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -935,6 +989,7 @@
             ],
             "flags": 0,
             "guid": "HrT)-:<n7-",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -950,6 +1005,7 @@
             ],
             "flags": 0,
             "guid": "qQ%VLLN{VC",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -965,6 +1021,7 @@
             ],
             "flags": 0,
             "guid": "t):_uHT||y",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -980,6 +1037,7 @@
             ],
             "flags": 0,
             "guid": "ftHzeo8!F4",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -995,6 +1053,7 @@
             ],
             "flags": 0,
             "guid": "F*RHmv}RaW",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1010,6 +1069,7 @@
             ],
             "flags": 0,
             "guid": "I-X7hTRDS%",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1025,6 +1085,7 @@
             ],
             "flags": 0,
             "guid": "GFII*u]^a4",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1040,6 +1101,7 @@
             ],
             "flags": 0,
             "guid": "u/)_Av%UO}",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1055,6 +1117,7 @@
             ],
             "flags": 0,
             "guid": "o@)oBt[Fy.",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1070,6 +1133,7 @@
             ],
             "flags": 0,
             "guid": "hYd7XRG%u6",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1085,6 +1149,7 @@
             ],
             "flags": 0,
             "guid": "E~f85r2k,Y",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1100,6 +1165,7 @@
             ],
             "flags": 0,
             "guid": "E%$Epkn)y7",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1115,6 +1181,7 @@
             ],
             "flags": 0,
             "guid": "lz41VEh,SA",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1130,6 +1197,7 @@
             ],
             "flags": 0,
             "guid": "o}@=NM8c6h",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1145,6 +1213,7 @@
             ],
             "flags": 0,
             "guid": "g7a-(SKz?s",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1160,6 +1229,7 @@
             ],
             "flags": 0,
             "guid": "evpRV.#0Ft",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1175,6 +1245,7 @@
             ],
             "flags": 0,
             "guid": "HyhaLv>:]",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1190,6 +1261,7 @@
             ],
             "flags": 0,
             "guid": "FIZA@|6e!l",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1205,6 +1277,7 @@
             ],
             "flags": 0,
             "guid": "M$c$AemIxx",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1220,6 +1293,7 @@
             ],
             "flags": 0,
             "guid": "Eha9F%;h]g",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1235,6 +1309,7 @@
             ],
             "flags": 0,
             "guid": "fvci{807+6",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1250,6 +1325,7 @@
             ],
             "flags": 0,
             "guid": "n`yUuBLiAU",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1265,6 +1341,7 @@
             ],
             "flags": 0,
             "guid": "xA@P6f/qS+",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1280,6 +1357,7 @@
             ],
             "flags": 0,
             "guid": "O)#K#;#?NG",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1295,6 +1373,7 @@
             ],
             "flags": 0,
             "guid": "OKb7?*}hK&",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1310,6 +1389,7 @@
             ],
             "flags": 0,
             "guid": "C;-<!jF/Og",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1325,6 +1405,7 @@
             ],
             "flags": 0,
             "guid": "Fs|MYh~=XZ",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1340,6 +1421,7 @@
             ],
             "flags": 0,
             "guid": "sE,)t[OXk-",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1355,6 +1437,7 @@
             ],
             "flags": 0,
             "guid": "uZz@E)n+zC",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1370,6 +1453,7 @@
             ],
             "flags": 0,
             "guid": "xa@%@:A2Fg",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1385,6 +1469,7 @@
             ],
             "flags": 0,
             "guid": "G*6)l%Ke~e",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1400,6 +1485,7 @@
             ],
             "flags": 0,
             "guid": "tok~wTSW$R",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1415,6 +1501,7 @@
             ],
             "flags": 0,
             "guid": "xeTEsn6)an",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1430,6 +1517,7 @@
             ],
             "flags": 0,
             "guid": "G!G*uB+oq~",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1445,6 +1533,7 @@
             ],
             "flags": 0,
             "guid": "Ilj)6X5z-c",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1460,6 +1549,7 @@
             ],
             "flags": 0,
             "guid": "o2SGPqZ%Xs",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1475,6 +1565,7 @@
             ],
             "flags": 0,
             "guid": "h]q=,)m`8G",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1490,6 +1581,7 @@
             ],
             "flags": 0,
             "guid": "zA=8V_x{E4",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1505,6 +1597,7 @@
             ],
             "flags": 0,
             "guid": "l1pRIz%:/u",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1520,6 +1613,7 @@
             ],
             "flags": 0,
             "guid": "m$Y3hw:+]%",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1535,6 +1629,7 @@
             ],
             "flags": 0,
             "guid": "GW@BV{QR+y",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1550,6 +1645,7 @@
             ],
             "flags": 0,
             "guid": "KV){L!rRl+",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1565,6 +1661,7 @@
             ],
             "flags": 0,
             "guid": "r0R48P,V^e",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1580,6 +1677,7 @@
             ],
             "flags": 0,
             "guid": "bUBbPwqfdA",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1595,6 +1693,7 @@
             ],
             "flags": 0,
             "guid": "vM+yFH;]",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1610,6 +1709,7 @@
             ],
             "flags": 0,
             "guid": "D6jY6<K)(T",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1625,6 +1725,7 @@
             ],
             "flags": 0,
             "guid": "Rg!QWHka`k",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1640,6 +1741,7 @@
             ],
             "flags": 0,
             "guid": "A#l7&b,vnL",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1655,6 +1757,7 @@
             ],
             "flags": 0,
             "guid": "l{[O$bDFeb",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1670,6 +1773,7 @@
             ],
             "flags": 0,
             "guid": "cRtuw.yLBe",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1685,6 +1789,7 @@
             ],
             "flags": 0,
             "guid": "cKr,GvTJev",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1700,6 +1805,7 @@
             ],
             "flags": 0,
             "guid": "m6xTc`gn%M",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1715,6 +1821,7 @@
             ],
             "flags": 0,
             "guid": "kL:b8mK|*1",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1730,6 +1837,7 @@
             ],
             "flags": 0,
             "guid": "I@FUZt=J(;",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1745,6 +1853,7 @@
             ],
             "flags": 0,
             "guid": "C}e}~R2Yer",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1760,6 +1869,7 @@
             ],
             "flags": 0,
             "guid": "BNTW`hE7)d",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1775,6 +1885,7 @@
             ],
             "flags": 0,
             "guid": "I#]T:!|js$",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1790,6 +1901,7 @@
             ],
             "flags": 0,
             "guid": "G0eeT5B1YS",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1805,6 +1917,7 @@
             ],
             "flags": 0,
             "guid": "J9E:dU4*7y",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1820,6 +1933,7 @@
             ],
             "flags": 0,
             "guid": "vqj7e*(Nwf",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1835,6 +1949,7 @@
             ],
             "flags": 0,
             "guid": "Fo7}iUlQ`Y",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1850,10 +1965,11 @@
             ],
             "flags": 0,
             "guid": "iw$,`i0T86",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
-                "accuracy?",
                 "AZ-203",
+                "accuracy?",
                 "azure-blob-storage"
             ]
         },
@@ -1866,6 +1982,7 @@
             ],
             "flags": 0,
             "guid": "xhUU@!}EI/",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1881,6 +1998,7 @@
             ],
             "flags": 0,
             "guid": "g~_PS?S[PU",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1896,6 +2014,7 @@
             ],
             "flags": 0,
             "guid": "D)>L#P!DM$",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1911,6 +2030,7 @@
             ],
             "flags": 0,
             "guid": "GoAby!0cuk",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1926,6 +2046,7 @@
             ],
             "flags": 0,
             "guid": "BpnlGbV~oi",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1941,6 +2062,7 @@
             ],
             "flags": 0,
             "guid": "f71[;CRuv5",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1956,6 +2078,7 @@
             ],
             "flags": 0,
             "guid": "cb_94nfT~B",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1971,6 +2094,7 @@
             ],
             "flags": 0,
             "guid": "mzKS:ro9uT",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -1986,6 +2110,7 @@
             ],
             "flags": 0,
             "guid": "B|_iE!D,;}",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2001,6 +2126,7 @@
             ],
             "flags": 0,
             "guid": "yE{s/!W69h",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2016,6 +2142,7 @@
             ],
             "flags": 0,
             "guid": "i}4:P1Obct",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2031,6 +2158,7 @@
             ],
             "flags": 0,
             "guid": "on.;J*q{dA",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2046,6 +2174,7 @@
             ],
             "flags": 0,
             "guid": "Cw8Io{t=wg",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2061,6 +2190,7 @@
             ],
             "flags": 0,
             "guid": "qFxOn7okwH",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2076,6 +2206,7 @@
             ],
             "flags": 0,
             "guid": "Nd;D)d|tRh",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2091,6 +2222,7 @@
             ],
             "flags": 0,
             "guid": "H}!P$ZKNd>",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2106,6 +2238,7 @@
             ],
             "flags": 0,
             "guid": "xd.PcJ&d7Q",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2121,6 +2254,7 @@
             ],
             "flags": 0,
             "guid": "D7vdO)m{|!",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2136,6 +2270,7 @@
             ],
             "flags": 0,
             "guid": "Os3Qqv+&&`",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2151,6 +2286,7 @@
             ],
             "flags": 0,
             "guid": "DS@e]bY4nT",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2166,6 +2302,7 @@
             ],
             "flags": 0,
             "guid": "FAjI=c^%M5",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2181,6 +2318,7 @@
             ],
             "flags": 0,
             "guid": "E}k||C0&`?",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2196,6 +2334,7 @@
             ],
             "flags": 0,
             "guid": "q}T+t.X5(%",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2211,6 +2350,7 @@
             ],
             "flags": 0,
             "guid": "NRsX:Li:eU",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2226,6 +2366,7 @@
             ],
             "flags": 0,
             "guid": "L_9^>TVXTP",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2241,6 +2382,7 @@
             ],
             "flags": 0,
             "guid": "O:AzI=eLY?",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2256,6 +2398,7 @@
             ],
             "flags": 0,
             "guid": "mTq#m6:&[j",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2271,6 +2414,7 @@
             ],
             "flags": 0,
             "guid": "FA{oxt1a,v",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2286,6 +2430,7 @@
             ],
             "flags": 0,
             "guid": "z!2)o8sxSd",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2301,6 +2446,7 @@
             ],
             "flags": 0,
             "guid": "Fq-Kw,)@AL",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2316,6 +2462,7 @@
             ],
             "flags": 0,
             "guid": "imqs$.B@H)",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2331,6 +2478,7 @@
             ],
             "flags": 0,
             "guid": "AzD53xzx>N",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2346,6 +2494,7 @@
             ],
             "flags": 0,
             "guid": "A@go4$al:U",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2361,6 +2510,7 @@
             ],
             "flags": 0,
             "guid": "vah<K:>#l4",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2376,6 +2526,7 @@
             ],
             "flags": 0,
             "guid": "g.{`zDX$Pk",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2391,6 +2542,7 @@
             ],
             "flags": 0,
             "guid": "e;8Lx7Snc&",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2406,6 +2558,7 @@
             ],
             "flags": 0,
             "guid": "Kk|@=5>l*k",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2421,6 +2574,7 @@
             ],
             "flags": 0,
             "guid": "c}gD*iJq1W",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2436,6 +2590,7 @@
             ],
             "flags": 0,
             "guid": "hva1ya$drk",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2451,6 +2606,7 @@
             ],
             "flags": 0,
             "guid": "u45#NtBwh]",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2466,6 +2622,7 @@
             ],
             "flags": 0,
             "guid": "KMKj(1m:X2",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2481,6 +2638,7 @@
             ],
             "flags": 0,
             "guid": "noSP~`2{ei",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2496,6 +2654,7 @@
             ],
             "flags": 0,
             "guid": "g.NUCYrqxu",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2511,6 +2670,7 @@
             ],
             "flags": 0,
             "guid": "q*ML0{BD7$",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2526,6 +2686,7 @@
             ],
             "flags": 0,
             "guid": "Dn&RP7lhP0",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2541,6 +2702,7 @@
             ],
             "flags": 0,
             "guid": "A7aCngBBNG",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2556,6 +2718,7 @@
             ],
             "flags": 0,
             "guid": "zUckkAZL.!",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2571,6 +2734,7 @@
             ],
             "flags": 0,
             "guid": "DABS97aYAM",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2586,6 +2750,7 @@
             ],
             "flags": 0,
             "guid": "H6PnelNTd>",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2601,6 +2766,7 @@
             ],
             "flags": 0,
             "guid": "w6_cd$Ljt#",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2616,6 +2782,7 @@
             ],
             "flags": 0,
             "guid": "M3G^tU+e36",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2631,6 +2798,7 @@
             ],
             "flags": 0,
             "guid": "q%K!p$GTpj",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2646,6 +2814,7 @@
             ],
             "flags": 0,
             "guid": "BKJa=9uOf>",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2661,6 +2830,7 @@
             ],
             "flags": 0,
             "guid": "o)PJVjxO;H",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2676,6 +2846,7 @@
             ],
             "flags": 0,
             "guid": "e^gi*?9xbf",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2691,6 +2862,7 @@
             ],
             "flags": 0,
             "guid": "e0V2`Z{jIS",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2706,6 +2878,7 @@
             ],
             "flags": 0,
             "guid": "iYsHp-`0IY",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2721,6 +2894,7 @@
             ],
             "flags": 0,
             "guid": "O6SJoRrcs8",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2736,6 +2910,7 @@
             ],
             "flags": 0,
             "guid": "C12_G^Zh?k",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2751,6 +2926,7 @@
             ],
             "flags": 0,
             "guid": "H{Lpf^4SX6",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2766,6 +2942,7 @@
             ],
             "flags": 0,
             "guid": "c8,apNg<HO",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2781,6 +2958,7 @@
             ],
             "flags": 0,
             "guid": "G_=LM-D5JW",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2796,6 +2974,7 @@
             ],
             "flags": 0,
             "guid": "Eiak_{,&4b",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2811,6 +2990,7 @@
             ],
             "flags": 0,
             "guid": "J#8gFUho_y",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2826,6 +3006,7 @@
             ],
             "flags": 0,
             "guid": "Ov!3P6Ry?M",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2841,6 +3022,7 @@
             ],
             "flags": 0,
             "guid": "dOS&)xR`+r",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2856,6 +3038,7 @@
             ],
             "flags": 0,
             "guid": "evu<kK]:!+",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2871,6 +3054,7 @@
             ],
             "flags": 0,
             "guid": "P*6P7etC1`",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2886,6 +3070,7 @@
             ],
             "flags": 0,
             "guid": "h=)ZWR0eFB",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2901,6 +3086,7 @@
             ],
             "flags": 0,
             "guid": "PSJ4d6I:kH",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2916,6 +3102,7 @@
             ],
             "flags": 0,
             "guid": "iU<4i]iGZu",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2931,6 +3118,7 @@
             ],
             "flags": 0,
             "guid": "M,#pZ.s0L,",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2946,6 +3134,7 @@
             ],
             "flags": 0,
             "guid": "H_|$GB]m_0",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2961,6 +3150,7 @@
             ],
             "flags": 0,
             "guid": "FcHIMl{~7_",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2976,6 +3166,7 @@
             ],
             "flags": 0,
             "guid": "tcq~V$12Jc",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -2991,6 +3182,7 @@
             ],
             "flags": 0,
             "guid": "OEj`H{eXxA",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3006,6 +3198,7 @@
             ],
             "flags": 0,
             "guid": "Bxsw0o?Hz_",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3021,6 +3214,7 @@
             ],
             "flags": 0,
             "guid": "Dd;W0VId6&",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3036,6 +3230,7 @@
             ],
             "flags": 0,
             "guid": "byc+.0>3Oi",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3051,6 +3246,7 @@
             ],
             "flags": 0,
             "guid": "b!6<x@Zey7",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3066,6 +3262,7 @@
             ],
             "flags": 0,
             "guid": "e@P:G|2jE9",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3081,6 +3278,7 @@
             ],
             "flags": 0,
             "guid": "OQ[D`CUEq_",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3096,6 +3294,7 @@
             ],
             "flags": 0,
             "guid": "N^}c;o</Eg",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3111,6 +3310,7 @@
             ],
             "flags": 0,
             "guid": "rkdZ,fzP5v",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3126,6 +3326,7 @@
             ],
             "flags": 0,
             "guid": "y9(cnOxk1",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3141,6 +3342,7 @@
             ],
             "flags": 0,
             "guid": "m2uSW90LX-",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3156,6 +3358,7 @@
             ],
             "flags": 0,
             "guid": "f[Vw1E!x<>",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3171,6 +3374,7 @@
             ],
             "flags": 0,
             "guid": "zf7Y.l%5`^",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3186,6 +3390,7 @@
             ],
             "flags": 0,
             "guid": "u11iSKc<@+",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3201,6 +3406,7 @@
             ],
             "flags": 0,
             "guid": "p#@h6$:R+A",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3216,6 +3422,7 @@
             ],
             "flags": 0,
             "guid": "ga_(aO#^(7",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3231,6 +3438,7 @@
             ],
             "flags": 0,
             "guid": "QpUGOck,(g",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3246,6 +3454,7 @@
             ],
             "flags": 0,
             "guid": "FWvxC6zZwL",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3261,6 +3470,7 @@
             ],
             "flags": 0,
             "guid": "p%O#][$,Lp",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3276,6 +3486,7 @@
             ],
             "flags": 0,
             "guid": "LhKi_D&beI",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3291,6 +3502,7 @@
             ],
             "flags": 0,
             "guid": "c!_:$MgL}.",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3306,6 +3518,7 @@
             ],
             "flags": 0,
             "guid": "BgP_7^W{?T",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3321,6 +3534,7 @@
             ],
             "flags": 0,
             "guid": "APyLXv[EgA",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3336,6 +3550,7 @@
             ],
             "flags": 0,
             "guid": "IRw#9zUH{u",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3351,6 +3566,7 @@
             ],
             "flags": 0,
             "guid": "C^+^IMTt#%",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3366,6 +3582,7 @@
             ],
             "flags": 0,
             "guid": "j@cuSAki|T",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3381,6 +3598,7 @@
             ],
             "flags": 0,
             "guid": "FRzH5W8k,i",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3396,6 +3614,7 @@
             ],
             "flags": 0,
             "guid": "AAjdSq?}y]",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3411,6 +3630,7 @@
             ],
             "flags": 0,
             "guid": "sd%@u>36pI",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3422,10 +3642,11 @@
             "data": "",
             "fields": [
                 "What are some of the metrics that Azure Batch Autoscaling can respond to?",
-                "* CPU Percentage<div>* Memory usage</div><div>* # Active Tasks</div><div>* # Running Tasks<br>* # Pending Tasks</div><div>* # Failed Tasks</div>"
+                "<div>* <font color=\"#1ac829\">CPUPercent</font><br></div><div>* WallClockSeconds<br>* <font color=\"#1ac829\">MemoryBytes</font><br>* DiskBytes<br>* DiskReadBytes<br>* DiskWriteBytes<br>* DiskReadOps<br>* DiskWriteOps<br>* NetworkInBytes<br>* NetworkOutBytes<br>* SampleNodeCount<br>* <font color=\"#1ac829\">ActiveTasks</font><br>* <font color=\"#1ac829\">RunningTasks</font><br>* <font color=\"#1ac829\">PendingTasks</font><br>* SucceededTasks<br>* <font color=\"#1ac829\">FailedTasks</font><br>* CurrentDedicatedNodes<br>* CurrentLowPriorityNodes<br>* PreemptedNodeCount<br></div>"
             ],
             "flags": 0,
             "guid": "Ab{shgS}[G",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3441,6 +3662,7 @@
             ],
             "flags": 0,
             "guid": "pnuRbmU;NE",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3456,6 +3678,7 @@
             ],
             "flags": 0,
             "guid": "n<xF8ZM%gb",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3471,6 +3694,7 @@
             ],
             "flags": 0,
             "guid": "N+F~D!rP~<",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3486,6 +3710,7 @@
             ],
             "flags": 0,
             "guid": "Lz8k)<wS(|",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3501,6 +3726,7 @@
             ],
             "flags": 0,
             "guid": "M;Gj[F&cQ)",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3516,6 +3742,7 @@
             ],
             "flags": 0,
             "guid": "E0;$~9o;Mg",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3531,6 +3758,7 @@
             ],
             "flags": 0,
             "guid": "tnvMFjo5>-",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3546,6 +3774,7 @@
             ],
             "flags": 0,
             "guid": "Dp2CmX%Zl2",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3561,6 +3790,7 @@
             ],
             "flags": 0,
             "guid": "H(P<]ZNrUH",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3576,6 +3806,7 @@
             ],
             "flags": 0,
             "guid": "I^fAqm?X|]",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3591,6 +3822,7 @@
             ],
             "flags": 0,
             "guid": "I`lT-l].{7",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3606,6 +3838,7 @@
             ],
             "flags": 0,
             "guid": "i~tL^#l3Vp",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3622,6 +3855,7 @@
             ],
             "flags": 0,
             "guid": "m5!6KvUGxH",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3637,6 +3871,7 @@
             ],
             "flags": 0,
             "guid": "q^(`$vHtQc",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3652,6 +3887,7 @@
             ],
             "flags": 0,
             "guid": "q>Gmz{UHdx",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3667,6 +3903,7 @@
             ],
             "flags": 0,
             "guid": "m#8cfpWa|l",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3682,6 +3919,7 @@
             ],
             "flags": 0,
             "guid": "m&vTH@^Cr_",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3697,6 +3935,7 @@
             ],
             "flags": 0,
             "guid": "bbL$PZ>k.L",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3712,6 +3951,7 @@
             ],
             "flags": 0,
             "guid": "LsG&fk3<b2",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3727,6 +3967,7 @@
             ],
             "flags": 0,
             "guid": "P3I#>B;W2U",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3742,6 +3983,7 @@
             ],
             "flags": 0,
             "guid": "L)<3pvIm<r",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3757,6 +3999,7 @@
             ],
             "flags": 0,
             "guid": "Cp2lvpOfK",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3772,6 +4015,7 @@
             ],
             "flags": 0,
             "guid": "EO28F$.ml<",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3787,6 +4031,7 @@
             ],
             "flags": 0,
             "guid": "uI6!JUO?zt",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3802,6 +4047,7 @@
             ],
             "flags": 0,
             "guid": "O&K{2QmPr$",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3817,6 +4063,7 @@
             ],
             "flags": 0,
             "guid": "B(?;6WBO79",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3832,6 +4079,7 @@
             ],
             "flags": 0,
             "guid": "Qi.+imD9|s",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3847,6 +4095,7 @@
             ],
             "flags": 0,
             "guid": "qn9)611Zw}",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3862,6 +4111,7 @@
             ],
             "flags": 0,
             "guid": "g.i,N7{^q_",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3877,6 +4127,7 @@
             ],
             "flags": 0,
             "guid": "t1=N1o~A^@",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3892,6 +4143,7 @@
             ],
             "flags": 0,
             "guid": "APAieS{*Lf",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3907,6 +4159,7 @@
             ],
             "flags": 0,
             "guid": "A8Tsm3WPY}",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3922,6 +4175,7 @@
             ],
             "flags": 0,
             "guid": "stj?r`/Vr$",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3937,6 +4191,7 @@
             ],
             "flags": 0,
             "guid": "KNBFBz[nxd",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3952,6 +4207,7 @@
             ],
             "flags": 0,
             "guid": "D8s^j%#VHY",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3967,6 +4223,7 @@
             ],
             "flags": 0,
             "guid": "i3p$)#{Y8a",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3982,6 +4239,7 @@
             ],
             "flags": 0,
             "guid": "NWL!X}Zpk+",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -3997,6 +4255,7 @@
             ],
             "flags": 0,
             "guid": "HT$rxjhL7f",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4012,6 +4271,7 @@
             ],
             "flags": 0,
             "guid": "f*E1$[w4y<",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4027,6 +4287,7 @@
             ],
             "flags": 0,
             "guid": "B27.it*PT`",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4042,6 +4303,7 @@
             ],
             "flags": 0,
             "guid": "iZj3{n6r(x",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4057,6 +4319,7 @@
             ],
             "flags": 0,
             "guid": "FhRfO]QZXY",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4072,6 +4335,7 @@
             ],
             "flags": 0,
             "guid": "f#2&$;FpX1",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4087,6 +4351,7 @@
             ],
             "flags": 0,
             "guid": "u`=4+v-3|:",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4102,6 +4367,7 @@
             ],
             "flags": 0,
             "guid": "A.o!C*0GN8",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4117,6 +4383,7 @@
             ],
             "flags": 0,
             "guid": "P0@tvZeWZ[",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4132,6 +4399,7 @@
             ],
             "flags": 0,
             "guid": "iC=A*G(3W:",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4147,6 +4415,7 @@
             ],
             "flags": 0,
             "guid": "c{C<KvHG7g",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4162,6 +4431,7 @@
             ],
             "flags": 0,
             "guid": "mu*z&Tkyf{",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4177,6 +4447,7 @@
             ],
             "flags": 0,
             "guid": "i|7)02^^^V",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4192,6 +4463,7 @@
             ],
             "flags": 0,
             "guid": "HrhlkOkS)%",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4207,6 +4479,7 @@
             ],
             "flags": 0,
             "guid": "C+9WB7O=E",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4222,6 +4495,7 @@
             ],
             "flags": 0,
             "guid": "t|s>*g{:(k",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4237,6 +4511,7 @@
             ],
             "flags": 0,
             "guid": "PeFID95P9r",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4252,6 +4527,7 @@
             ],
             "flags": 0,
             "guid": "mleBO[C~8~",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4267,6 +4543,7 @@
             ],
             "flags": 0,
             "guid": "Eee$`[Bd#,",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4282,6 +4559,7 @@
             ],
             "flags": 0,
             "guid": "Fe+FQh|_&t",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4297,6 +4575,7 @@
             ],
             "flags": 0,
             "guid": "QA!W4a1I)m",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4312,6 +4591,7 @@
             ],
             "flags": 0,
             "guid": "u1NYo@4^)D",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4327,6 +4607,7 @@
             ],
             "flags": 0,
             "guid": "z:o9{Rg+qg",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4342,6 +4623,7 @@
             ],
             "flags": 0,
             "guid": "B57tz:w1CY",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4353,10 +4635,11 @@
             "data": "",
             "fields": [
                 "What is a <font color=\"#e11cbe\">Column Master Key</font> (<font color=\"#e11cbe\">CMK</font>)?",
-                "The CMK is used to encrypt <font color=\"#e11cbe\">Column Encryption Keys</font> (<font color=\"#e11cbe\">CEK</font>) which are the actual keys used to encrypt and decrypt Always On encrypted data.<br><br>Stored in key vault (always?)"
+                "The CMK is used to encrypt <font color=\"#e11cbe\">Column Encryption Keys</font> (<font color=\"#e11cbe\">CEK</font>) which are the actual keys used to encrypt and decrypt Always On encrypted data.<br><br>Stored in key vault or Windows certificate store"
             ],
             "flags": 0,
             "guid": "ix;4$3[J+|",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4372,6 +4655,7 @@
             ],
             "flags": 0,
             "guid": "yJDEid[CU.",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4387,6 +4671,7 @@
             ],
             "flags": 0,
             "guid": "DnMk2($QO3",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4402,6 +4687,7 @@
             ],
             "flags": 0,
             "guid": "e&j_5O=g>I",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4412,14 +4698,14 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What 2 pricing tiers are available in Azure for App Service Certificates?",
-                "* S1 Standard - for a single certificate<div>* W1 Wild Card - a wild card certificate to cover many subdomains</div>"
+                "What 2 pricing tiers are available in Azure for <font color=\"#e11cbe\">App Service Certificates</font>?",
+                "* <font color=\"#e11cbe\">S1 Standard</font> - for a single certificate<div>* <font color=\"#e11cbe\">W1 Wild Card</font> - a wild card certificate to cover many subdomains</div>"
             ],
             "flags": 0,
             "guid": "D[RKTCeT&$",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
-                "add-highlights",
                 "AZ-203",
                 "azure-securing-data"
             ]
@@ -4433,6 +4719,7 @@
             ],
             "flags": 0,
             "guid": "p?us>*HwcA",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4448,6 +4735,7 @@
             ],
             "flags": 0,
             "guid": "G]~}s2ZJc:",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4458,11 +4746,12 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are <font color=\"#e11cbe\">TEE</font>s?",
+                "What is <font color=\"#e11cbe\">TEE</font> an acronym for?",
                 "Trusted Execution Environments"
             ],
             "flags": 0,
             "guid": "B449e7Ql|2",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4478,6 +4767,7 @@
             ],
             "flags": 0,
             "guid": "z@~XRBNHaO",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4493,6 +4783,7 @@
             ],
             "flags": 0,
             "guid": "MA/5#i`G$b",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4508,6 +4799,7 @@
             ],
             "flags": 0,
             "guid": "A?d{mdG5YW",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4523,6 +4815,7 @@
             ],
             "flags": 0,
             "guid": "D[j~P._C~X",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4538,6 +4831,7 @@
             ],
             "flags": 0,
             "guid": "l<{K,C[a5m",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4553,6 +4847,7 @@
             ],
             "flags": 0,
             "guid": "N{OQV|C/h3",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4563,11 +4858,12 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Is Always Encrypted with Secure Enclaves supported by hardware backed enclaves?",
+                "Does <font color=\"#e11cbe\">Always Encrypted with Secure Enclaves</font> leverage hardware backed enclaves?",
                 "As of mid 2019, no, but Microsoft plans to use hardware backed enclaves in the future."
             ],
             "flags": 0,
             "guid": "Klt._[%!YW",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4583,6 +4879,7 @@
             ],
             "flags": 0,
             "guid": "ep:hACi,Y3",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4598,6 +4895,7 @@
             ],
             "flags": 0,
             "guid": "oN?(8]C;B<",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
@@ -4613,10 +4911,203 @@
             ],
             "flags": 0,
             "guid": "JNVwy$k<2C",
+            "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "AZ-203",
                 "azure-securing-data"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What kind of <font color=\"#e11cbe\">data</font> is stored in <font color=\"#e11cbe\">Azure Table Storage</font>?",
+                "<font color=\"#e11cbe\">NoSQL</font> data stored as <font color=\"#e11cbe\">Key</font>-<font color=\"#e11cbe\">Value</font> pairs"
+            ],
+            "flags": 0,
+            "guid": "pONV_+Hkg)",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-table-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "As far as <font color=\"#e11cbe\">pricing</font> is concerned, what are Azure <font color=\"#e11cbe\">Table Storage</font> and Azure <font color=\"#e11cbe\">Cosmos</font> optimized for?",
+                "* <font color=\"#e11cbe\">Table Storage</font> is optimized for <font color=\"#e11cbe\">storage</font><div>* <font color=\"#e11cbe\">Cosmos</font> is optimized for throughput or <font color=\"#e11cbe\">retrieval</font></div>"
+            ],
+            "flags": 0,
+            "guid": "DiL1K}uZ}R",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-table-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In <font color=\"#e11cbe\">Azure Table Storage</font>, what is a <font color=\"#e11cbe\">Partition Key</font>?",
+                "It is a key that azure uses to automatically subdivide the data in a table into partitions.&nbsp; It impacts how the data is stored and retrieved, so it should be chosen carefully."
+            ],
+            "flags": 0,
+            "guid": "bJ20QRdJ-P",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-table-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What 4 things do Logic Apps, Microsoft Flow, WebJobs and Azure Functions have in common?",
+                "* They all accept <font color=\"#e11cbe\">inputs</font><div>* They all run <font color=\"#e11cbe\">actions</font></div><div>* They can all include <font color=\"#e11cbe\">conditions</font></div><div>* They can all produce <font color=\"#e11cbe\">outputs</font></div>"
+            ],
+            "flags": 0,
+            "guid": "vFvfC)uDBI",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-serverless"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What makes Logic Apps easy to integrate with other services?",
+                "There are over 200 pre-built <font color=\"#e11cbe\">connectors</font>, in addition to being able to connect to any system that exposes a REST API."
+            ],
+            "flags": 0,
+            "guid": "ND_),rnX6x",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-serverless"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 4 different types of flows you can create in Microsoft Flow?",
+                "* <font color=\"#e11cbe\">Automated</font>: triggered by an event<div>* <font color=\"#e11cbe\">Button</font></div><div>* <font color=\"#e11cbe\">Scheduled</font></div><div>* <font color=\"#e11cbe\">Business Process</font></div>"
+            ],
+            "flags": 0,
+            "guid": "OHMoSRROB8",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-serverless"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Under the hood, Microsoft Flow is just a _________?",
+                "Logic App"
+            ],
+            "flags": 0,
+            "guid": "mqL>m#qXm+",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-serverless"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the official supported languages of Azure Functions (as of Nov 2019)?",
+                "* C#<div>* Javascript</div><div>* F#</div><div>* Java</div><div>* Powershell</div><div>* Python</div><div>* TypeScript</div>"
+            ],
+            "flags": 0,
+            "guid": "p9j[M^fC[(",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-serverless"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is one advantage the <font color=\"#e11cbe\">JobHost</font> class of <font color=\"#e11cbe\">WebJobs</font> gives you?",
+                "You have control over the class that listens for events that trigger the code, giving you more flexibility to modify its behavior."
+            ],
+            "flags": 0,
+            "guid": "lPb:F[Uw6",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-serverless"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some advantages <font color=\"#e11cbe\">Azure Functions</font> has over <font color=\"#e11cbe\">Azure WebJobs</font>?",
+                "* Auto scaling<div>* Can be developed and tested in a browser</div><div>* Consumption based billing</div><div>* Integration w/ Logic Apps</div>"
+            ],
+            "flags": 0,
+            "guid": "IPhW77Nc,.",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-serverless"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which is the only one of the serverless Azure services that offers a <font color=\"#e11cbe\">design first</font> experience intended for <font color=\"#e11cbe\">developers</font>?",
+                "Azure Logic Apps"
+            ],
+            "flags": 0,
+            "guid": "Fy5(C.Uq`{",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-serverless"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which is the only one of the serverless Azure services that offers control of <font color=\"#e11cbe\">retry policies</font>?",
+                "Azure WebJobs"
+            ],
+            "flags": 0,
+            "guid": "i}fe^#FZ<)",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-serverless"
             ]
         }
     ]
