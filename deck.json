@@ -16,7 +16,7 @@
                 "leechAction": 0,
                 "leechFails": 8,
                 "minInt": 1,
-                "mult": 0.0
+                "mult": 0
             },
             "maxTaken": 60,
             "name": "Default",
@@ -42,7 +42,7 @@
                 "ease4": 1.3,
                 "fuzz": 0.05,
                 "hardFactor": 1.2,
-                "ivlFct": 1.0,
+                "ivlFct": 1,
                 "maxIvl": 36500,
                 "minSpace": 1,
                 "perDay": 200
@@ -99,7 +99,7 @@
             "sortf": 0,
             "tags": [
                 "AZ-203",
-                "azure-serverless"
+                "azure-messaging"
             ],
             "tmpls": [
                 {
@@ -680,7 +680,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are the fixed constraints of Standard Storage in Azure?",
+                "What are the fixed constraints of <font color=\"#e11cbe\">Standard Storage</font> in Azure?",
                 "Throughput - <font color=\"#e11cbe\">60</font>Mbps/sec<div>IOPS - <font color=\"#e11cbe\">500</font> per disk</div>"
             ],
             "flags": 0,
@@ -4859,7 +4859,7 @@
             "data": "",
             "fields": [
                 "Does <font color=\"#e11cbe\">Always Encrypted with Secure Enclaves</font> leverage hardware backed enclaves?",
-                "As of mid 2019, no, but Microsoft plans to use hardware backed enclaves in the future."
+                "As of mid 2019, <font color=\"#e11cbe\">no</font>, but Microsoft plans to use hardware backed enclaves in the future."
             ],
             "flags": 0,
             "guid": "Klt._[%!YW",
@@ -5108,6 +5108,502 @@
             "tags": [
                 "AZ-203",
                 "azure-serverless"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some of the drawbacks of Azure Functions?",
+                "* They have a limited amount of processing time per operation.&nbsp; <font color=\"#e11cbe\">5 mintues</font> by default, configurable to a maximum of <font color=\"#e11cbe\">10 minutes</font>.<div>* If you <font color=\"#e11cbe\">execute frequently</font> enough, it might be more cost effective to host in an app service or VM</div><div>* There are limitations to scaling speed and size.&nbsp; Only <font color=\"#e11cbe\">one new app per 10 seconds</font>, up to a <font color=\"#e11cbe\">max of 200 instances</font>. (different trigger have different scaling requirements)</div>"
+            ],
+            "flags": 0,
+            "guid": "Gb,aGw5zUh",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-serverless"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When securing an Azure Function with a function key, what http header should you provide that key in when calling the function?",
+                "x-functions-key"
+            ],
+            "flags": 0,
+            "guid": "Q+<;[Xc+Vv",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 6 fields in an <font color=\"#e11cbe\">Azure Cron</font> expression?",
+                "<code>{second}</code><div><code>{minute}</code></div><div><code>{hour}</code></div><div><code>{day}</code></div><div><code>{month}</code></div><div><code>{day of the week}</code></div>"
+            ],
+            "flags": 0,
+            "guid": "jNXF-/*~!z",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the difference between Azure <font color=\"#e11cbe\">Functions</font> and Azure <font color=\"#e11cbe\">Durable Functions</font>?",
+                "Azure Functions operate in a <font color=\"#e11cbe\">stateless</font> environment, Durable Functions can <font color=\"#e11cbe\">retain state</font> between function calls."
+            ],
+            "flags": 0,
+            "guid": "ORK+:?X0oy",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 4 benefits of Azure Durable Functions?",
+                "* They enable you to write <font color=\"#e11cbe\">event driven code</font>.&nbsp;<br>* You can <font color=\"#e11cbe\">chain</font> functions together.&nbsp;<br>* You can <font color=\"#e11cbe\">orchestrate</font> and <font color=\"#e11cbe\">coordinate</font> functions, and <font color=\"#e11cbe\">specify the order </font>in which functions should execute.<br>* The <font color=\"#e11cbe\">state is managed</font> for you."
+            ],
+            "flags": 0,
+            "guid": "AM(t9`mwv?",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Regarding Azure Durable Functions, what is an <font color=\"#e11cbe\">Orchestration Function</font>?",
+                "An Orchestration Function allows you to <font color=\"#e11cbe\">define workflows in code</font>, calling functions both synchronously and asynchronously.&nbsp;&nbsp;<div><br></div><div>Azure monitors the progress of a function, and automatically dehydrates and pauses it to save money when it's inactive, and rehydrates and starts it again when it needs to.</div>"
+            ],
+            "flags": 0,
+            "guid": "lC1]RFTf-#",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 3 types of functions in <font color=\"#e11cbe\">Azure Durable Functions</font>?",
+                "* <font color=\"#e11cbe\">client</font> - the starting point<div>* <font color=\"#e11cbe\">orchestrator</font> - describe how functions are executed, the order that they run, etc.</div><div>* <font color=\"#e11cbe\">activity</font> - the basic units of work</div>"
+            ],
+            "flags": 0,
+            "guid": "Lgcm6t}Y(>",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 5 common application patterns you can implement with <font color=\"#e11cbe\">Azure Durable Functions</font>?",
+                "* Function Chaining<div>* Fan out/Fan in</div><div>* Async HTTP APIs</div><div>* Monitor</div><div>* Human Interaction</div>"
+            ],
+            "flags": 0,
+            "guid": "Gl0yv9uBy",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 2 true things about Azure <font color=\"#e11cbe\">Functions</font> living in the same <font color=\"#e11cbe\">Function App</font>?",
+                "* They <font color=\"#e11cbe\">share</font> a common set of <font color=\"#e11cbe\">configuration</font> values<div>* They must be <font color=\"#e11cbe\">built</font> in the <font color=\"#e11cbe\">same language</font></div>"
+            ],
+            "flags": 0,
+            "guid": "I4[kjA{5GG",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What <font color=\"#e11cbe\">command</font> do you run in <font color=\"#e11cbe\">Azure Functions Core Tools</font> to create a new project?",
+                "<font color=\"#e11cbe\">func init</font>"
+            ],
+            "flags": 0,
+            "guid": "O*pLs-^+`g",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When creating an Azure Functions project locally with <font color=\"#e11cbe\">Core Tools</font>, what <font color=\"#e11cbe\">2 files</font> will be present regardless of the language you choose for the project?",
+                "* <font color=\"#e11cbe\">host.json</font> - config values that run locally and in the cloud<div>* <font color=\"#e11cbe\">local.settings.json</font> - config values that only apply locally</div>"
+            ],
+            "flags": 0,
+            "guid": "h,k2Q_47G+",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What Azure Functions <font color=\"#e11cbe\">command</font> in <font color=\"#e11cbe\">Core Tools</font> do you run to create a <font color=\"#e11cbe\">new function</font>?",
+                "<font color=\"#e11cbe\">func new</font>"
+            ],
+            "flags": 0,
+            "guid": "e](rXyawx9",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Can you <font color=\"#e11cbe\">combine</font> functions from <font color=\"#e11cbe\">multiple</font> local Azure Function projects into a <font color=\"#e11cbe\">single Azure Function App</font>?",
+                "<font color=\"#e11cbe\">No</font>.<div><br></div><div>Each time you <font color=\"#e11cbe\">publish</font> a project, it will <font color=\"#e11cbe\">completely overwrite</font> the contents of the Azure Function App.</div>"
+            ],
+            "flags": 0,
+            "guid": "v|}c:!>xPK",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the <font color=\"#e11cbe\">two runtime environments</font> currently offered for developing <font color=\"#e11cbe\">Azure Functions</font>?",
+                "<font color=\"#e11cbe\">V1</font> - uses .NET Framework 4.7<div><font color=\"#e11cbe\">V2</font> - uses .NET Core 2</div>"
+            ],
+            "flags": 0,
+            "guid": "MN2AHCGNv2",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the <font color=\"#e11cbe\">az cli</font> command to deploy a function app from a <font color=\"#e11cbe\">zip file</font>?",
+                "az functionapp <font color=\"#e11cbe\">deployment source config-zip</font> \\<br>-<font color=\"#e11cbe\">g</font> &lt;resource-group&gt; \\<br>-<font color=\"#e11cbe\">n</font> &lt;function-app-name&gt; \\<br>--<font color=\"#e11cbe\">src</font> &lt;zip-file&gt;"
+            ],
+            "flags": 0,
+            "guid": "x[SrV`|N$d",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-functions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the characteristics of a <font color=\"#e11cbe\">Message</font>?",
+                "* <font color=\"#e11cbe\">Contains raw data</font>, not a reference to the data<div>* Produced by one component, <font color=\"#e11cbe\">consumed by one component</font></div><div>* The sending component has <font color=\"#e11cbe\">expectations</font> about how the message will be processed</div>"
+            ],
+            "flags": 0,
+            "guid": "e4<jopAJX]",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the characteristics of an <font color=\"#e11cbe\">Event</font>?",
+                "* Lightweight <font color=\"#e11cbe\">notification</font> indicating <font color=\"#e11cbe\">something has happened</font><div>* <font color=\"#e11cbe\">Zero to many receivers</font></div><div>* The publishing component has <font color=\"#e11cbe\">no expectation</font> of the receiving component(s)</div><div>* Some events are <font color=\"#e11cbe\">discrete</font> units</div><div>* Some events are part of a <font color=\"#e11cbe\">related, ordered series</font></div>"
+            ],
+            "flags": 0,
+            "guid": "v7DR/W?HD$",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What question might you ask to choose between sending a <font color=\"#e11cbe\">Message</font> or an <font color=\"#e11cbe\">Event</font>?",
+                "Does the sending component <font color=\"#e11cbe\">expect</font> the communication to be processed in a specific way by the receiving component?<div><br></div><div>Yes = <font color=\"#e11cbe\">Message</font></div><div>No = <font color=\"#e11cbe\">Event</font></div>"
+            ],
+            "flags": 0,
+            "guid": "rUd?SH6Z7e",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which two Azure technologies support <font color=\"#e11cbe\">Messages</font> and which two support <font color=\"#e11cbe\">Events</font>?",
+                "<font color=\"#e11cbe\">Messages</font>:<div>* Storage Queue</div><div>* Service Bus</div><div><br></div><div><font color=\"#e11cbe\">Events</font>:</div><div>* Event Grid</div><div>* Event Hub</div>"
+            ],
+            "flags": 0,
+            "guid": "m.VCFio[e4",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 3 flavors of <font color=\"#e11cbe\">Message delivery guarantees</font>?",
+                "* <font color=\"#e11cbe\">At Least Once</font> delivery<br><div>* <font color=\"#e11cbe\">At Most Once</font> delivery</div><div>* <font color=\"#e11cbe\">First In First Out</font> (FIFO) delivery</div>"
+            ],
+            "flags": 0,
+            "guid": "Lx+q3FwTWs",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is <font color=\"#e11cbe\">Azure Event Grid</font> built on top of?",
+                "<font color=\"#e11cbe\">Azure Service Fabric</font>"
+            ],
+            "flags": 0,
+            "guid": "bTa0QbU`a0",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In <font color=\"#e11cbe\">Azure Event Grid</font>, how large can an event be?",
+                "<font color=\"#e11cbe\">64</font>k"
+            ],
+            "flags": 0,
+            "guid": "nsxoL^~;FD",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does an Azure Event Grid message skeleton look like (8 properties)?",
+                "[<br>&nbsp; {<br>&nbsp;&nbsp;&nbsp; \"<font color=\"#e11cbe\">topic</font>\": string,<br>&nbsp;&nbsp;&nbsp; \"<font color=\"#e11cbe\">subject</font>\": string,<br>&nbsp;&nbsp;&nbsp; \"<font color=\"#e11cbe\">id</font>\": string,<br>&nbsp;&nbsp;&nbsp; \"<font color=\"#e11cbe\">eventType</font>\": string,<br>&nbsp;&nbsp;&nbsp; \"<font color=\"#e11cbe\">eventTime</font>\": string,<br>&nbsp;&nbsp;&nbsp; \"<font color=\"#e11cbe\">data</font>\":{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; object-unique-to-each-publisher<br>&nbsp;&nbsp;&nbsp; },<br>&nbsp;&nbsp;&nbsp; \"<font color=\"#e11cbe\">dataVersion</font>\": string,<br>&nbsp;&nbsp;&nbsp; \"<font color=\"#e11cbe\">metadataVersion</font>\": string<br>&nbsp; }<br>]"
+            ],
+            "flags": 0,
+            "guid": "u5be~lt|3}",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are <font color=\"#e11cbe\">Event</font> topics?",
+                "They categorize Events into groups.<div><br></div><div>They are represented by a <font color=\"#e11cbe\">public endpoint</font> where the event source sends them to.</div>"
+            ],
+            "flags": 0,
+            "guid": "y7-6vr&0E}",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is an <font color=\"#e11cbe\">event subscription</font>?",
+                "They define <font color=\"#e11cbe\">which events</font> on a topic an event handler wants to receive.<div><br></div><div>They can also <font color=\"#e11cbe\">filter</font> events by their <font color=\"#e11cbe\">type</font> or <font color=\"#e11cbe\">subject</font>.</div>"
+            ],
+            "flags": 0,
+            "guid": "NM^:`@o-p(",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the difference between <font color=\"#e11cbe\">Event Grid</font> and <font color=\"#e11cbe\">Event Hubs</font> regarding the volume of events being processed?",
+                "<font color=\"#e11cbe\">Event Grid</font> is better at <font color=\"#e11cbe\">one-at-a-time</font> delivery.<div><br></div><div><font color=\"#e11cbe\">Event Hubs</font> is better for delivering a large <font color=\"#e11cbe\">stream of events</font></div>"
+            ],
+            "flags": 0,
+            "guid": "xg]At$:toJ",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How long can an event remain in an <font color=\"#e11cbe\">Azure Event Hubs</font> buffer before it will <font color=\"#e11cbe\">expire</font> automatically?",
+                "<font color=\"#e11cbe\">24</font> hours"
+            ],
+            "flags": 0,
+            "guid": "o6wgq|K9.7",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the <font color=\"#e11cbe\">Capture</font> feature of Azure Event Hubs?",
+                "It allows you to send your events to <font color=\"#e11cbe\">Azure Data Lake</font> or <font color=\"#e11cbe\">Azure Blob storage</font> for permanent retention"
+            ],
+            "flags": 0,
+            "guid": "O&+A*bEx0d",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is <font color=\"#e11cbe\">Authentication</font> in regards to <font color=\"#e11cbe\">Azure Event Hub</font>?",
+                "All publishers are <font color=\"#e11cbe\">authenticated with a token</font>, allowing Event Hubs to safely accept events from external devices."
+            ],
+            "flags": 0,
+            "guid": "ba9;gLh|/J",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 4 compelling reasons to choose <font color=\"#e11cbe\">Azure Event Hub</font> over <font color=\"#e11cbe\">Azure Event Grid</font>?",
+                "* You need to <font color=\"#e11cbe\">authenticate</font> a large number of publishers<div>* You need to save a stream of events to <font color=\"#e11cbe\">Data Lake</font> or <font color=\"#e11cbe\">Blob</font> storage</div><div>* You need to <font color=\"#e11cbe\">aggregate</font> or <font color=\"#e11cbe\">analyze</font> a stream of events</div><div>* You need <font color=\"#e11cbe\">reliable messaging</font> (resiliancy)</div>"
+            ],
+            "flags": 0,
+            "guid": "gOC6zIi!Lz",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 5 reasons you would choose <font color=\"#e11cbe\">Azure Event Grid</font> over <font color=\"#e11cbe\">Azure Event Hub</font>?",
+                "* <font color=\"#e11cbe\">Simplicity</font><div>* <font color=\"#e11cbe\">Advanced Filtering</font> - subscriptions can controle events they receive from a topic</div><div>* <font color=\"#e11cbe\">Fan Out</font> - one event can be sent to multiple endpoints</div><div>* <font color=\"#e11cbe\">Reliability</font> - retry for 24 hours</div><div>* <font color=\"#e11cbe\">Pay-Per-Event</font></div>"
+            ],
+            "flags": 0,
+            "guid": "uxjvYbR&j%",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
             ]
         }
     ]
