@@ -98,8 +98,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "AZ-203",
-                "azure-messaging"
+                "HJW"
             ],
             "tmpls": [
                 {
@@ -5595,10 +5594,218 @@
             "data": "",
             "fields": [
                 "What are 5 reasons you would choose <font color=\"#e11cbe\">Azure Event Grid</font> over <font color=\"#e11cbe\">Azure Event Hub</font>?",
-                "* <font color=\"#e11cbe\">Simplicity</font><div>* <font color=\"#e11cbe\">Advanced Filtering</font> - subscriptions can controle events they receive from a topic</div><div>* <font color=\"#e11cbe\">Fan Out</font> - one event can be sent to multiple endpoints</div><div>* <font color=\"#e11cbe\">Reliability</font> - retry for 24 hours</div><div>* <font color=\"#e11cbe\">Pay-Per-Event</font></div>"
+                "* <font color=\"#e11cbe\">Simplicity</font><div>* <font color=\"#e11cbe\">Advanced Filtering</font> - subscriptions can control events they receive from a topic</div><div>* <font color=\"#e11cbe\">Fan Out</font> - one event can be sent to multiple endpoints</div><div>* <font color=\"#e11cbe\">Reliability</font> - retry for 24 hours</div><div>* <font color=\"#e11cbe\">Pay-Per-Event</font></div>"
             ],
             "flags": 0,
             "guid": "uxjvYbR&j%",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In messaging (as in <font color=\"#e11cbe\">Azure Service Bus</font> or <font color=\"#e11cbe\">Queue Storage</font>), why are the sender and receiver likely to be <font color=\"#e11cbe\">coupled</font> by a strict data contract?",
+                "Because the sending application needs to <font color=\"#e11cbe\">send everything</font> the receiving application needs to process the message <font color=\"#e11cbe\">without sending too much</font>."
+            ],
+            "flags": 0,
+            "guid": "hQprPRY$1j",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 3 different ways <font color=\"#e11cbe\">Azure Service Bus</font> can exchange messages?",
+                "* <font color=\"#e11cbe\">Queues</font><div>* <font color=\"#e11cbe\">Topics</font></div><div>* <font color=\"#e11cbe\">Relays</font></div>"
+            ],
+            "flags": 0,
+            "guid": "M:OvLe#gfQ",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Does Azure Service Bus support <font color=\"#e11cbe\">at-least-once</font> or <font color=\"#e11cbe\">at-most-once</font> delivery?",
+                "It supports <font color=\"#e11cbe\">both</font>"
+            ],
+            "flags": 0,
+            "guid": "lt@z`z6DP^",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Does Azure Service Bus make any <font color=\"#e11cbe\">gaurantees about the order</font> in which messages will be processed?",
+                "It guarantees <font color=\"#e11cbe\">first-in-first-out</font> (<font color=\"#e11cbe\">FIFO</font>) ordering."
+            ],
+            "flags": 0,
+            "guid": "sxRHPzBTH-",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Does Azure Service Bus offer <font color=\"#e11cbe\">transactions</font>?",
+                "<font color=\"#e11cbe\">Yes</font>.&nbsp; If one message in a transaction fails to deliver, all will not be delivered."
+            ],
+            "flags": 0,
+            "guid": "MPvz+lU8c",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the <font color=\"#e11cbe\">queue size limit</font> for Azure Service Bus?",
+                "<font color=\"#e11cbe\">80</font> GB"
+            ],
+            "flags": 0,
+            "guid": "O1CGE3+B=w",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are 4 reasons you might choose <font color=\"#e11cbe\">Azure Queue Storage</font> over <font color=\"#e11cbe\">Azure Service Bus</font> queues?",
+                "* You need a <font color=\"#e11cbe\">simple queue</font> with no particular additional requirements<br>* You need an <font color=\"#e11cbe\">audit trail</font> of all messages that pass through the queue<br>* You expect the queue to <font color=\"#e11cbe\">exceed 80 GB</font> in size<br>* You want to <font color=\"#e11cbe\">track progress</font> for processing a message inside of the queue"
+            ],
+            "flags": 0,
+            "guid": "Qb};ed27S]",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What <font color=\"#e11cbe\">NuGet package</font> is available to make it easy to write .NET code for the <font color=\"#e11cbe\">Azure Service Bus</font>?",
+                "<font color=\"#e11cbe\">Microsoft</font>.<font color=\"#e11cbe\">Azure</font>.<font color=\"#e11cbe\">ServiceBus</font>"
+            ],
+            "flags": 0,
+            "guid": "ll$#V[a7T.",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the most important class in the <font color=\"#e11cbe\">Microsoft</font>.<font color=\"#e11cbe\">Azure</font>.<font color=\"#e11cbe\">ServiceBus</font> NuGet package?",
+                "The <font color=\"#e11cbe\">QueueClient</font>, which you must instantiate for both sending and recieving components."
+            ],
+            "flags": 0,
+            "guid": "kH4O5(>rik",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When processing ServiceBus messages via the <font color=\"#e11cbe\">QueueClient</font> class, what method should you call when processing is successful to <font color=\"#e11cbe\">remove</font> the processed message from the queue?",
+                ".<font color=\"#e11cbe\">CompleteAsync</font>(...)"
+            ],
+            "flags": 0,
+            "guid": "lXAgRautAZ",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What <font color=\"#e11cbe\">classes</font> in the Microsoft.Azure.ServiceBus NuGet package let you send and recieve messages via <font color=\"#e11cbe\">topics</font>?",
+                "<font color=\"#e11cbe\">TopicClient</font> and <font color=\"#e11cbe\">SubscriptionClient</font>"
+            ],
+            "flags": 0,
+            "guid": "fj#uSF{/*5",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the 3 types of <font color=\"#e11cbe\">filters</font> that can be applied to an Azure ServiceBus Topic <font color=\"#e11cbe\">Subscription</font>?",
+                "* <font color=\"#e11cbe\">Boolean</font> Filters<div>* <font color=\"#e11cbe\">SQL</font> Filters</div><div>* <font color=\"#e11cbe\">Correlation</font> Filters</div>"
+            ],
+            "flags": 0,
+            "guid": "D^CZVdSnmi",
+            "newlyAdded": false,
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When filtering Azure Service Bus Topic Subscriptions, why might you use a <font color=\"#e11cbe\">Correlation Filter</font> over a <font color=\"#e11cbe\">SQL filter</font>?",
+                "Because they are a <font color=\"#e11cbe\">cheaper operation</font>.&nbsp; SQL Filters give you more <font color=\"#e11cbe\">flexibility</font>, but are computationally more expensive."
+            ],
+            "flags": 0,
+            "guid": "E$~/r-n9OA",
             "newlyAdded": false,
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
