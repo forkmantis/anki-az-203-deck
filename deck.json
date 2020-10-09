@@ -99,7 +99,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "azure-queue"
+                "azure"
             ],
             "tmpls": [
                 {
@@ -1200,8 +1200,8 @@
         {
             "__type__": "Note",
             "fields": [
-                "What are some reasons for setting up <font color=\"#e11cbe\">Auditing</font> on a SQL server?",
-                "* <font color=\"#e11cbe\">Regulation Compliance</font> - health regulations, etc<div>* <font color=\"#e11cbe\">Suspicious Activit</font>y - failed logins or injection attempts</div><div>* <font color=\"#e11cbe\">Unusual Activity</font> or <font color=\"#e11cbe\">Performance Issues</font> - query failures or long running queries</div>"
+                "What are some (3) reasons for setting up <font color=\"#e11cbe\">Auditing</font> on a SQL server?",
+                "* <font color=\"#e11cbe\">Regulation Compliance</font> - health regulations, etc<div>* <font color=\"#e11cbe\">Suspicious Activity</font> - failed logins or injection attempts</div><div>* <font color=\"#e11cbe\">Unusual Activity</font> or <font color=\"#e11cbe\">Performance Issues</font> - query failures or long running queries</div>"
             ],
             "guid": "xa@%@:A2Fg",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
@@ -3192,7 +3192,7 @@
             "__type__": "Note",
             "fields": [
                 "What are the Azure Batch limits on Application Package Size?",
-                "~195GB"
+                "~<font color=\"#e11cbe\">195</font>GB"
             ],
             "guid": "m#8cfpWa|l",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
@@ -4765,7 +4765,7 @@
             "__type__": "Note",
             "fields": [
                 "How does Azure API Management help with some of the issues introduced with microservices?",
-                "* Client apps only need to know about the API, not the underlying microservices which may be harder to track<div>* API can shield clients from needing to know if a microservice is relocated or renamed</div><div>* API can make many microservices appear as a single offering</div><div>* API Management policies can give a more consistent experience&nbsp; (i.e. all endpoints return JSON, not XML)</div><div>* Enforce consistent security measures across microservices</div>"
+                "* Client apps <font color=\"#e11cbe\">only need to know</font> about the API, not the underlying microservices which may be harder to track<div>* API can shield clients from needing to know if a microservice is <font color=\"#e11cbe\">relocated or renamed</font></div><div>* API can make many microservices <font color=\"#e11cbe\">appear as a single offering</font></div><div>* API Management policies can give a more <font color=\"#e11cbe\">consistent experience</font>&nbsp; (i.e. all endpoints return JSON, not XML)</div><div>* Enforce <font color=\"#e11cbe\">consistent security measures</font> across microservices</div>"
             ],
             "guid": "srmHFqRkR)",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
@@ -4814,7 +4814,7 @@
             "__type__": "Note",
             "fields": [
                 "What is the data type and size of an Azure Storage Queue message?",
-                "It is a byte array of up to 64 KB."
+                "It is a <font color=\"#e11cbe\">byte array</font> of up to <font color=\"#e11cbe\">64</font> KB."
             ],
             "guid": "HGT}&3F?<H",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
@@ -4885,20 +4885,19 @@
         {
             "__type__": "Note",
             "fields": [
-                "What is the az cli command to retrieve an Azure Storage Queue's connection strong?",
-                "az storage account show-connection-string --name &lt;name&gt; --resource-group &lt;rg-name&gt;"
+                "What is the az cli command to retrieve an Azure Storage Queue's connection string?",
+                "az storage account <font color=\"#e11cbe\">show-connection-string</font> --name &lt;name&gt; --resource-group &lt;rg-name&gt;"
             ],
             "guid": "B]KFb=bO^3",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
-                "add-highlights",
                 "azure-queue"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "When a receiver Gets a message from an Azure Storage Queue, how long will tha tmessage be invisible to other receivers?",
+                "When a receiver Gets a message from an Azure Storage Queue, how long will that message be invisible to other receivers?",
                 "It will remain invisible for 30 seconds.&nbsp; After that amount of time, it will assume an error has occurred, and become visible so another receiver could try to process it."
             ],
             "guid": "NYg_!0HSe=",
