@@ -99,7 +99,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "pavel-anti-glycolytic"
+                "azure-virtual-machine"
             ],
             "tmpls": [
                 {
@@ -2332,7 +2332,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "What are 3 common <font color=\"#e11cbe\">Autoscale</font> options in <font color=\"#e11cbe\">Azure VM Scale Sets</font> (<font color=\"#e11cbe\">VMSS</font>)?",
+                "What are 3 common types of&nbsp;<font color=\"#e11cbe\">Autoscale</font>&nbsp;in <font color=\"#e11cbe\">Azure VM Scale Sets</font> (<font color=\"#e11cbe\">VMSS</font>)?",
                 "* Scheduled<div>* Manual</div><div>* Metric based</div>"
             ],
             "guid": "e^gi*?9xbf",
@@ -4471,6 +4471,424 @@
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "azure-queue"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the maximum size of an Azure Event Hub event?",
+                "1MB"
+            ],
+            "guid": "xqOCrlQ<@J",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What qualifies a publisher to send events to Azure Event Hub?",
+                "It must be able to send events using either <font color=\"#e11cbe\">HTTPS</font> or Advance Message Queueing Protocol (<font color=\"#e11cbe\">AMQP</font>)"
+            ],
+            "guid": "NRx{mD_h,`",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Regarding Azure Event Hub, compare the performance of AMPQ vs HTTPS",
+                "AMPQ is more performant for frequent senders, but the initial session overhead is high in order to set up the persistent bidirectional socket and transport level security (TLS)<div><br></div><div>HTTPS is better for infrequent senders</div>"
+            ],
+            "guid": "jfdyVDi%7Y",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Azure Event Hub subscribers must use one of the following two supported methods to receive and process events:",
+                "* <font color=\"#e11cbe\">EventHubReceiver</font> - simple method with few options<div>* <font color=\"#e11cbe\">EventProcessorHost</font> - an efficient method</div>"
+            ],
+            "guid": "nv!tWxy<N-",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In terms of Azure Event Hub, what is a consumer group?",
+                "It is a <font color=\"#e11cbe\">specific view</font> of an Event Hub data stream.&nbsp; Multiple consumer groups can allow multiple subscriber applications to process the same stream, but more than one is not required."
+            ],
+            "guid": "JkEw$bgBQ$",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 3 pricing tiers of Azure Event Hub?",
+                "Basic<div>Standard</div><div>Dedicated</div><div><br></div><div>The difference is the number of supported connections, consumer groups, and throughput.</div>"
+            ],
+            "guid": "cMA{O>I_g1",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is an Event Hubs namespace",
+                "It is a container for managing one or more event hubs.&nbsp; The pricing tier is applied at the namespace level and applies to all event hubs within it."
+            ],
+            "guid": "N0jm4g^W(m",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are 3 optional properies for an Azure Event Hub namespace?",
+                "* Enable <font color=\"#e11cbe\">Kafka</font><div>* Make the namespace <font color=\"#e11cbe\">Zone Redundant</font></div><div>* Enable <font color=\"#e11cbe\">Auto-Inflate</font> and Auto-Inflate <font color=\"#e11cbe\">Maximum Throughput Units</font></div>"
+            ],
+            "guid": "deB_}GBZW-",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 3 required parameters to create an Azure Event Hub?",
+                "* <font color=\"#e11cbe\">Name</font> (up to 50 characters long)<div>* <font color=\"#e11cbe\">Partition Count</font> (2-32) defaults to 4</div><div>* <font color=\"#e11cbe\">Message Retention</font> (1-7 days) defaults to 7</div>"
+            ],
+            "guid": "wQa#zU{O%>",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What info will you need to configure an application to send messages to an Event Hub?&nbsp; To receive?",
+                "both:<div><br></div><div>* EH namespace name</div><div>* EH name</div><div>* Shared Access Policy name</div><div>* Primary shared access key</div><div><br></div><div>receive:</div><div><br></div><div>* Storage account name</div><div>* Storage account container name<br></div><div><div>* Storage account connection string</div></div>"
+            ],
+            "guid": "A5|E54b]3H",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "AZ-203",
+                "azure-messaging"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are three classifications of application data?",
+                "* Structured<div>* Semi Structured</div><div>* Unstructured</div>"
+            ],
+            "guid": "mw!5/V0ix.",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 3 most common serialization languages in use today?",
+                "XML<div>JSON</div><div>YAML</div>"
+            ],
+            "guid": "L6JbOH3};a",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are examples of unstructured data?",
+                "* <font color=\"#e11cbe\">Media</font> files, such as photos, videos, and audio files<br>* <font color=\"#e11cbe\">Office</font> files, such as Word documents<br>* <font color=\"#e11cbe\">Text</font> files<br>* <font color=\"#e11cbe\">Log</font> files<br>"
+            ],
+            "guid": "q^];BU@=`[",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the constraints on an Azure Storage Account Name?",
+                "* Must be <font color=\"#e11cbe\">globally unique</font><div>* Must use only <font color=\"#e11cbe\">lowercase letters</font> and <font color=\"#e11cbe\">digits</font></div><div>* Must be between <font color=\"#e11cbe\">3</font> and <font color=\"#e11cbe\">24</font> characters</div>"
+            ],
+            "guid": "ztxeCu11jF",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 2 options for <font color=\"#e11cbe\">Deployment Model</font> for an Azure Storage Account?",
+                "* <font color=\"#e11cbe\">Resource Manager</font>: current model using the ARM API<div>* <font color=\"#e11cbe\">Classic</font>: legacy model using Azure Service Management API</div>"
+            ],
+            "guid": "g;;w#$goQb",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the key difference between the <font color=\"#e11cbe\">Resource Manager</font> and <font color=\"#e11cbe\">Classic</font> Deployment Models for Azure Storage Accounts?",
+                "Grouping.&nbsp; <font color=\"#e11cbe\">RM</font> has <font color=\"#e11cbe\">Resource Groups</font>, but Classic does not."
+            ],
+            "guid": "d#s..T<0tD",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the maximum sizes in Azure storage for Block Blobs?&nbsp; Page Blobs?&nbsp; Append Blobs?",
+                "* Block: <font color=\"#e11cbe\">5</font>TB<div>* Page: <font color=\"#e11cbe\">8</font>TB</div><div>* Append: <font color=\"#e11cbe\">195</font>GB</div>"
+            ],
+            "guid": "OC-<YgNPl3",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why is it a good idea to let your app create the storage containers it needs, rather than doing it in a deployment step?",
+                "It eliminates the need to know the container name in more than one place.&nbsp; You only need to know it in the app."
+            ],
+            "guid": "n~JVBO9*aB",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the Azure Storage SDK standard way of getting access to a storage container?",
+                "var storageAccount = CloudStorageAccount.<font color=\"#e11cbe\">Parse</font>(connectionString); // or <font color=\"#e11cbe\">TryParse</font>()<div><br>var blobClient = storageAccount.<font color=\"#e11cbe\">CreateCloudBlobClient</font>();</div><div><br>var container = blobClient.<font color=\"#e11cbe\">GetContainerReference</font>(containerName);</div>"
+            ],
+            "guid": "OVf]`lAD`s",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Using the Azure Storage SDK's <font color=\"#e11cbe\">CloudBlobContainer</font>, what is the best way to create a container if it doesn't exist?",
+                "Calling <font color=\"#e11cbe\">CreateIfNotExistsAsync</font> on a <font color=\"#e11cbe\">CloudBlobContainer</font> is the best way to create a container when your application starts or when it first tries to use it."
+            ],
+            "guid": "Q@O<sNIoTg",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In the Azure Storage SDK, the <font color=\"#e11cbe\">ListBlobsSegmentedAsync</font> method on a Container accepts a <font color=\"#e11cbe\">ContinuationToken</font>.&nbsp; What does it do?<br>",
+                "You never know if you will get all of the blobs when calling <font color=\"#e11cbe\">ListBlobsSegmentedAsync</font>.&nbsp; It returns a continuation token as part of its results, and if it is non-null, you make an additional call, passing it back to get the next set.&nbsp; It is a good practice to do this in a loop until you get back a null continuation token.<br>"
+            ],
+            "guid": "sJ}DI0/V[;",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The returned object from ListBlobsSegmentedAsync contains a Results property of what type?",
+                "Results is an <font color=\"#e11cbe\">IEnumerable</font>&lt;<font color=\"#e11cbe\">IListBlobItem</font>&gt;<div><br></div><div>The <font color=\"#e11cbe\">IListBlobItem</font> isn't very useful so you can use .OfType&lt;&gt; to cast it to something more useful, like:</div><div><br></div><div>// <font color=\"#e11cbe\">Get all blobs</font><br>var allBlobs = resultSegment.Results.OfType&lt;<font color=\"#e11cbe\">ICloudBlob</font>&gt;();<br><br>// <font color=\"#e11cbe\">Get only block blobs</font><br>var blockBlobs = resultSegment.Results.OfType&lt;<font color=\"#e11cbe\">CloudBlockBlob</font>&gt;();<br></div>"
+            ],
+            "guid": "[l]]fD[%f",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-storage"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In an Azure Virtual Network, what is the default level of security between subnets?",
+                "By default, there is no security boundary between subnets"
+            ],
+            "guid": "Er?0605&38",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How many characters can a VM name be in Azure?",
+                "<font color=\"#e11cbe\">15</font> for a <font color=\"#e11cbe\">Windows</font> VM<div><font color=\"#e11cbe\">64</font> for a <font color=\"#e11cbe\">Linux</font> VM</div>"
+            ],
+            "guid": "#9g5W_Tx(",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What should you be careful of when resizing a production VM in Azure?",
+                "They will be rebooted automatically, causing temporary downtime, and some configuration, such as the IP address may change."
+            ],
+            "guid": "J#EPb+j5^-",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What might allow you to save money on licensing Azure VMs using existing licenses for Windows?",
+                "the Azure Hybrid benefit."
+            ],
+            "guid": "psBE7&qv$9",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How long must you commit to for a Reserved VM Instance, and how much could you save?",
+                "You commit for one to three years, and can save up to 72%"
+            ],
+            "guid": "mHTP>M%3MI",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the fixed-rate limit of IO ops/sec for a single Azure storage account?",
+                "<font color=\"#e11cbe\">20,000</font> iops, enough for <font color=\"#e11cbe\">40</font> standard VHDs at full utilization."
+            ],
+            "guid": "c7y*[]lHE6",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are 3 Azure Automated Services you can set up for VMs",
+                "* Process Automation<div>* Configuration Management</div><div>* Update Management</div>"
+            ],
+            "guid": "IcAhUe2X?Y",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What benefit do you get by placing multiple VMs into an availability set?",
+                "Azure will distribute the machines across <font color=\"#e11cbe\">fault domains</font> and <font color=\"#e11cbe\">update domains</font> for you to minimize your risk of downtime."
+            ],
+            "guid": "s/.j)g)0cz",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What Azure service replicates your VM workload from a primary site to a secondary one so you can fail over if need be?",
+                "Azure Site Recovery"
+            ],
+            "guid": "Em~_1%m5zr",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What Azure service can back up machines whether they are on premises or in the cloud?",
+                "Azure Backup"
+            ],
+            "guid": "tbqX`~Z0/r",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 7 advantages of using Azure Backup?",
+                "* Automatic storage management.<br>* Unlimited scaling.<br>* Multiple storage options.<br>* Unlimited data transfer.<br>* Data encryption.<br>* Application-consistent backup.<br>* Long-term retention.<br>"
+            ],
+            "guid": "BuyW@3o=99",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 4 different deployable components of Azure Backup?",
+                "* Azure Backup agent<br>* Azure Backup Server<br>* Azure Backup VM extension<br><div>* System Center Data Protection Manager<br></div>"
+            ],
+            "guid": "Jmes+T~H@h",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
             ]
         }
     ]
