@@ -99,7 +99,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "azure-virtual-machine"
+                "azure-sql-database"
             ],
             "tmpls": [
                 {
@@ -1239,7 +1239,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "From the Audit Records blade of an Azure Database, what is one option that will allow you to query for specific log records that might not be in the overview",
+                "From the <font color=\"#e11cbe\">Audit Records</font> blade of an Azure Database, what is one option that will allow you to query for specific log records that might not be in the overview",
                 "Click '<font color=\"#e11cbe\">Run in Query Editor</font>' and use the built in SQL query editor in the Portal"
             ],
             "guid": "xeTEsn6)an",
@@ -4440,7 +4440,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "What 4 types/objects are included in the Azure Storage Client Library for .NET?",
+                "What 4 types/objects are included in the Azure Storage Client Library for .NET related to Storage Queues?",
                 "* CloudStorageAccount<div>* CloudQueueClient</div><div>* CloudQueue</div><div>* CloudQueueMessage</div>"
             ],
             "guid": "JXM&v#jFb%",
@@ -4489,7 +4489,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "What qualifies a publisher to send events to Azure Event Hub?",
+                "What qualifies a publisher to send events to Azure Event Hub? (i.e., how must it sent events)",
                 "It must be able to send events using either <font color=\"#e11cbe\">HTTPS</font> or Advance Message Queueing Protocol (<font color=\"#e11cbe\">AMQP</font>)"
             ],
             "guid": "NRx{mD_h,`",
@@ -4567,7 +4567,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "What are 3 optional properies for an Azure Event Hub namespace?",
+                "What are 3 optional properties for an Azure Event Hub namespace?",
                 "* Enable <font color=\"#e11cbe\">Kafka</font><div>* Make the namespace <font color=\"#e11cbe\">Zone Redundant</font></div><div>* Enable <font color=\"#e11cbe\">Auto-Inflate</font> and Auto-Inflate <font color=\"#e11cbe\">Maximum Throughput Units</font></div>"
             ],
             "guid": "deB_}GBZW-",
@@ -4787,7 +4787,7 @@
             "__type__": "Note",
             "fields": [
                 "What might allow you to save money on licensing Azure VMs using existing licenses for Windows?",
-                "the Azure Hybrid benefit."
+                "the <font color=\"#e11cbe\">Azure Hybrid</font> benefit."
             ],
             "guid": "psBE7&qv$9",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
@@ -4799,7 +4799,7 @@
             "__type__": "Note",
             "fields": [
                 "How long must you commit to for a Reserved VM Instance, and how much could you save?",
-                "You commit for one to three years, and can save up to 72%"
+                "You commit for <font color=\"#e11cbe\">one to three years</font>, and can save up to <font color=\"#e11cbe\">72</font>%"
             ],
             "guid": "mHTP>M%3MI",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
@@ -4834,7 +4834,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "What benefit do you get by placing multiple VMs into an availability set?",
+                "What benefit do you get by placing VMs into an availability set?",
                 "Azure will distribute the machines across <font color=\"#e11cbe\">fault domains</font> and <font color=\"#e11cbe\">update domains</font> for you to minimize your risk of downtime."
             ],
             "guid": "s/.j)g)0cz",
@@ -4883,12 +4883,744 @@
             "__type__": "Note",
             "fields": [
                 "What are the 4 different deployable components of Azure Backup?",
-                "* Azure Backup agent<br>* Azure Backup Server<br>* Azure Backup VM extension<br><div>* System Center Data Protection Manager<br></div>"
+                "* Azure Backup Agent<br>* Azure Backup Server<br>* Azure Backup VM extension<br><div>* System Center Data Protection Manager<br></div>"
             ],
             "guid": "Jmes+T~H@h",
             "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
             "tags": [
                 "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What VM sizes should you consider for <font color=\"#e11cbe\">general use computing/web</font>: Testing and development, small to medium databases, or low to medium traffic web servers.",
+                "B, Dsv3, Dv3, DSv2, Dv2"
+            ],
+            "guid": "g}B1PP}.#T",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What VM sizes should you consider for <font color=\"#e11cbe\">heavy computational tasks</font>: Medium traffic web servers, network appliances, batch processes, and application servers.",
+                "Fsv2, Fs, F"
+            ],
+            "guid": "Lr-^/3Ff1y",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What VM sizes should you consider for&nbsp;<font color=\"#e11cbe\">large memory usage</font>: Relational database servers, medium to large caches, and in-memory analytics.&nbsp; &nbsp;&nbsp;",
+                "Esv3, Ev3, M, GS, G, DSv2, Dv2"
+            ],
+            "guid": "nFK4._/wXw",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What VM sizes should you consider for&nbsp;<font color=\"#e11cbe\">data storage and processing</font>: Big data, SQL, and NoSQL databases that need high disk throughput and I/O.",
+                "Ls"
+            ],
+            "guid": "H@PuT!k-h%",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What VM sizes should you consider for&nbsp;<font color=\"#e11cbe\">heavy graphics rendering</font> or<font color=\"#e11cbe\"> video editing</font>, as well as model training and inferencing (ND) with <font color=\"#e11cbe\">deep learning</font>.",
+                "NV, NC, NCv2, NCv3, ND"
+            ],
+            "guid": "oU{eq8<2_P",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What VM sizes should you consider for&nbsp;<font color=\"#e11cbe\">high-performance computing (HPC)</font>: Your workloads need the fastest and most powerful CPU virtual machines with optional high-throughput network interfaces.",
+                "H"
+            ],
+            "guid": "saY%o@2TR)",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How many disks does an Azure VM get by default, and what are they for?",
+                "<font color=\"#e11cbe\">2</font>&nbsp;-&nbsp; An <font color=\"#e11cbe\">OS</font> disk and a <font color=\"#e11cbe\">temporary</font> disk."
+            ],
+            "guid": "ES&FNV]sHa",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-virtual-machine"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What <font color=\"#e11cbe\">az cli</font> command shows the most popular subcommands and parameters of a command?",
+                "az <font color=\"#e11cbe\">find</font> [command]"
+            ],
+            "guid": "x|hykC<S*[",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-cli"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the maximum number of tags you can apply to any resource in Azure?",
+                "50"
+            ],
+            "guid": "E[:j?qj/|9",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-resource-manager"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which Microsoft article tells if you can move an Azure resource to a different resource group or subscription?",
+                "Move operation support for resources<div><br></div><div><a href=\"https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/move-support-resources\">https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/move-support-resources</a><br></div>"
+            ],
+            "guid": "F?AE?~2B8x",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-resource-manager"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When moving Azure resources from one resource group to another, does the location of the resource change to match that of the target group?",
+                "No"
+            ],
+            "guid": "o}NYiu-_yn",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-resource-manager"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When creating an Azure web app, what are the 2 choices available for the <font color=\"#e11cbe\">Publish</font> field?",
+                "<font color=\"#e11cbe\">code</font> or <font color=\"#e11cbe\">docker container</font>"
+            ],
+            "guid": "G?O^~^~AuM",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-web-app"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 8 required fields in the Azure Portal wizard for creating a web app?",
+                "* Subscription<div>* Resource Group</div><div>* Region</div><div>* App Service Plan</div><div>* App Name</div><div>* Publish</div><div>* Runtime Stack</div><div>* Operating System</div><div><br></div>"
+            ],
+            "guid": "rfj8hGluZn",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-web-app"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When creating a web app in the Azure portal, what determines if the Operating System is provided as a selectable field?",
+                "If the runtime stack you've chosen can run on more than one operating system."
+            ],
+            "guid": "gYf157n$6n",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-web-app"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which Operating Systems support no-code enabling of <font color=\"#e11cbe\">Application Insights</font>?",
+                "Windows only.&nbsp; This is not available on Linux."
+            ],
+            "guid": "D>EB(7nzX]",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-web-app"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "With Azure App Service Slots, how is each slot treated independently, and how are they treated jointly?",
+                "They each have their own URL, their own configuration, and show up independently in the All Resources page, but they share the same App Service Plan, including CPU and disk space."
+            ],
+            "guid": "s<:5QCulhP",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-web-app"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When creating a new Azure Application Slot, what can be copied from an existing slot, and what cannot?",
+                "Slot settings can be copied, but slot content (the deployed app) cannot."
+            ],
+            "guid": "FCrw&uBK{T",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-web-app"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "By what method does Azure App Service support continuous deployments for Container images?",
+                "webhooks"
+            ],
+            "guid": "N9hLA`><Vl",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-web-app"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the Azure Container Registry tasks feature?",
+                "You can use the tasks feature to automatically rebuild your image when the source code changes by configuring a Container Registry task to monitor the git repository."
+            ],
+            "guid": "E-qG1dHqpk",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-web-app"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Azure Security Center?",
+                "A monitoring service that provides threat protection across all of your services both in Azure, and on-premises"
+            ],
+            "guid": "cNT2)A0x?",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What can Azure Security Center do? (6 things)",
+                "* Provide recommendations<div>* Monitor security settings</div><div>* Continuously monitor all services, and perform automatic assessments</div><div>* Use machine learning to detect and block malware</div><div>* Analyze and identify potential inbound attacks</div><div>* Just In Time access control for ports</div>"
+            ],
+            "guid": "sLG<$pmOUh",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does Azure Free and Standard levels of Security Center offer?",
+                "The free tier is limited to security policies, assessments, and recommendations while the Standard tier provides that plus a robust set of features, including threat intelligence."
+            ],
+            "guid": "dFRysTSv*U",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Is it better to whitelist good data, or to blacklist bad data?",
+                "Whitelist good data.&nbsp; It is impossible to think of all the possibilities of bad data."
+            ],
+            "guid": "rK=x%sZwZ9",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Should user input be sanitized in the frontend or on the server?",
+                "Always on the server, so it cannot be circumvented."
+            ],
+            "guid": "zs-eG$OIb6",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the best rule of thumb for making sql queries safe, particularly when basing them off of user input?",
+                "Always use parameterized queries over building SQL strings."
+            ],
+            "guid": "Q4>@%y{U+2",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How should you treat output to ensure that it's safe?",
+                "Always encode it, in case anything was missed when sanitizing the user input.&nbsp; This gaurantees that everything is displayed as output and not interpreted as code to be executed."
+            ],
+            "guid": "h&Wm44g:P4",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 3 states digital data can be in?",
+                "* At rest<div>* In process</div><div>* In transit</div>"
+            ],
+            "guid": "MXmM/P1oVE",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which Azure offering covers data discovery and classification?",
+                "Advanced Data Security"
+            ],
+            "guid": "H,a{zR)Y+o",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are 4 features of the Advanced Data Security offering in Azure?",
+                "* <font color=\"#e11cbe\">Discovery and recommendations</font> - The classification engine scans your database and identifies columns containing potentially sensitive data. It then provides you with a more natural way to review and apply the appropriate classification recommendations via the Azure portal.<br>* <font color=\"#e11cbe\">Labeling</font> - Sensitivity classification labels can be persistently tagged on columns using new classification metadata attributes introduced into the SQL Server Engine. This metadata can then be utilized for advanced sensitivity-based auditing and protection scenarios.<br>* <font color=\"#e11cbe\">Query result set sensitivity</font> - The sensitivity of the query result set is calculated in real-time for auditing purposes.<br>* <font color=\"#e11cbe\">Visibility</font> - You can view the database classification state in a detailed dashboard in the Azure portal. Additionally, you can download a report (in Microsoft Excel format) that you can use for compliance and auditing purposes, in addition to other needs.<br>"
+            ],
+            "guid": "x,>{mU!QW>",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Where does customization of your security classification taxonomy take place?",
+                "Azure Security Center"
+            ],
+            "guid": "OELJvq;5)a",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does the WORM acronym stand for?",
+                "Write Once Read Many<div><br></div><div>This is for when you want immutable data, such as for legal reasons, where it cannot be changed after it is written but can be read as often as necessary.</div>"
+            ],
+            "guid": "oM$iCP*&1~",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are 2 types of WORM or immutable policies?",
+                "* time-based retention<div>* legal holds</div>"
+            ],
+            "guid": "KTg6^22w.}",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the significance of Region Recovery Order regarding disaster recovery in Azure?",
+                "In the event of a widespread outage, recovery of one region is prioritized out of every pair.&nbsp;<div><br></div><div>Applications that are deployed across paired regions are guaranteed to have one of the regions recovered with priority.</div>"
+            ],
+            "guid": "vOGX{{DIQ[",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-security"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Does Microsoft or your Apps ever have direct access to KeyVault secrets",
+                "No.&nbsp; They use your keys by calling cryptography methods on the Key Vault service, and those operations are contained within its hardened boundary."
+            ],
+            "guid": "BamwC<*)=K",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-keyvault"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 2 variations of keys in the Azure Key Vault",
+                "* Hardware protected<div>* Software protected</div>"
+            ],
+            "guid": "dG+,6XXttb",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-keyvault"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In relation to Azure Key Vault, what does the acronym HSM stand for?",
+                "Hardware Security Module"
+            ],
+            "guid": "i%m%y,a,I+",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-keyvault"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the primary difference between hardware and software backed keys?",
+                "The primary difference (besides price) with a software-protected key is when cryptographic operations are performed, they are done in software using Azure compute services while for HSM-protected keys the cryptographic operations are performed within the HSM.<br>"
+            ],
+            "guid": "B{GH;rn!%w",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-keyvault"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Are software backed keys recommended for production use?",
+                "No.&nbsp; Hardware backed keys are recommended for production applications.&nbsp; Software backed keys should only be used in test or pilot environments."
+            ],
+            "guid": "z1Y=T{[q#,",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-keyvault"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the max size of an Azure Secret?",
+                "10K"
+            ],
+            "guid": "nBWRM;1r@z",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-keyvault"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the three categories of thing you can store in Azure Key Vault?",
+                "* <font color=\"#e11cbe\">Secrets</font> - passwords, api keys, etc<div>* <font color=\"#e11cbe\">Keys</font> - encryption&nbsp; keys</div><div>* <font color=\"#e11cbe\">Certificates</font> - SSL/TLS certs</div>"
+            ],
+            "guid": "p*@.VI`g&F",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-keyvault"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the two planes of access control for Azure Key Vault?",
+                "<font color=\"#e11cbe\">Management</font> and <font color=\"#e11cbe\">Data</font><div><br></div><div>The data plane should be used for applications or users that only need use keys but not administer them.</div>"
+            ],
+            "guid": "Q,v60L}t2:",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-keyvault"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the constraints on naming an Azure Key Vault",
+                "* They must globally unique<div>* 3-24 alpha numeric characters and dashes</div>"
+            ],
+            "guid": "ryN035a$?.",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-keyvault"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What product allows you to extend your on-premesis Active Directory to the cloud?",
+                "Azure AD Connect"
+            ],
+            "guid": "QM~/K(Ht+c",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-rbac"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When using Azure AD Connect, what happens when you delete a local AD account?",
+                "That account loses all access to Azure Subscriptions connected with Azure AD."
+            ],
+            "guid": "NK[W3:2aP:",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-rbac"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In Azure RBAC, what is the difference between the Owner and Contributor roles?",
+                "Owners have full access to resources and the ability to delegate access to others.<div><br></div><div>Contributors cannot delegate access to others, but have full access to resources.</div>"
+            ],
+            "guid": "DU0B2O5t{6",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-rbac"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 4 fundamental built-in roles in Azure RBAC?",
+                "* Owner<div>* Contributor</div><div>* Reader</div><div>* User Access Administrator</div>"
+            ],
+            "guid": "g]/^#?J,[]",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-rbac"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does it mean that RBAC is an \"allow\" model?",
+                "It means that permissions are additive.&nbsp; If you are in one role that grants you read access to a resource, and another that grants you write permissions to that resource, you will have both read and write permissions."
+            ],
+            "guid": "P}tCu1vcWI",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-rbac"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "By what mechanism does RBAC let you disallow a permission to a role?",
+                "Via <font color=\"#e11cbe\">NotActions</font><div><br></div><div>Each role has collections for both <font color=\"#e11cbe\">Actions</font> and <font color=\"#e11cbe\">NotActions</font></div>"
+            ],
+            "guid": "pc<=bNTTIS",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-rbac"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 3 types of rules that can secure Azure SQL at the server level?",
+                "* Allow Access to Azure Services<div>* IP Address Rules</div><div>* Virtual Network Rules</div>"
+            ],
+            "guid": "w:upY5Wp7*",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In Azure SQL, to enable access to Azure apps at the server level, what IP Address Range can you use, and why?",
+                "0.0.0.0 because many Azure services do not have static IP addresses."
+            ],
+            "guid": "ff61xk+7nj",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a weakness in the Azure SQL Allow Access to Azure Services option?",
+                "It applies to ALL Azure services, even those of other Azure customers."
+            ],
+            "guid": "P?}&:P!+^(",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the only type of network access rule that can be applied to Azure SQL at the database level?",
+                "IP Address Rules"
+            ],
+            "guid": "LO/_Ppf7#/",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a benefit of Database level IP Address rules in Azure SQL?",
+                "They are portable.&nbsp; If you replicate the DB to another server, the rules will also be replicated."
+            ],
+            "guid": "Qd{Bs@TWv7",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "By what single mechanism can you create or update Azure SQL database level firewall rules",
+                "Only through T-SQL"
+            ],
+            "guid": "wXs[26#`Kx",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the two types of authentication supported by Azure SQL Server?",
+                "* SQL Authentication<div>* Azure Active Directory</div>"
+            ],
+            "guid": "e6aW-l<??Y",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does Azure SQL Database do at all times to enforce security with data in transit?",
+                "It enforces that TLS is used."
+            ],
+            "guid": "gYa3=T]A}o",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are 3 things you can do w/ Azure SQL Database Auditing?",
+                "* Retain an audit trail of selected events<div>* Report on database activity</div><div>* Analyze reports</div>"
+            ],
+            "guid": "da}t|-`OoK",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Where are Azure SQL Database audit logs written?",
+                "To Azure Storage append blobs"
+            ],
+            "guid": "rTIvP8!g2`",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Does Microsoft recommend enabling server level or database level auditing or both?",
+                "Server level only unless you have specific needs."
+            ],
+            "guid": "qFs5#:CR;S",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are 3 capabilities of <font color=\"#e11cbe\">Advanced Data Security</font> in Azure SQL?",
+                "* Data discovery &amp; classification<div>* Vulnerability assessment</div><div>* Advanced threat protection</div>"
+            ],
+            "guid": "qCpn{:U$6$",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-sql-database"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In Azure SQL, what are the 6 Advanced Threat Protection types?",
+                "<div>* SQL Injection<div>* SQL Injection Vulnerability</div><div>* Data Exfiltration</div><div>* Unsafe Action</div><div>* Brute Force</div><div>* Anomalous Client Login</div></div>"
+            ],
+            "guid": "kFs_]3@U<}",
+            "note_model_uuid": "ec8ebe92-a769-11e9-9c56-38f9d363b5f2",
+            "tags": [
+                "azure-sql-database"
             ]
         }
     ]
